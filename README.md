@@ -1,25 +1,31 @@
 CAN-Frame-Protection-Custom-Device
 ===================
 
-**IP Name** is a insert description of IP
+The CAN Frame Protection addon allows the user to easily select data channels for calculating a CRC or checksum.  It creates and maps rolling counters and CRC/checksum channels to selected outgoing signals.
 
 ### LabVIEW Version ###
 
-Describe the LabVIEW version used to develop this source
+LabVIEW 2013.
 
 ### Built Availability ###
 
-Describe the availability, or lack of availability of built versions of this IP and provide any links needed to go get builds
+Users are allowed to build anything under Build Specifications in the source's LabVIEW project(s).  Pre-built versions are available upon request through NI Field Sales. 
 
 ### Quality, Limitations ###
 
-Describe the maturity of the IP. Is this in use worldwide? Is this terrible code that needs lots of updates? Is this a work in progress?
+IP has been tested by developer. It meets VeriStand addon coding best practices. It is not currently widely used. 
 
-Describe any limitations of the IP.
+This addon does not have all CRC/Checksum options implemented.
+
+This addon shouldn't link to channels that are in an inline custom device (addon).
 
 ### Dependencies ###
 
-Describe any dependencies of the IP
+NI XNET 14.0 or later
+
+OpenG LabVIEW Data Library 4.2.0.21 or later
+
+OpenG Error Library 4.2.0.23 or later
 
 ### License ###
 
