@@ -5,7 +5,7 @@ The CAN Frame Protection addon allows the user to easily select data channels fo
 
 ### LabVIEW Version ###
 
-LabVIEW 2013.
+LabVIEW 2015 SP1.
 
 ### Built Availability ###
 
@@ -21,7 +21,7 @@ This addon shouldn't link to channels that are in an inline custom device (addon
 
 ### Dependencies ###
 
-NI XNET 14.0 or later
+NI XNET 15.5 or later
 
 OpenG LabVIEW Data Library 4.2.0.21 or later
 
