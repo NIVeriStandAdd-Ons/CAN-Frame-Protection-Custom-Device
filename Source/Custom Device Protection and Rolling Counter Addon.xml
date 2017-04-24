@@ -13,7 +13,7 @@
 		<Type>Action</Type>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
-			<Path>Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Configuration.llb\Initialization VI.vi</Path>
+			<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Initialization VI.vi</Path>
 		</Item2Launch>
 	</InitializationVI>
 	<CustomDeviceVI>
@@ -66,7 +66,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Configuration.llb\Main Page.vi</Path>
+				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Main Page.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -78,7 +78,7 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Configuration.llb\EnableDisable Main Page.vi</Path>
+						<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\EnableDisable Main Page.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
@@ -121,7 +121,7 @@
 			</RunTimeMenu>
 			<ActionVIOnDelete>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnDelete_RemoveSystemMappings_Parent.vi</Path>
+				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnDelete_RemoveSystemMappings_Parent.vi</Path>
 			</ActionVIOnDelete>
 		</Page>
 		<Page>
@@ -136,7 +136,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Configuration.llb\Main Page.vi</Path>
+				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Main Page.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -148,7 +148,7 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Configuration.llb\EnableDisable Main Page.vi</Path>
+						<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\EnableDisable Main Page.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
@@ -191,7 +191,7 @@
 			</RunTimeMenu>
 			<ActionVIOnDelete>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnDelete_RemoveSystemMappings_Parent.vi</Path>
+				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnDelete_RemoveSystemMappings_Parent.vi</Path>
 			</ActionVIOnDelete>
 		</Page>
 		<Page>
@@ -206,7 +206,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Configuration.llb\Frame Configuration Page.vi</Path>
+				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Frame Configuration Page.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -218,7 +218,7 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Configuration.llb\Select Channels.vi</Path>
+						<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Select Channels.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
@@ -275,7 +275,7 @@
 			</ButtonList>
 			<ActionVIOnDelete>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnDelete_RemoveSystemMappings.vi</Path>
+				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnDelete_RemoveSystemMappings.vi</Path>
 			</ActionVIOnDelete>
 		</Page>
 		<Page>
@@ -292,7 +292,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Configuration.llb\Rolling Counter Channel.vi</Path>
+				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Rolling Counter Channel.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -309,7 +309,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Configuration.llb\Protection Channel.vi</Path>
+				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Protection Channel.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -326,7 +326,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Configuration.llb\Protection Valid Channel.vi</Path>
+				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Protection Valid Channel.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -343,7 +343,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Configuration.llb\Generate Page.vi</Path>
+				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Generate Page.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -355,7 +355,7 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Configuration.llb\Add Frame Configuration.vi</Path>
+						<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Add Frame Configuration.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
@@ -413,7 +413,7 @@
 			</ButtonList>
 			<ActionVIOnDelete>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnDelete_RemoveSystemMappings.vi</Path>
+				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnDelete_RemoveSystemMappings.vi</Path>
 			</ActionVIOnDelete>
 		</Page>
 		<Page>
@@ -430,7 +430,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Configuration.llb\Monitor Page.vi</Path>
+				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Monitor Page.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -442,7 +442,7 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Configuration.llb\Add Frame Configuration.vi</Path>
+						<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Add Frame Configuration.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
@@ -500,7 +500,7 @@
 			</ButtonList>
 			<ActionVIOnDelete>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnDelete_RemoveSystemMappings.vi</Path>
+				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnDelete_RemoveSystemMappings.vi</Path>
 			</ActionVIOnDelete>
 		</Page>
 	</Pages>

@@ -157,22 +157,24 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E8035317-FDF9-4FC1-9EF0-1450E8CAE472}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Data</Property>
 				<Property Name="Destination[2].destName" Type="Str">Protection and Rolling Counter Addon Configuration LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/Protection and Rolling Counter Addon Configuration.llb</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Protection and Rolling Counter Addon Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
-				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B2351FC0-3144-4839-A591-8682DD337AEA}</Property>
+				<Property Name="Destination[3].destName" Type="Str">XML SysDef</Property>
+				<Property Name="Destination[3].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME</Property>
+				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Source[0].itemID" Type="Str">{85D8FBEB-1908-4391-9719-8981BF576997}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">3</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Protection and Rolling Counter Addon.xml</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
@@ -234,20 +236,20 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Windows/Protection and Rolling Counter Addon Engine Windows.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Protection and Rolling Counter Addon Engine Windows.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{32214451-43E2-4D3E-92C8-CE819321FAC4}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Windows/Protection and Rolling Counter Addon Engine Windows.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Protection and Rolling Counter Addon Engine Windows.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Windows/Data</Property>
+				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B2351FC0-3144-4839-A591-8682DD337AEA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{85D8FBEB-1908-4391-9719-8981BF576997}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -480,7 +482,7 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4DDC7D17-96A1-4AE7-BF29-EC0FD60BE89D}</Property>
@@ -496,7 +498,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9FE4488A-41CA-41D0-8C6C-D3918E1D154C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C0C050B5-5676-4F94-B843-8B856807C181}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -732,7 +734,7 @@
 				<Property Name="Bld_compilerOptLevel" Type="Int">0</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{07F7378C-FCB4-4892-A904-863D32B86E3C}</Property>
@@ -746,7 +748,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Linux_32_ARM</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E3B4CFCF-BFFC-4EB4-BFFD-8972F9F6DFA7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4E75FE08-5AE8-45E4-99BC-D24E14AFE6E1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux_32_ARM/Protection and Rolling Counter Addon Engine.lvlib/RT Driver VI.vi</Property>
@@ -909,12 +911,12 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8308DA76-4737-4EBE-A109-BC088D885439}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/Protection and Rolling Counter Addon Engine Linux64.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">7</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_x64/Protection and Rolling Counter Addon Engine Linux64.llb</Property>
@@ -924,7 +926,7 @@
 				<Property Name="Destination[1].path" Type="Path">/Linux_x64</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A2A20A94-ED5C-48F9-B555-B2CD7FAE79EF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{84FE82EB-D516-4F57-8C64-7AA70361A27F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protection and Rolling Counter Addon Engine.lvlib/RT Driver VI.vi</Property>
