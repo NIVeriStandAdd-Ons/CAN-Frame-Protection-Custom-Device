@@ -22,7 +22,7 @@
 				<SupportedTarget>Windows</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Engine Windows.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Engine Windows.llb\RT Driver VI.vi</Path>
 				</Source>
 				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
@@ -30,9 +30,25 @@
 				<SupportedTarget>Pharlap</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Protection and Rolling Counter Addon\c\Protection and Rolling Counter Addon Engine Pharlap.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\Protection and Rolling Counter Addon\Pharlap\Protection and Rolling Counter Addon Engine Pharlap.llb\RT Driver VI.vi</Path>
 				</Source>
 				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Linux_32_ARM</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Protection and Rolling Counter Addon\Linux_32_ARM\Protection and Rolling Counter Addon Engine Linux_32_ARM.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Engine Linux_32_ARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>Linux_x64</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Protection and Rolling Counter Addon\Linux_x64\Protection and Rolling Counter Addon Engine Linux64.llb\RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 		</SourceDistribution>
 	</CustomDeviceVI>
