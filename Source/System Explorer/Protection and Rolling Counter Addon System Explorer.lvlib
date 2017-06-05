@@ -29,6 +29,7 @@
 			<Item Name="AddSystemMappingsFromCustomDevice.vi" Type="VI" URL="../SubVIs/AddSystemMappingsFromCustomDevice.vi"/>
 			<Item Name="ChannelSelectionScreen.vi" Type="VI" URL="../SubVIs/ChannelSelectionScreen.vi"/>
 			<Item Name="CheckAllSignalsInSameFrame.vi" Type="VI" URL="../SubVIs/CheckAllSignalsInSameFrame.vi"/>
+			<Item Name="Get LIN Schedule Rate.vi" Type="VI" URL="../SubVIs/Get LIN Schedule Rate.vi"/>
 			<Item Name="Get Selection from NodeBrowserWF.vi" Type="VI" URL="../SubVIs/Get Selection from NodeBrowserWF.vi"/>
 			<Item Name="Get Selection from TreeBrowserWF.vi" Type="VI" URL="../SubVIs/Get Selection from TreeBrowserWF.vi"/>
 			<Item Name="GetCANFrame.vi" Type="VI" URL="../SubVIs/GetCANFrame.vi"/>
