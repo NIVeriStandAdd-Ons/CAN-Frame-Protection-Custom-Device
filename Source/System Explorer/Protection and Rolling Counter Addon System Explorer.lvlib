@@ -6,8 +6,10 @@
 	<Item Name="System Explorer" Type="Folder">
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="Actions" Type="Folder">
+				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../Actions/ActionVIOnCompile.vi"/>
 				<Item Name="ActionVIOnDelete_RemoveSystemMappings.vi" Type="VI" URL="../Actions/ActionVIOnDelete_RemoveSystemMappings.vi"/>
 				<Item Name="ActionVIOnDelete_RemoveSystemMappings_Parent.vi" Type="VI" URL="../Actions/ActionVIOnDelete_RemoveSystemMappings_Parent.vi"/>
+				<Item Name="ActionVIOnSave.vi" Type="VI" URL="../Actions/ActionVIOnSave.vi"/>
 				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../Actions/EnableDisable Main Page.vi"/>
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
@@ -38,6 +40,7 @@
 			<Item Name="MoveNumericFromCell.vi" Type="VI" URL="../SubVIs/MoveNumericFromCell.vi"/>
 			<Item Name="MoveNumericToCell.vi" Type="VI" URL="../SubVIs/MoveNumericToCell.vi"/>
 			<Item Name="Pull Info From XNET Database.vi" Type="VI" URL="../SubVIs/Pull Info From XNET Database.vi"/>
+			<Item Name="Refresh Frame Settings.vi" Type="VI" URL="../SubVIs/Refresh Frame Settings.vi"/>
 			<Item Name="Select Channels and Update Properties.vi" Type="VI" URL="../SubVIs/Select Channels and Update Properties.vi"/>
 			<Item Name="Set Help Document Display.vi" Type="VI" URL="../SubVIs/Set Help Document Display.vi"/>
 			<Item Name="SetMappingsFromCustomDevice.vi" Type="VI" URL="../SubVIs/SetMappingsFromCustomDevice.vi"/>
