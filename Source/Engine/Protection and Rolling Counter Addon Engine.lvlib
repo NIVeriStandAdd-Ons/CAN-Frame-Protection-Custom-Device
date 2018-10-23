@@ -13,6 +13,8 @@
 		</Item>
 	</Item>
 	<Item Name="Types" Type="Folder">
+		<Item Name="FrameConfiguration.ctl" Type="VI" URL="../../Shared/Types/FrameConfiguration.ctl"/>
+		<Item Name="RT Async Engine Variables.ctl" Type="VI" URL="../Types/RT Async Engine Variables.ctl"/>
 		<Item Name="RT Engine Generate References.ctl" Type="VI" URL="../Types/RT Engine Generate References.ctl"/>
 		<Item Name="RT Engine Monitor References.ctl" Type="VI" URL="../Types/RT Engine Monitor References.ctl"/>
 		<Item Name="RT Engine State Variables.ctl" Type="VI" URL="../Types/RT Engine State Variables.ctl"/>

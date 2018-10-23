@@ -7,45 +7,57 @@
 		<Item Name="Dynamically Called" Type="Folder">
 			<Item Name="Actions" Type="Folder">
 				<Item Name="ActionVIOnCompile.vi" Type="VI" URL="../Actions/ActionVIOnCompile.vi"/>
-				<Item Name="ActionVIOnDelete_RemoveSystemMappings.vi" Type="VI" URL="../Actions/ActionVIOnDelete_RemoveSystemMappings.vi"/>
-				<Item Name="ActionVIOnDelete_RemoveSystemMappings_Parent.vi" Type="VI" URL="../Actions/ActionVIOnDelete_RemoveSystemMappings_Parent.vi"/>
-				<Item Name="ActionVIOnSave.vi" Type="VI" URL="../Actions/ActionVIOnSave.vi"/>
-				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../Actions/EnableDisable Main Page.vi"/>
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
-				<Item Name="Frame Configuration Page.vi" Type="VI" URL="../Pages/Frame Configuration Page.vi"/>
-				<Item Name="Generate Page.vi" Type="VI" URL="../Pages/Generate Page.vi"/>
-				<Item Name="Monitor Page.vi" Type="VI" URL="../Pages/Monitor Page.vi"/>
+				<Item Name="Frame Page.vi" Type="VI" URL="../Pages/Frame Page.vi"/>
 				<Item Name="Protection Channel.vi" Type="VI" URL="../Pages/Protection Channel.vi"/>
-				<Item Name="Protection Valid Channel.vi" Type="VI" URL="../Pages/Protection Valid Channel.vi"/>
 				<Item Name="Rolling Counter Channel.vi" Type="VI" URL="../Pages/Rolling Counter Channel.vi"/>
+				<Item Name="Section Page.vi" Type="VI" URL="../Pages/Section Page.vi"/>
+				<Item Name="Signal Page.vi" Type="VI" URL="../Pages/Signal Page.vi"/>
+				<Item Name="Status Channel.vi" Type="VI" URL="../Pages/Status Channel.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">
 				<Item Name="Add Frame Configuration.vi" Type="VI" URL="../RTMs/Add Frame Configuration.vi"/>
+				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../Actions/EnableDisable Main Page.vi"/>
+				<Item Name="Make Counter Signal.vi" Type="VI" URL="../RTMs/Make Counter Signal.vi"/>
+				<Item Name="Make Protection Signal.vi" Type="VI" URL="../RTMs/Make Protection Signal.vi"/>
 				<Item Name="Select Channels.vi" Type="VI" URL="../RTMs/Select Channels.vi"/>
+				<Item Name="Select XNET Signals.vi" Type="VI" URL="../RTMs/Select XNET Signals.vi"/>
 			</Item>
 			<Item Name="Initialization VI.vi" Type="VI" URL="../Actions/Initialization VI.vi"/>
 			<Item Name="Main Page.vi" Type="VI" URL="../Pages/Main Page.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="AddSystemMappingsFromCustomDevice.vi" Type="VI" URL="../SubVIs/AddSystemMappingsFromCustomDevice.vi"/>
+			<Item Name="Add Database to SysDef.vi" Type="VI" URL="../SubVIs/Add Database to SysDef.vi"/>
+			<Item Name="Browse for XNET Database.vi" Type="VI" URL="../SubVIs/Browse for XNET Database.vi"/>
 			<Item Name="ChannelSelectionScreen.vi" Type="VI" URL="../SubVIs/ChannelSelectionScreen.vi"/>
-			<Item Name="CheckAllSignalsInSameFrame.vi" Type="VI" URL="../SubVIs/CheckAllSignalsInSameFrame.vi"/>
-			<Item Name="Get LIN Schedule Rate.vi" Type="VI" URL="../SubVIs/Get LIN Schedule Rate.vi"/>
-			<Item Name="Get Selection from NodeBrowserWF.vi" Type="VI" URL="../SubVIs/Get Selection from NodeBrowserWF.vi"/>
+			<Item Name="Defer Front Panel Updates.vi" Type="VI" URL="../SubVIs/Defer Front Panel Updates.vi"/>
+			<Item Name="Frame.Settings.vi" Type="VI" URL="../SubVIs/Frame.Settings.vi"/>
+			<Item Name="Get Counter Configuration.vi" Type="VI" URL="../SubVIs/Get Counter Configuration.vi"/>
+			<Item Name="Get Frame Signals.vi" Type="VI" URL="../SubVIs/Get Frame Signals.vi"/>
+			<Item Name="Get Protection Configuration.vi" Type="VI" URL="../SubVIs/Get Protection Configuration.vi"/>
+			<Item Name="Get Selected XNET Channels.vi" Type="VI" URL="../SubVIs/Get Selected XNET Channels.vi"/>
 			<Item Name="Get Selection from TreeBrowserWF.vi" Type="VI" URL="../SubVIs/Get Selection from TreeBrowserWF.vi"/>
-			<Item Name="GetCANFrame.vi" Type="VI" URL="../SubVIs/GetCANFrame.vi"/>
-			<Item Name="Initialize NodeBrowserWF.vi" Type="VI" URL="../SubVIs/Initialize NodeBrowserWF.vi"/>
+			<Item Name="Get XNET Signal Names.vi" Type="VI" URL="../SubVIs/Get XNET Signal Names.vi"/>
+			<Item Name="Initialize Single Node Browser.vi" Type="VI" URL="../SubVIs/Initialize Single Node Browser.vi"/>
 			<Item Name="Initialize TreeBrowserWF.vi" Type="VI" URL="../SubVIs/Initialize TreeBrowserWF.vi"/>
-			<Item Name="MoveNumericFromCell.vi" Type="VI" URL="../SubVIs/MoveNumericFromCell.vi"/>
-			<Item Name="MoveNumericToCell.vi" Type="VI" URL="../SubVIs/MoveNumericToCell.vi"/>
-			<Item Name="Pull Info From XNET Database.vi" Type="VI" URL="../SubVIs/Pull Info From XNET Database.vi"/>
+			<Item Name="Initialize XNET Tree.vi" Type="VI" URL="../SubVIs/Initialize XNET Tree.vi"/>
 			<Item Name="Refresh Frame Settings.vi" Type="VI" URL="../SubVIs/Refresh Frame Settings.vi"/>
 			<Item Name="Select Channels and Update Properties.vi" Type="VI" URL="../SubVIs/Select Channels and Update Properties.vi"/>
+			<Item Name="Select XNET Signals UI.vi" Type="VI" URL="../SubVIs/Select XNET Signals UI.vi"/>
+			<Item Name="Set Counter Configuration.vi" Type="VI" URL="../SubVIs/Set Counter Configuration.vi"/>
 			<Item Name="Set Help Document Display.vi" Type="VI" URL="../SubVIs/Set Help Document Display.vi"/>
-			<Item Name="SetMappingsFromCustomDevice.vi" Type="VI" URL="../SubVIs/SetMappingsFromCustomDevice.vi"/>
+			<Item Name="Set Node Dependency.vi" Type="VI" URL="../SubVIs/Set Node Dependency.vi"/>
+			<Item Name="Set Protection Configuration.vi" Type="VI" URL="../SubVIs/Set Protection Configuration.vi"/>
+			<Item Name="Set Tree Symbols.vi" Type="VI" URL="../SubVIs/Set Tree Symbols.vi"/>
 			<Item Name="UpdateChannelMonitorListbox.vi" Type="VI" URL="../SubVIs/UpdateChannelMonitorListbox.vi"/>
+			<Item Name="XNET.Settings.vi" Type="VI" URL="../SubVIs/XNET.Settings.vi"/>
 		</Item>
-		<Item Name="Types" Type="Folder"/>
+		<Item Name="Types" Type="Folder">
+			<Item Name="CAN Filter Type.ctl" Type="VI" URL="../Types/CAN Filter Type.ctl"/>
+			<Item Name="Frame Settings.ctl" Type="VI" URL="../Types/Frame Settings.ctl"/>
+			<Item Name="Protection Signal Linked Channels.ctl" Type="VI" URL="../Types/Protection Signal Linked Channels.ctl"/>
+			<Item Name="Protection Signal Settings.ctl" Type="VI" URL="../Types/Protection Signal Settings.ctl"/>
+		</Item>
 	</Item>
 </Library>

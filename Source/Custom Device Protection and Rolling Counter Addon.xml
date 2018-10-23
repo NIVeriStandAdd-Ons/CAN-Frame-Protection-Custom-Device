@@ -119,14 +119,6 @@
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
-			<ActionVIOnDelete>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnDelete_RemoveSystemMappings_Parent.vi</Path>
-			</ActionVIOnDelete>
-      <ActionVIOnSave>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnSave.vi</Path>
-      </ActionVIOnSave>
       <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnCompile.vi</Path>
@@ -197,14 +189,6 @@
 					</Item2Launch>
 				</MenuItem>
 			</RunTimeMenu>
-			<ActionVIOnDelete>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnDelete_RemoveSystemMappings_Parent.vi</Path>
-			</ActionVIOnDelete>
-      <ActionVIOnSave>
-        <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnSave.vi</Path>
-      </ActionVIOnSave>
       <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnCompile.vi</Path>
@@ -212,17 +196,18 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Frame Configuration</eng>
-				<loc>Frame Configuration</loc>
+				<eng>Protection Channel</eng>
+				<loc>Protection Channel</loc>
 			</Name>
-			<GUID>bc0c6957-d4ef-4e45-aa02-83c9b233598c</GUID>
+			<DisallowRenaming>true</DisallowRenaming>
+			<GUID>ed369b01-8bb7-4d5d-8463-e4aaa20f9c2b</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
+				<Path>System Explorer\Glyphs\NI-XNET CRC.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Frame Configuration Page.vi</Path>
+				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Protection Channel.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -237,6 +222,18 @@
 						<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Select Channels.vi</Path>
 					</Item2Launch>
 				</MenuItem>
+        <MenuItem>
+          <GUID>fd672367-9571-45ec-b8d6-ace103a4a2ad</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Make Signal</eng>
+            <loc>Make Signal</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Make Protection Signal.vi</Path>
+          </Item2Launch>
+        </MenuItem>
 				<MenuItem>
 					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
 					<Type>Separator</Type>
@@ -300,225 +297,554 @@
 				<loc>Rolling Counter Channel</loc>
 			</Name>
 			<DisallowRenaming>true</DisallowRenaming>
-			<DeleteProtection>true</DeleteProtection>
 			<GUID>94e87467-031b-484c-a85e-bcbac581524d</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+				<Path>System Explorer\Glyphs\NI-XNET Counter.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
 				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Rolling Counter Channel.vi</Path>
 			</Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>58b35a90-380c-4e5f-8247-69702d3f312b</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Make Signal</eng>
+            <loc>Make Signal</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Make Counter Signal.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
 		</Page>
 		<Page>
 			<Name>
-				<eng>Protection Channel</eng>
-				<loc>Protection Channel</loc>
+				<eng>Status Channel</eng>
+				<loc>Status Channel</loc>
 			</Name>
 			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
-			<GUID>ed369b01-8bb7-4d5d-8463-e4aaa20f9c2b</GUID>
+			<GUID>6d842445-75a9-45cc-a4de-fe1217a46de2</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
 				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Protection Channel.vi</Path>
+				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Status Channel.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
 			<Name>
-				<eng>Protection Valid Channel</eng>
-				<loc>Protection Valid Channel</loc>
+				<eng>Status</eng>
+				<loc>Status</loc>
 			</Name>
 			<DisallowRenaming>true</DisallowRenaming>
 			<DeleteProtection>true</DeleteProtection>
-			<GUID>fd6a7400-7849-4da5-96c3-5ff30bdc4abb</GUID>
+			<GUID>9ef2cd96-dffa-48ea-ae2c-932b4b88a115</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+				<Path>System Explorer\Glyphs\system variable.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Protection Valid Channel.vi</Path>
+				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Section Page.vi</Path>
 			</Item2Launch>
 		</Page>
-		<Page>
-			<Name>
-				<eng>Generation</eng>
-				<loc>Generation</loc>
-			</Name>
-			<DisallowRenaming>true</DisallowRenaming>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>fe2c6eb8-6675-4af1-b453-994e8ba14209</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\xnet outgoing.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Generate Page.vi</Path>
-			</Item2Launch>
-			<RunTimeMenu>
-				<MenuItem>
-					<GUID>48379695-25bf-47b1-ab5b-112b08094ddc</GUID>
-					<Type>Action</Type>
-					<Name>
-						<eng>Add Configuration</eng>
-						<loc>Add Configuration</loc>
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Add Frame Configuration.vi</Path>
-					</Item2Launch>
-				</MenuItem>
-				<MenuItem>
-					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
-					<Type>Separator</Type>
-					<Name>
-						<eng>.</eng>
-						<loc>.</loc>
-					</Name>
-					<Item2Launch>
-						<Type>Absolute</Type>
-						<Path>.</Path>
-					</Item2Launch>
-				</MenuItem>
-				<MenuItem>
-					<GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
-					<Type>VI</Type>
-					<MinNrOfChilds>1</MinNrOfChilds>
-					<Name>
-						<eng>Delete Multiple Items</eng>
-						<loc>Delete Multiple Items</loc>
-					</Name>
-					<Item2Launch>
-						<Type>Absolute</Type>
-						<Path>Dialogs\Delete Multiple Items.vi</Path>
-					</Item2Launch>
-				</MenuItem>
-			</RunTimeMenu>
-			<ButtonList>
-				<Button>
-					<ID>Add Configuration</ID>
-					<Glyph>
-						<Type>To Application Data Dir</Type>
-						<Path>System Explorer\Glyphs\Add Procedures.png</Path>
-					</Glyph>
-					<Type>Action</Type>
-					<ReferencedGUID>48379695-25bf-47b1-ab5b-112b08094ddc</ReferencedGUID>
-					<ButtonText>
-						<eng>Add Configuration</eng>
-						<loc>Add Configuration</loc>
-					</ButtonText>
-					<Caption>
-						<eng>Add Configuration</eng>
-						<loc>Add Configuration</loc>
-					</Caption>
-					<TipStrip>
-						<eng>Add Configuration</eng>
-						<loc>Add Configuration</loc>
-					</TipStrip>
-					<Documentation>
-						<eng />
-						<loc />
-					</Documentation>
-				</Button>
-			</ButtonList>
-			<ActionVIOnDelete>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnDelete_RemoveSystemMappings.vi</Path>
-			</ActionVIOnDelete>
-		</Page>
-		<Page>
-			<Name>
-				<eng>Monitor</eng>
-				<loc>Monitor</loc>
-			</Name>
-			<DisallowRenaming>true</DisallowRenaming>
-			<DeleteProtection>true</DeleteProtection>
-			<GUID>bd95a1eb-bc64-4cab-8426-a747b48c9344</GUID>
-			<Glyph>
-				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\xnet incoming.png</Path>
-			</Glyph>
-			<Item2Launch>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Monitor Page.vi</Path>
-			</Item2Launch>
-			<RunTimeMenu>
-				<MenuItem>
-					<GUID>48379695-25bf-47b1-ab5b-112b08094ddc</GUID>
-					<Type>Action</Type>
-					<Name>
-						<eng>Add Configuration</eng>
-						<loc>Add Configuration</loc>
-					</Name>
-					<Item2Launch>
-						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Add Frame Configuration.vi</Path>
-					</Item2Launch>
-				</MenuItem>
-				<MenuItem>
-					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
-					<Type>Separator</Type>
-					<Name>
-						<eng>.</eng>
-						<loc>.</loc>
-					</Name>
-					<Item2Launch>
-						<Type>Absolute</Type>
-						<Path>.</Path>
-					</Item2Launch>
-				</MenuItem>
-				<MenuItem>
-					<GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
-					<Type>VI</Type>
-					<MinNrOfChilds>1</MinNrOfChilds>
-					<Name>
-						<eng>Delete Multiple Items</eng>
-						<loc>Delete Multiple Items</loc>
-					</Name>
-					<Item2Launch>
-						<Type>Absolute</Type>
-						<Path>Dialogs\Delete Multiple Items.vi</Path>
-					</Item2Launch>
-				</MenuItem>
-			</RunTimeMenu>
-			<ButtonList>
-				<Button>
-					<ID>Add Configuration</ID>
-					<Glyph>
-						<Type>To Application Data Dir</Type>
-						<Path>System Explorer\Glyphs\Add Procedures.png</Path>
-					</Glyph>
-					<Type>Action</Type>
-					<ReferencedGUID>48379695-25bf-47b1-ab5b-112b08094ddc</ReferencedGUID>
-					<ButtonText>
-						<eng>Add Configuration</eng>
-						<loc>Add Configuration</loc>
-					</ButtonText>
-					<Caption>
-						<eng>Add Configuration</eng>
-						<loc>Add Configuration</loc>
-					</Caption>
-					<TipStrip>
-						<eng>Add Configuration</eng>
-						<loc>Add Configuration</loc>
-					</TipStrip>
-					<Documentation>
-						<eng />
-						<loc />
-					</Documentation>
-				</Button>
-			</ButtonList>
-			<ActionVIOnDelete>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnDelete_RemoveSystemMappings.vi</Path>
-			</ActionVIOnDelete>
-		</Page>
+   <Page>
+      <Name>
+        <eng>Incoming</eng>
+        <loc>Incoming</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>ecc25de3-c2ab-46d7-9bc3-042f52653143</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\NI-XNET Incoming.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Section Page.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Frames</eng>
+            <loc>Delete Multiple Frames</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Incoming Single Point</eng>
+        <loc>Incoming Single Point</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>45d997b9-be87-4536-8aa7-486032a53b20</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\NI-XNET SinglePoint.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Section Page.vi</Path>
+      </Item2Launch>
+	  <RunTimeMenu>
+	  		<MenuItem>
+				<GUID>189570e9-4f75-4888-a53a-d2f96088b119</GUID>
+				<Type>Action</Type>
+				<Name>
+					<eng>Import Frames</eng>
+					<loc>Import Frames</loc>
+				</Name>
+				<Item2Launch>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Select XNET Signals.vi</Path>
+				</Item2Launch>
+			</MenuItem>
+      <MenuItem>
+        <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+        <Type>Separator</Type>
+        <Name>
+          <eng>.</eng>
+          <loc>.</loc>
+        </Name>
+        <Item2Launch>
+          <Type>Absolute</Type>
+          <Path>.</Path>
+        </Item2Launch>
+      </MenuItem>
+      <MenuItem>
+        <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+        <Type>VI</Type>
+        <MinNrOfChilds>1</MinNrOfChilds>
+        <Name>
+          <eng>Delete Multiple Frames</eng>
+          <loc>Delete Multiple Frames</loc>
+        </Name>
+        <Item2Launch>
+          <Type>Absolute</Type>
+          <Path>Dialogs\Delete Multiple Items.vi</Path>
+        </Item2Launch>
+      </MenuItem>
+		</RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>Import_Frames</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\NI-XNET ImportXNETFrames.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>189570e9-4f75-4888-a53a-d2f96088b119</ReferencedGUID>
+          <ButtonText>
+            <eng>Import Frames</eng>
+            <loc>Import Frames</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Import Frames</eng>
+            <loc>Import Frames</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Import Frames</eng>
+            <loc>Import Frames</loc>
+          </TipStrip>
+          <Documentation>
+            <eng></eng>
+            <loc></loc>
+          </Documentation>
+        </Button>
+      </ButtonList>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Outgoing</eng>
+        <loc>Outgoing</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>ac3e6a25-b54a-448b-bc03-298d2e8e37c0</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\NI-XNET Outgoing.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Section Page.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Frames</eng>
+            <loc>Delete Multiple Frames</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Outgoing Event</eng>
+        <loc>Outgoing Event</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>f7870371-b1e4-4bce-a037-eb1b5f7e56a7</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\NI-XNET EventBasedPeriodic.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Section Page.vi</Path>
+      </Item2Launch>
+	  <RunTimeMenu>
+	  		<MenuItem>
+				<GUID>189570e9-4f75-4888-a53a-d2f96088b119</GUID>
+				<Type>Action</Type>
+				<Name>
+					<eng>Import Frames</eng>
+					<loc>Import Frames</loc>
+				</Name>
+				<Item2Launch>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Select XNET Signals.vi</Path>
+				</Item2Launch>
+			</MenuItem>
+      <MenuItem>
+        <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+        <Type>Separator</Type>
+        <Name>
+          <eng>.</eng>
+          <loc>.</loc>
+        </Name>
+        <Item2Launch>
+          <Type>Absolute</Type>
+          <Path>.</Path>
+        </Item2Launch>
+      </MenuItem>
+      <MenuItem>
+        <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+        <Type>VI</Type>
+        <MinNrOfChilds>1</MinNrOfChilds>
+        <Name>
+          <eng>Delete Multiple Frames</eng>
+          <loc>Delete Multiple Frames</loc>
+        </Name>
+        <Item2Launch>
+          <Type>Absolute</Type>
+          <Path>Dialogs\Delete Multiple Items.vi</Path>
+        </Item2Launch>
+      </MenuItem>
+		</RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>Import_Frames</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\NI-XNET ImportXNETFrames.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>189570e9-4f75-4888-a53a-d2f96088b119</ReferencedGUID>
+          <ButtonText>
+            <eng>Import Frames</eng>
+            <loc>Import Frames</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Import Frames</eng>
+            <loc>Import Frames</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Import Frames</eng>
+            <loc>Import Frames</loc>
+          </TipStrip>
+          <Documentation>
+            <eng></eng>
+            <loc></loc>
+          </Documentation>
+        </Button>
+      </ButtonList>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Incoming Frame</eng>
+        <loc>Incoming Frame</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <GUID>b05244b8-7523-4075-97f9-80c23ea41b5d</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\NI-XNET AFP.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Frame Page.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>d7700f40-4d19-4336-a435-09e1e89ea4c8</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Add Information Channels</eng>
+            <loc>Add Information Channels</loc>
+          </Name>
+          <Item2Launch>
+  					<Type>To Common Doc Dir</Type>
+					  <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Create Information Channels.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>  
+        <MenuItem>
+          <GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Delete</eng>
+            <loc>Delete</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Actions\Delete.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Parameters</eng>
+            <loc>Delete Multiple Parameters</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Outgoing Frame</eng>
+        <loc>Outgoing Frame</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <GUID>2db218fe-96df-4f04-8b61-900a312ea43d</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET AFP.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Frame Page.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Delete</eng>
+            <loc>Delete</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Actions\Delete.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Parameters</eng>
+            <loc>Delete Multiple Parameters</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+    </Page>
+	<Page>
+      <Name>
+        <eng>Outgoing Cyclic</eng>
+        <loc>Outgoing Cyclic</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
+      <GUID>a83bc0a9-6c38-418b-b0b7-47e877787b3f</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET Periodic.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Section Page.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>189570e9-4f75-4888-a53a-d2f96088b119</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Import Frames</eng>
+            <loc>Import Frames</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Select XNET Signals.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+          <Type>VI</Type>
+          <MinNrOfChilds>1</MinNrOfChilds>
+          <Name>
+            <eng>Delete Multiple Frames</eng>
+            <loc>Delete Multiple Frames</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Dialogs\Delete Multiple Items.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+      <ButtonList>
+        <Button>
+          <ID>Import_Frames</ID>
+          <Glyph>
+            <Type>To Application Data Dir</Type>
+            <Path>System Explorer\Glyphs\NI-XNET ImportXNETFrames.png</Path>
+          </Glyph>
+          <Type>Action</Type>
+          <ReferencedGUID>189570e9-4f75-4888-a53a-d2f96088b119</ReferencedGUID>
+          <ButtonText>
+            <eng>Import Frames</eng>
+            <loc>Import Frames</loc>
+          </ButtonText>
+          <Caption>
+            <eng>Import Frames</eng>
+            <loc>Import Frames</loc>
+          </Caption>
+          <TipStrip>
+            <eng>Import Frames</eng>
+            <loc>Import Frames</loc>
+          </TipStrip>
+          <Documentation>
+            <eng></eng>
+            <loc></loc>
+          </Documentation>
+        </Button>
+      </ButtonList>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Signal</eng>
+        <loc>Signal</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <GUID>4b95dee7-8d64-48ce-932c-f5fdd14e4d4c</GUID>
+      <Glyph>
+			<Type>To Application Data Dir</Type>
+			<Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+		<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Signal Page.vi</Path>
+      </Item2Launch>
+      <RunTimeMenu>
+        <MenuItem>
+          <GUID>77550670-1485-13A6-568B9AB41979630D</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Delete</eng>
+            <loc>Delete</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>Actions\Delete.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+          <Type>Separator</Type>
+          <Name>
+            <eng>.</eng>
+            <loc>.</loc>
+          </Name>
+          <Item2Launch>
+            <Type>Absolute</Type>
+            <Path>.</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>58b35a90-380c-4e5f-8247-69702d3f312b</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Make Counter Signal</eng>
+            <loc>Make Counter Signal</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Make Counter Signal.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+        <MenuItem>
+          <GUID>fd672367-9571-45ec-b8d6-ace103a4a2ad</GUID>
+          <Type>Action</Type>
+          <Name>
+            <eng>Make Protection Signal</eng>
+            <loc>Make Protection Signal</loc>
+          </Name>
+          <Item2Launch>
+            <Type>To Common Doc Dir</Type>
+            <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Make Protection Signal.vi</Path>
+          </Item2Launch>
+        </MenuItem>
+      </RunTimeMenu>
+    </Page>
 	</Pages>
 	<CustomXML>
 		<Dummy></Dummy>

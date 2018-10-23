@@ -5,15 +5,17 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Shared" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="Get Frame Configuration.vi" Type="VI" URL="../SubVIs/Get Frame Configuration.vi"/>
 			<Item Name="GUID Lookup.vi" Type="VI" URL="../SubVIs/GUID Lookup.vi"/>
-			<Item Name="Set Signal Configuration.vi" Type="VI" URL="../SubVIs/Set Signal Configuration.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
-			<Item Name="FrameConfiguration.ctl" Type="VI" URL="../Types/FrameConfiguration.ctl"/>
+			<Item Name="Event Trigger Type.ctl" Type="VI" URL="../Types/Event Trigger Type.ctl"/>
+			<Item Name="Exported Counter Settings.ctl" Type="VI" URL="../Types/Exported Counter Settings.ctl"/>
+			<Item Name="Exported Frame Settings.ctl" Type="VI" URL="../Types/Exported Frame Settings.ctl"/>
+			<Item Name="Exported Protection Settings.ctl" Type="VI" URL="../Types/Exported Protection Settings.ctl"/>
+			<Item Name="Exported.OnCompile.ctl" Type="VI" URL="../Types/Exported.OnCompile.ctl"/>
 			<Item Name="InputChannelConfiguration.ctl" Type="VI" URL="../Types/InputChannelConfiguration.ctl"/>
-			<Item Name="OutputChannelConfiguration.ctl" Type="VI" URL="../Types/OutputChannelConfiguration.ctl"/>
 			<Item Name="Protection Type.ctl" Type="VI" URL="../Types/Protection Type.ctl"/>
+			<Item Name="XNET Settings.ctl" Type="VI" URL="../Types/XNET Settings.ctl"/>
 		</Item>
 	</Item>
 </Library>
