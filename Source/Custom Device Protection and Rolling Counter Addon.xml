@@ -6,7 +6,7 @@
 		<loc>Protection and Rolling Counter</loc>
 	</AddMenu>
 	<Version>1.0</Version>
-	<Type>Inline Model Interface</Type>
+  <Type>Inline HW Interface</Type>
 	<MaxOccurrence>2474</MaxOccurrence>
 	<MainPageGUID>4d3156ae-de1b-463a-a86e-31c1bc069b17</MainPageGUID>
 	<InitializationVI>

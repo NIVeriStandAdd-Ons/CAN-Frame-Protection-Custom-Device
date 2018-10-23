@@ -6,18 +6,22 @@
 	<Item Name="Engine" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Calculate.vi" Type="VI" URL="../SubVIs/Calculate.vi"/>
-			<Item Name="Generate.vi" Type="VI" URL="../SubVIs/Generate.vi"/>
 			<Item Name="Initialize Generate.vi" Type="VI" URL="../SubVIs/Initialize Generate.vi"/>
-			<Item Name="Initialize Monitor.vi" Type="VI" URL="../SubVIs/Initialize Monitor.vi"/>
-			<Item Name="Monitor.vi" Type="VI" URL="../SubVIs/Monitor.vi"/>
+		</Item>
+		<Item Name="Types" Type="Folder">
+			<Item Name="FrameConfiguration.ctl" Type="VI" URL="../../Shared/Types/FrameConfiguration.ctl"/>
+			<Item Name="RT Async Engine Variables.ctl" Type="VI" URL="../Types/RT Async Engine Variables.ctl"/>
+			<Item Name="RT Counter Settings.ctl" Type="VI" URL="../Types/RT Counter Settings.ctl"/>
+			<Item Name="RT Data References.ctl" Type="VI" URL="../Types/RT Data References.ctl"/>
+			<Item Name="RT Engine Generate References.ctl" Type="VI" URL="../Types/RT Engine Generate References.ctl"/>
+			<Item Name="RT Engine Monitor References.ctl" Type="VI" URL="../Types/RT Engine Monitor References.ctl"/>
+			<Item Name="RT Engine State Variables.ctl" Type="VI" URL="../Types/RT Engine State Variables.ctl"/>
+			<Item Name="RT Frame Settings.ctl" Type="VI" URL="../Types/RT Frame Settings.ctl"/>
+			<Item Name="RT Protection Configuration.ctl" Type="VI" URL="../Types/RT Protection Configuration.ctl"/>
 		</Item>
 	</Item>
-	<Item Name="Types" Type="Folder">
-		<Item Name="FrameConfiguration.ctl" Type="VI" URL="../../Shared/Types/FrameConfiguration.ctl"/>
-		<Item Name="RT Async Engine Variables.ctl" Type="VI" URL="../Types/RT Async Engine Variables.ctl"/>
-		<Item Name="RT Engine Generate References.ctl" Type="VI" URL="../Types/RT Engine Generate References.ctl"/>
-		<Item Name="RT Engine Monitor References.ctl" Type="VI" URL="../Types/RT Engine Monitor References.ctl"/>
-		<Item Name="RT Engine State Variables.ctl" Type="VI" URL="../Types/RT Engine State Variables.ctl"/>
+	<Item Name="Processes" Type="Folder">
+		<Item Name="AsyncEngine.CAN.vi" Type="VI" URL="../Processes/AsyncEngine.CAN.vi"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
