@@ -650,8 +650,8 @@
           <Type>VI</Type>
           <MinNrOfChilds>1</MinNrOfChilds>
           <Name>
-            <eng>Delete Multiple Parameters</eng>
-            <loc>Delete Multiple Parameters</loc>
+            <eng>Delete Multiple Signals</eng>
+            <loc>Delete Multiple Signals</loc>
           </Name>
           <Item2Launch>
             <Type>Absolute</Type>
@@ -693,8 +693,8 @@
           <Type>VI</Type>
           <MinNrOfChilds>1</MinNrOfChilds>
           <Name>
-            <eng>Delete Multiple Parameters</eng>
-            <loc>Delete Multiple Parameters</loc>
+            <eng>Delete Multiple Signals</eng>
+            <loc>Delete Multiple Signals</loc>
           </Name>
           <Item2Launch>
             <Type>Absolute</Type>

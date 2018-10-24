@@ -6,6 +6,7 @@
 	<Item Name="Engine" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="CalculateCounterAndProtections.vi" Type="VI" URL="../SubVIs/CalculateCounterAndProtections.vi"/>
+			<Item Name="Close XNET References.vi" Type="VI" URL="../SubVIs/Close XNET References.vi"/>
 			<Item Name="Initialize Generate.vi" Type="VI" URL="../SubVIs/Initialize Generate.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
