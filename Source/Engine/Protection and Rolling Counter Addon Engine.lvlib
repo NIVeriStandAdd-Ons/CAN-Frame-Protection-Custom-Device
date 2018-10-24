@@ -5,7 +5,7 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Engine" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
-			<Item Name="Calculate.vi" Type="VI" URL="../SubVIs/Calculate.vi"/>
+			<Item Name="CalculateCounterAndProtections.vi" Type="VI" URL="../SubVIs/CalculateCounterAndProtections.vi"/>
 			<Item Name="Initialize Generate.vi" Type="VI" URL="../SubVIs/Initialize Generate.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
@@ -21,7 +21,7 @@
 		</Item>
 	</Item>
 	<Item Name="Processes" Type="Folder">
-		<Item Name="AsyncEngine.CAN.vi" Type="VI" URL="../Processes/AsyncEngine.CAN.vi"/>
+		<Item Name="AsyncEngine.CANProtectionAndCounter.vi" Type="VI" URL="../Processes/AsyncEngine.CANProtectionAndCounter.vi"/>
 	</Item>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
