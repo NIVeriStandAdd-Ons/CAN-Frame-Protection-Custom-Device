@@ -3,7 +3,7 @@
 	<head>
 		<meta http-equiv="Content-Style-Type" content="text/css">
 		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
-		<title>CRC and Rolling Counter Configuration</title>
+		<title>Protection and Rolling Counter Configuration</title>
 		<link rel="STYLESHEET" type="text/css" href="css/VSsystemexplorer.css">
 		<script src="common.js" type="text/javascript"></script><script src="js/expandable_tree.js" type="text/javascript"></script>
 		<link rel="STYLESHEET" type="text/css" href="css/expandable_tree.css">
@@ -14,13 +14,15 @@
 		<p class="Body">JavaScript is disabled. <a href="veristandmerge.chm::/JavaScript_Disabled.html">Details</a></p>
 		<hr width="100%" noshade>
 	</noscript>
-<h1>CRC and Rolling Counter Configuration</h1>
-<p class="Body">The CRC and Rolling Counter custom device allows the user to easily select data channels for calculating a CRC.  It creates and maps rolling counters and CRC channels to selected outgoing signals.</p>
+<h1>Protection and Rolling Counter Configuration</h1>
+<p class="Body">The Protection and Rolling Counter custom device allows the user to easily select data channels for calculating a CRC or Checksum.  It creates and maps rolling counters and protection channels to selected outgoing signals.</p>
 <h2>What do you want to do?</h2>
+<h3>Change CAN Settings</h3>
+<p class="Body">The default CAN settings are imported from the database, and can be changed when first adding the custom device to the VeriStand system definition.  You can also change the CAN port settings in the <strong>CAN Settings</strong> section of this page.  Note:  Check the <strong>Legacy?</strong> checkbox for VeriStand 2017 (and earlier) implementations of CAN FD.  CAN frame generation is handled in an Asynchronous loop with a priority set by the <strong>Loop Priority</strong> setting.  Please see the LabVIEW Help for additional information on applicable values.</p>
 <h3>Add A Frame Configuration</h3>
-<p class="Body">To add a frame configuration, right click on the add-on instance and select <strong>Add Configuration</strong> from the shortcut menu.  Do this as many times as you need configurations.</p>
+<p class="Body">To add a frame configuration, right-click on the 'Cyclic' message type in the configuration tree, and select <strong>Import Frames</strong>.</p>
 <h3>Disable Add-on</h3>
-<p class="Body">To disable this add-on, right click on the add-on instance and select <strong>Disable</strong> from the shortcut menu.</p>
+<p class="Body">To disable this add-on, right-click on the add-on instance and select <strong>Disable</strong> from the shortcut menu.</p>
 <h3>Delete multiple items</h3>
 <p class="Body">To delete multiple items, right-click the object in the configuration tree and select <strong>Delete Multiple Items</strong> from the shortcut menu.</p>
 </body>

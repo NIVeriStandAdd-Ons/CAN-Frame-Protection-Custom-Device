@@ -299,7 +299,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{85D8FBEB-1908-4391-9719-8981BF576997}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{933310DF-BB77-47CD-8215-B52104FF84C8}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -383,7 +383,23 @@
 				<Property Name="Source[5].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Protection and Rolling Counter Addon Engine.lvlib/Processes</Property>
+				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[6].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[6].properties[2].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[6].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[3].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[6].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[4].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[6].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[6].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -583,18 +599,14 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{15AA6382-31FC-423A-8347-63170346C9FD}</Property>
-				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AB9D6A0E-5149-4049-91ED-DA01A89208E8}</Property>
+				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[0].properties[1].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[0].properties[2].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[0].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[0].properties[3].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[0].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[0].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[0].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applySaveSettings" Type="Bool">true</Property>
@@ -643,6 +655,17 @@
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Rolling Counter Addon Engine.lvlib/RT Driver VI.vi</Property>
+				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[4].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[4].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[4].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Rolling Counter Addon Engine.lvlib/Processes/AsyncEngine.CANProtectionAndCounter.vi</Property>
@@ -652,7 +675,23 @@
 				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Rolling Counter Addon Engine.lvlib/Processes</Property>
+				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[6].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[6].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[6].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[3].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[6].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[6].properties[4].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[6].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[6].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -853,18 +892,98 @@
 				<Property Name="Destination[1].path" Type="Path">/Linux_32_ARM</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5AF7421F-307B-4B02-BC5A-4586528AECE8}</Property>
+				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2EEDB687-719C-4D69-81F1-4F8C23951E95}</Property>
+				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[1].Container.applyPassword" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/RT CompactRIO Target - Linux_32_ARM/NI VeriStand APIs</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[1].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[1].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[1].properties[2].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[1].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[1].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[4].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[1].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target - Linux_32_ARM/Protection and Rolling Counter Addon Engine.lvlib/RT Driver VI.vi</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[2].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[2].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[2].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[4].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target - Linux_32_ARM/Protection and Rolling Counter Addon Engine.lvlib/Engine</Property>
+				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[3].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[3].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[4].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target - Linux_32_ARM/Protection and Rolling Counter Addon Engine.lvlib/Processes</Property>
+				<Property Name="Source[4].properties[0].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[4].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[2].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[4].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[4].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux_32_ARM/Protection and Rolling Counter Addon Shared.lvlib/Shared</Property>
+				<Property Name="Source[5].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[5].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[5].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[5].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[5].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[5].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[5].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -1056,7 +1175,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8308DA76-4737-4EBE-A109-BC088D885439}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/Protection and Rolling Counter Addon Engine Linux64.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_x64/Protection and Rolling Counter Addon Engine Linux64.llb</Property>
@@ -1066,7 +1185,16 @@
 				<Property Name="Destination[1].path" Type="Path">/Linux_x64</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5EAFDD7F-B23F-4345-B7F9-8F76A4EC9BE7}</Property>
+				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{CB1F7E25-EC6A-4822-AB94-023484B4527C}</Property>
+				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[1].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[0].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[0].properties[2].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applySaveSettings" Type="Bool">true</Property>
@@ -1086,9 +1214,68 @@
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protection and Rolling Counter Addon Engine.lvlib/RT Driver VI.vi</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[2].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[2].properties[2].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[2].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[2].properties[4].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protection and Rolling Counter Addon Engine.lvlib/Engine</Property>
+				<Property Name="Source[3].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[3].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[3].properties[3].value" Type="Bool">true</Property>
+				<Property Name="Source[3].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[3].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
+				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protection and Rolling Counter Addon Engine.lvlib/Processes</Property>
+				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[4].properties[2].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[4].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[4].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protection and Rolling Counter Addon Shared.lvlib/Shared</Property>
+				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[5].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[5].properties[2].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[5].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[5].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[5].properties[4].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[5].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[5].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
 		</Item>
 	</Item>

@@ -14,10 +14,12 @@
 		<p class="Body">JavaScript is disabled. <a href="veristandmerge.chm::/JavaScript_Disabled.html">Details</a></p>
 		<hr width="100%" noshade>
 	</noscript>
-<h1>Time Difference</h1>
-<p class="Body">The <strong>Time Difference</strong> channel for an incoming frame contains the difference between the two most recent Receive Time timestamps, so you can use this channel to track how quickly frames are received. You can use this configuration page to specify an initial value for the channel to use until the actual time difference is calculated.</p>
+<h1>Counter Configuration</h1>
+<p class="Body">The <strong>Counter</strong> signal for an outgoing frame contains the rolling counter value.</p>
 <h2>What do you want to do?</h2>
-<h3>Set default value</h3>
-<p class="Body">To set a default value for the parameter, enter the desired value in the <strong>Default Value</strong> field.</p>
+<h3>Set Rolling Counter Max value</h3>
+<p class="Body">To set a Max value for the signal, enter the desired value in the <strong>Rolling Counter Max Count</strong> field.  Note that the Max Count is inclusive, e.g. when this value is 15, the counter will increment 0, 1, 2....15 and then restart at 0.</p>
+<h3>Deselect signal as Counter signal</h3>
+<p class="Body">To set the signal back to a non-counter signal, right-click on the signal and select <strong>Make Signal<strong>.</p>
 </body>
 </html>
