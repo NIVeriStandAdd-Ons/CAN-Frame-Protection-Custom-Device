@@ -31,6 +31,7 @@
 			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utility/LLB Pre-Build CHM Build.vi"/>
 		</Item>
 		<Item Name="Custom Device Protection and Rolling Counter Addon.xml" Type="Document" URL="../Custom Device Protection and Rolling Counter Addon.xml"/>
+		<Item Name="Exported Frame Type.ctl" Type="VI" URL="../Shared/Types/Exported Frame Type.ctl"/>
 		<Item Name="High CPU Late.vi" Type="VI" URL="../../../../Users/Administrator/Desktop/High CPU Late.vi"/>
 		<Item Name="Protection and Rolling Counter Addon Engine.lvlib" Type="Library" URL="../Engine/Protection and Rolling Counter Addon Engine.lvlib"/>
 		<Item Name="Protection and Rolling Counter Addon Shared.lvlib" Type="Library" URL="../Shared/Protection and Rolling Counter Addon Shared.lvlib"/>
