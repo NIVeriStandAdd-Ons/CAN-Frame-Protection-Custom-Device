@@ -5,7 +5,7 @@
 		<eng>Protection and Rolling Counter</eng>
 		<loc>Protection and Rolling Counter</loc>
 	</AddMenu>
-	<Version>1.0</Version>
+	<Version>1.1.0</Version>
   <Type>Inline HW Interface</Type>
 	<MaxOccurrence>2474</MaxOccurrence>
 	<MainPageGUID>4d3156ae-de1b-463a-a86e-31c1bc069b17</MainPageGUID>
@@ -123,6 +123,10 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnDelete.vi</Path>
       </ActionVIOnDelete>
+      <ActionVIOnLoad>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnLoad.vi</Path>
+      </ActionVIOnLoad>
       <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnCompile.vi</Path>
@@ -197,6 +201,10 @@
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnDelete.vi</Path>
       </ActionVIOnDelete>
+      <ActionVIOnLoad>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnLoad.vi</Path>
+      </ActionVIOnLoad>
       <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
         <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnCompile.vi</Path>

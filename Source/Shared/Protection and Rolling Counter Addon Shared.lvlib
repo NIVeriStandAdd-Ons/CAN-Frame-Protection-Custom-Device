@@ -11,6 +11,7 @@
 			<Item Name="Event Trigger Type.ctl" Type="VI" URL="../Types/Event Trigger Type.ctl"/>
 			<Item Name="Exported Counter Settings.ctl" Type="VI" URL="../Types/Exported Counter Settings.ctl"/>
 			<Item Name="Exported Frame Settings.ctl" Type="VI" URL="../Types/Exported Frame Settings.ctl"/>
+			<Item Name="Exported Frame Type.ctl" Type="VI" URL="../Types/Exported Frame Type.ctl"/>
 			<Item Name="Exported Protection Settings.ctl" Type="VI" URL="../Types/Exported Protection Settings.ctl"/>
 			<Item Name="Exported.OnCompile.ctl" Type="VI" URL="../Types/Exported.OnCompile.ctl"/>
 			<Item Name="InputChannelConfiguration.ctl" Type="VI" URL="../Types/InputChannelConfiguration.ctl"/>
