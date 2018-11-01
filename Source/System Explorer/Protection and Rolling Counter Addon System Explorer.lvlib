@@ -49,7 +49,6 @@
 				<Item Name="Status Channel.vi" Type="VI" URL="../Pages/Status Channel.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">
-				<Item Name="Add Frame Configuration.vi" Type="VI" URL="../RTMs/Add Frame Configuration.vi"/>
 				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../RTMs/EnableDisable Main Page.vi"/>
 				<Item Name="Make Counter Signal.vi" Type="VI" URL="../RTMs/Make Counter Signal.vi"/>
 				<Item Name="Make Protection Signal.vi" Type="VI" URL="../RTMs/Make Protection Signal.vi"/>
