@@ -7,6 +7,8 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="CalculateCounterAndProtections.vi" Type="VI" URL="../SubVIs/CalculateCounterAndProtections.vi"/>
 			<Item Name="Close XNET References.vi" Type="VI" URL="../SubVIs/Close XNET References.vi"/>
+			<Item Name="Determine Periodic.vi" Type="VI" URL="../SubVIs/Determine Periodic.vi"/>
+			<Item Name="Determine Transmission.vi" Type="VI" URL="../SubVIs/Determine Transmission.vi"/>
 			<Item Name="Initialize Generate.vi" Type="VI" URL="../SubVIs/Initialize Generate.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
@@ -24,7 +26,5 @@
 	<Item Name="Processes" Type="Folder">
 		<Item Name="AsyncEngine.CANProtectionAndCounter.vi" Type="VI" URL="../Processes/AsyncEngine.CANProtectionAndCounter.vi"/>
 	</Item>
-	<Item Name="Determine Periodic.vi" Type="VI" URL="../SubVIs/Determine Periodic.vi"/>
-	<Item Name="Determine Transmission.vi" Type="VI" URL="../SubVIs/Determine Transmission.vi"/>
 	<Item Name="RT Driver VI.vi" Type="VI" URL="../RT Driver VI.vi"/>
 </Library>
