@@ -302,10 +302,6 @@
 					</Documentation>
 				</Button>
 			</ButtonList>
-			<ActionVIOnDelete>
-				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnDelete_RemoveSystemMappings.vi</Path>
-			</ActionVIOnDelete>
 		</Page>
 		<Page>
 			<Name>
