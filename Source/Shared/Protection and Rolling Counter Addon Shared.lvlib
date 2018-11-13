@@ -8,6 +8,7 @@
 			<Item Name="GUID Lookup.vi" Type="VI" URL="../SubVIs/GUID Lookup.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
+			<Item Name="986x.ctl" Type="VI" URL="../Types/986x.ctl"/>
 			<Item Name="Event Trigger Type.ctl" Type="VI" URL="../Types/Event Trigger Type.ctl"/>
 			<Item Name="Exported Counter Settings.ctl" Type="VI" URL="../Types/Exported Counter Settings.ctl"/>
 			<Item Name="Exported Frame Settings.ctl" Type="VI" URL="../Types/Exported Frame Settings.ctl"/>

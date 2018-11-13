@@ -5,6 +5,9 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="Engine" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Bitfile.Download.vi" Type="VI" URL="../SubVIs/Bitfile.Download.vi"/>
+			<Item Name="Bitfile.Initialize.vi" Type="VI" URL="../SubVIs/Bitfile.Initialize.vi"/>
+			<Item Name="Bitfile.Unload.vi" Type="VI" URL="../SubVIs/Bitfile.Unload.vi"/>
 			<Item Name="CalculateCounterAndProtections.vi" Type="VI" URL="../SubVIs/CalculateCounterAndProtections.vi"/>
 			<Item Name="Close XNET References.vi" Type="VI" URL="../SubVIs/Close XNET References.vi"/>
 			<Item Name="Determine Periodic.vi" Type="VI" URL="../SubVIs/Determine Periodic.vi"/>
