@@ -13,6 +13,7 @@
 			<Item Name="Close XNET References.vi" Type="VI" URL="../SubVIs/Close XNET References.vi"/>
 			<Item Name="Determine Periodic.vi" Type="VI" URL="../SubVIs/Determine Periodic.vi"/>
 			<Item Name="Determine Transmission.vi" Type="VI" URL="../SubVIs/Determine Transmission.vi"/>
+			<Item Name="Initialize Frames.vi" Type="VI" URL="../SubVIs/Initialize Frames.vi"/>
 			<Item Name="Initialize Generate.vi" Type="VI" URL="../SubVIs/Initialize Generate.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
