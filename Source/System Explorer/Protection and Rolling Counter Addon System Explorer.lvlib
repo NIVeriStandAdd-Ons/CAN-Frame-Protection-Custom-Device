@@ -65,6 +65,7 @@
 			<Item Name="Browse for XNET Database.vi" Type="VI" URL="../SubVIs/Browse for XNET Database.vi"/>
 			<Item Name="ChannelSelectionScreen.vi" Type="VI" URL="../SubVIs/ChannelSelectionScreen.vi"/>
 			<Item Name="Compile and Export Settings.vi" Type="VI" URL="../SubVIs/Compile and Export Settings.vi"/>
+			<Item Name="Compiled.Get CounterAndProtectionFrames.vi" Type="VI" URL="../SubVIs/Compiled.Get CounterAndProtectionFrames.vi"/>
 			<Item Name="Counter.Settings.vi" Type="VI" URL="../SubVIs/Counter.Settings.vi"/>
 			<Item Name="Defer Front Panel Updates.vi" Type="VI" URL="../SubVIs/Defer Front Panel Updates.vi"/>
 			<Item Name="FileDependency.Create.vi" Type="VI" URL="../SubVIs/FileDependency.Create.vi"/>
@@ -87,6 +88,8 @@
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="CAN Filter Type.ctl" Type="VI" URL="../Types/CAN Filter Type.ctl"/>
+			<Item Name="Export Frame GUIDs List.ctl" Type="VI" URL="../Types/Export Frame GUIDs List.ctl"/>
+			<Item Name="Export Frames List and Type.ctl" Type="VI" URL="../Types/Export Frames List and Type.ctl"/>
 			<Item Name="Frame Settings.ctl" Type="VI" URL="../Types/Frame Settings.ctl"/>
 			<Item Name="Protection Signal Linked Channels.ctl" Type="VI" URL="../Types/Protection Signal Linked Channels.ctl"/>
 			<Item Name="Protection Signal Settings.ctl" Type="VI" URL="../Types/Protection Signal Settings.ctl"/>
