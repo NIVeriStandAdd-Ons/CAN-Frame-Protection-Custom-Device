@@ -33,5 +33,4 @@ OpenG Error Library 4.2.0.23 or later
 
 ### Misc ###
 
-For the  follow Using Synchronization to Build Integration Test Systems with VeriStand
- http://www.ni.com/white-paper/14637/en/
+For the synchronization with the rest of VeriStand system follow: Using Synchronization to Build Integration Test Systems with VeriStand (http://www.ni.com/white-paper/14637/en/).
