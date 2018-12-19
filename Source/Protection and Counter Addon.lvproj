@@ -30,10 +30,10 @@
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utility/Copy .LLB to NI VeriStand dir.vi"/>
 			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utility/LLB Pre-Build CHM Build.vi"/>
 		</Item>
-		<Item Name="Custom Device Protection and Rolling Counter Addon.xml" Type="Document" URL="../Custom Device Protection and Rolling Counter Addon.xml"/>
-		<Item Name="Protection and Rolling Counter Addon Engine.lvlib" Type="Library" URL="../Engine/Protection and Rolling Counter Addon Engine.lvlib"/>
-		<Item Name="Protection and Rolling Counter Addon Shared.lvlib" Type="Library" URL="../Shared/Protection and Rolling Counter Addon Shared.lvlib"/>
-		<Item Name="Protection and Rolling Counter Addon System Explorer.lvlib" Type="Library" URL="../System Explorer/Protection and Rolling Counter Addon System Explorer.lvlib"/>
+		<Item Name="Custom Device Protection and Counter Addon.xml" Type="Document" URL="../Custom Device Protection and Counter Addon.xml"/>
+		<Item Name="Protection and Counter Addon Engine.lvlib" Type="Library" URL="../Engine/Protection and Counter Addon Engine.lvlib"/>
+		<Item Name="Protection and Counter Addon Shared.lvlib" Type="Library" URL="../Shared/Protection and Counter Addon Shared.lvlib"/>
+		<Item Name="Protection and Counter Addon System Explorer.lvlib" Type="Library" URL="../System Explorer/Protection and Counter Addon System Explorer.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -198,6 +198,9 @@
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../../../Protection Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
+			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../../../Protection Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
+			<Item Name="Protection and Counter Support System Explorer.lvlib" Type="Library" URL="../../../Protection Support/Source/System Explorer/Protection and Counter Support System Explorer.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
@@ -216,43 +219,55 @@
 				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Data</Property>
-				<Property Name="Destination[2].destName" Type="Str">Protection and Rolling Counter Addon Configuration LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Protection and Rolling Counter Addon Configuration.llb</Property>
+				<Property Name="Destination[2].destName" Type="Str">Protection and Counter Addon Configuration LLB</Property>
+				<Property Name="Destination[2].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Protection and Counter Addon Configuration.llb</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="Destination[3].destName" Type="Str">XML SysDef</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME</Property>
 				<Property Name="DestinationCount" Type="Int">4</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E458EB4D-0EE2-4F8E-A40E-3970572492C0}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{44DE7DC8-0103-4EAB-AC06-1832463AED2F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device Protection and Rolling Counter Addon.xml</Property>
+				<Property Name="Source[1].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[1].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Protection and Counter Addon System Explorer.lvlib/System Explorer</Property>
+				<Property Name="Source[1].properties[0].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[1].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[1].properties[1].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[1].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[1].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[1].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[1].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[1].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Protection and Rolling Counter Addon System Explorer.lvlib/System Explorer</Property>
-				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[2].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/NI VeriStand APIs</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[2].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[2].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[2].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[2].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[2].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[3].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[2].properties[3].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[4].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[2].properties[4].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/NI VeriStand APIs</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Protection and Counter Addon Shared.lvlib/Shared</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[3].properties[1].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[3].type" Type="Str">Allow debugging</Property>
@@ -261,23 +276,11 @@
 				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
-				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Protection and Rolling Counter Addon Shared.lvlib/Shared</Property>
-				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[4].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[4].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[4].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Help/Protection and Rolling Counter.chm</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Help/Protection and Counter.chm</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Custom Device Protection and Counter Addon.xml</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
@@ -286,20 +289,20 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Engine Release</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Protection and Rolling Counter Addon Engine Windows.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Protection and Counter Addon Engine Windows.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{32214451-43E2-4D3E-92C8-CE819321FAC4}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Protection and Rolling Counter Addon Engine Windows.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Protection and Counter Addon Engine Windows.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{933310DF-BB77-47CD-8215-B52104FF84C8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{44DE7DC8-0103-4EAB-AC06-1832463AED2F}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -313,7 +316,7 @@
 				<Property Name="Source[0].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Protection and Rolling Counter Addon Engine.lvlib/RT Driver VI.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Protection and Counter Addon Engine.lvlib/RT Driver VI.vi</Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -325,7 +328,7 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Protection and Rolling Counter Addon Engine.lvlib/Engine</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Protection and Counter Addon Engine.lvlib/Engine</Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[1].type" Type="Str">Allow debugging</Property>
@@ -355,7 +358,7 @@
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Protection and Rolling Counter Addon Shared.lvlib/Shared</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Protection and Counter Addon Shared.lvlib/Shared</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Allow debugging</Property>
@@ -370,7 +373,7 @@
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Protection and Rolling Counter Addon Engine.lvlib/Engine/Types</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Protection and Counter Addon Engine.lvlib/Engine/Types</Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -386,7 +389,7 @@
 				<Property Name="Source[6].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Protection and Rolling Counter Addon Engine.lvlib/Processes</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Protection and Counter Addon Engine.lvlib/Processes</Property>
 				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -456,8 +459,8 @@
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
-		<Item Name="Protection and Rolling Counter Addon Engine.lvlib" Type="Library" URL="../Engine/Protection and Rolling Counter Addon Engine.lvlib"/>
-		<Item Name="Protection and Rolling Counter Addon Shared.lvlib" Type="Library" URL="../Shared/Protection and Rolling Counter Addon Shared.lvlib"/>
+		<Item Name="Protection and Counter Addon Engine.lvlib" Type="Library" URL="../Engine/Protection and Counter Addon Engine.lvlib"/>
+		<Item Name="Protection and Counter Addon Shared.lvlib" Type="Library" URL="../Shared/Protection and Counter Addon Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_XNET Close All.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Close All.vi"/>
@@ -582,6 +585,8 @@
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../../../Protection Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
+			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../../../Protection Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -593,10 +598,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4DDC7D17-96A1-4AE7-BF29-EC0FD60BE89D}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Protection and Rolling Counter Addon Engine Pharlap.llb</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/Pharlap/Protection and Counter Addon Engine Pharlap.llb</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/Pharlap/Protection and Rolling Counter Addon Engine Pharlap.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">/Pharlap/Protection and Counter Addon Engine Pharlap.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
@@ -605,7 +610,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{AB9D6A0E-5149-4049-91ED-DA01A89208E8}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{DC3B112D-58BB-4885-A575-21049323C230}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Run when opened</Property>
@@ -616,7 +621,7 @@
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Rolling Counter Addon Shared.lvlib/Shared</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Counter Addon Shared.lvlib/Shared</Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[1].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -631,7 +636,7 @@
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[2].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Rolling Counter Addon Engine.lvlib/Engine</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Counter Addon Engine.lvlib/Engine</Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[2].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -660,7 +665,7 @@
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Rolling Counter Addon Engine.lvlib/RT Driver VI.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Counter Addon Engine.lvlib/RT Driver VI.vi</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -674,7 +679,7 @@
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Rolling Counter Addon Engine.lvlib/Processes/AsyncEngine.CANProtectionAndCounter.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Counter Addon Engine.lvlib/Processes/AsyncEngine.CANProtectionAndCounter.vi</Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -684,7 +689,7 @@
 				<Property Name="Source[6].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Rolling Counter Addon Engine.lvlib/Processes</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Counter Addon Engine.lvlib/Processes</Property>
 				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -756,8 +761,8 @@
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 			<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
 		</Item>
-		<Item Name="Protection and Rolling Counter Addon Engine.lvlib" Type="Library" URL="../Engine/Protection and Rolling Counter Addon Engine.lvlib"/>
-		<Item Name="Protection and Rolling Counter Addon Shared.lvlib" Type="Library" URL="../Shared/Protection and Rolling Counter Addon Shared.lvlib"/>
+		<Item Name="Protection and Counter Addon Engine.lvlib" Type="Library" URL="../Engine/Protection and Counter Addon Engine.lvlib"/>
+		<Item Name="Protection and Counter Addon Shared.lvlib" Type="Library" URL="../Shared/Protection and Counter Addon Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -882,6 +887,8 @@
 			<Item Name="NiFpga.dll" Type="Document" URL="NiFpga.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../../../Protection Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
+			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../../../Protection Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -894,10 +901,10 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{07F7378C-FCB4-4892-A904-863D32B86E3C}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/Linux_32_ARM/Protection and Rolling Counter Addon Engine Linux_32_ARM.llb</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/Linux_32_ARM/Protection and Counter Addon Engine Linux_32_ARM.llb</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/Linux_32_ARM/Protection and Rolling Counter Addon Engine Linux_32_ARM.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">/Linux_32_ARM/Protection and Counter Addon Engine Linux_32_ARM.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
@@ -906,7 +913,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2EEDB687-719C-4D69-81F1-4F8C23951E95}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{88B7EA65-4BBE-4719-9763-E31D59A8CE44}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -933,7 +940,7 @@
 				<Property Name="Source[1].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target - Linux_32_ARM/Protection and Rolling Counter Addon Engine.lvlib/RT Driver VI.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target - Linux_32_ARM/Protection and Counter Addon Engine.lvlib/RT Driver VI.vi</Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -950,7 +957,7 @@
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target - Linux_32_ARM/Protection and Rolling Counter Addon Engine.lvlib/Engine</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target - Linux_32_ARM/Protection and Counter Addon Engine.lvlib/Engine</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -966,7 +973,7 @@
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target - Linux_32_ARM/Protection and Rolling Counter Addon Engine.lvlib/Processes</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target - Linux_32_ARM/Protection and Counter Addon Engine.lvlib/Processes</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Allow debugging</Property>
@@ -982,7 +989,7 @@
 				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux_32_ARM/Protection and Rolling Counter Addon Shared.lvlib/Shared</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux_32_ARM/Protection and Counter Addon Shared.lvlib/Shared</Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[5].properties[1].type" Type="Str">Allow debugging</Property>
@@ -1053,8 +1060,8 @@
 		<Item Name="NI VeriStand APIs" Type="Folder">
 			<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 		</Item>
-		<Item Name="Protection and Rolling Counter Addon Engine.lvlib" Type="Library" URL="../Engine/Protection and Rolling Counter Addon Engine.lvlib"/>
-		<Item Name="Protection and Rolling Counter Addon Shared.lvlib" Type="Library" URL="../Shared/Protection and Rolling Counter Addon Shared.lvlib"/>
+		<Item Name="Protection and Counter Addon Engine.lvlib" Type="Library" URL="../Engine/Protection and Counter Addon Engine.lvlib"/>
+		<Item Name="Protection and Counter Addon Shared.lvlib" Type="Library" URL="../Shared/Protection and Counter Addon Shared.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_XNET Close All.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Close All.vi"/>
@@ -1180,6 +1187,8 @@
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../../../Protection Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
+			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../../../Protection Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Engine Release" Type="Source Distribution">
@@ -1192,11 +1201,11 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utility/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8308DA76-4737-4EBE-A109-BC088D885439}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/Protection and Rolling Counter Addon Engine Linux64.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/Protection and Counter Addon Engine Linux64.llb</Property>
+				<Property Name="Bld_version.build" Type="Int">14</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/Linux_x64/Protection and Rolling Counter Addon Engine Linux64.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">/Linux_x64/Protection and Counter Addon Engine Linux64.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
@@ -1205,7 +1214,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{CB1F7E25-EC6A-4822-AB94-023484B4527C}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E0036F93-2696-4CE3-A952-B87108207BB5}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Auto error handling</Property>
@@ -1231,7 +1240,7 @@
 				<Property Name="Source[1].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[1].type" Type="Str">Container</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protection and Rolling Counter Addon Engine.lvlib/RT Driver VI.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protection and Counter Addon Engine.lvlib/RT Driver VI.vi</Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -1248,7 +1257,7 @@
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protection and Rolling Counter Addon Engine.lvlib/Engine</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protection and Counter Addon Engine.lvlib/Engine</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Allow debugging</Property>
@@ -1264,7 +1273,7 @@
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protection and Rolling Counter Addon Engine.lvlib/Processes</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protection and Counter Addon Engine.lvlib/Processes</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -1280,7 +1289,7 @@
 				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protection and Rolling Counter Addon Shared.lvlib/Shared</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protection and Counter Addon Shared.lvlib/Shared</Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>

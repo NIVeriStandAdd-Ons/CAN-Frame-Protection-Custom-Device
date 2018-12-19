@@ -2,8 +2,8 @@
 <CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
 	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
 	<AddMenu>
-		<eng>Protection and Rolling Counter</eng>
-		<loc>Protection and Rolling Counter</loc>
+		<eng>Protection and Counter Addon</eng>
+		<loc>Protection and Counter Addon</loc>
 	</AddMenu>
 	<Version>1.2.0</Version>
   <Type>Inline HW Interface</Type>
@@ -13,7 +13,7 @@
 		<Type>Action</Type>
 		<Item2Launch>
 			<Type>To Common Doc Dir</Type>
-			<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Initialization VI.vi</Path>
+			<Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Initialization VI.vi</Path>
 		</Item2Launch>
 	</InitializationVI>
 	<CustomDeviceVI>
@@ -22,33 +22,33 @@
 				<SupportedTarget>Windows</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Engine Windows.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Engine Windows.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Protection and Counter Addon\Protection and Counter Addon Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 			<Source>
 				<SupportedTarget>Pharlap</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Protection and Rolling Counter Addon\Pharlap\Protection and Rolling Counter Addon Engine Pharlap.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\Protection and Counter Addon\Pharlap\Protection and Counter Addon Engine Pharlap.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Protection and Counter Addon\Protection and Counter Addon Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 			<Source>
 				<SupportedTarget>Linux_32_ARM</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Protection and Rolling Counter Addon\Linux_32_ARM\Protection and Rolling Counter Addon Engine Linux_32_ARM.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\Protection and Counter Addon\Linux_32_ARM\Protection and Counter Addon Engine Linux_32_ARM.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Engine Linux_32_ARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Protection and Counter Addon\Protection and Counter Addon Engine Linux_32_ARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 			<Source>
 				<SupportedTarget>Linux_x64</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Protection and Rolling Counter Addon\Linux_x64\Protection and Rolling Counter Addon Engine Linux64.llb\RT Driver VI.vi</Path>
+					<Path>Custom Devices\Protection and Counter Addon\Linux_x64\Protection and Counter Addon Engine Linux64.llb\RT Driver VI.vi</Path>
 				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Protection and Rolling Counter Addon\Protection and Rolling Counter Addon Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
+				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Protection and Counter Addon\Protection and Counter Addon Engine Linux64.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 		</SourceDistribution>
 	</CustomDeviceVI>
@@ -56,8 +56,8 @@
 	<Pages>
 		<Page>
 			<Name>
-				<eng>Protection and Rolling Counter</eng>
-				<loc>Protection and Rolling Counter</loc>
+				<eng>Protection and Counter Addon</eng>
+				<loc>Protection and Counter Addon</loc>
 			</Name>
 			<GUID>4d3156ae-de1b-463a-a86e-31c1bc069b17</GUID>
 			<Glyph>
@@ -66,7 +66,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Main Page.vi</Path>
+				<Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Main Page.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -78,7 +78,7 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\EnableDisable Main Page.vi</Path>
+						<Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\EnableDisable Main Page.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
@@ -121,21 +121,21 @@
 			</RunTimeMenu>
       <ActionVIOnDelete>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnDelete.vi</Path>
+        <Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\ActionVIOnDelete.vi</Path>
       </ActionVIOnDelete>
       <ActionVIOnLoad>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnLoad.vi</Path>
+        <Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\ActionVIOnLoad.vi</Path>
       </ActionVIOnLoad>
       <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnCompile.vi</Path>
+        <Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\ActionVIOnCompile.vi</Path>
       </ActionVIOnCompile>
 		</Page>
 		<Page>
 			<Name>
-				<eng>Protection and Rolling Counter</eng>
-				<loc>Protection and Rolling Counter</loc>
+				<eng>Protection and Counter Addon</eng>
+				<loc>Protection and Counter Addon</loc>
 			</Name>
 			<GUID>ac3d5221-c9c0-44f4-a291-06920e8a9c9a</GUID>
 			<Glyph>
@@ -144,7 +144,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Main Page.vi</Path>
+				<Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Main Page.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -156,7 +156,7 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\EnableDisable Main Page.vi</Path>
+						<Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\EnableDisable Main Page.vi</Path>
 					</Item2Launch>
 				</MenuItem>
 				<MenuItem>
@@ -199,15 +199,15 @@
 			</RunTimeMenu>
       <ActionVIOnDelete>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnDelete.vi</Path>
+        <Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\ActionVIOnDelete.vi</Path>
       </ActionVIOnDelete>
       <ActionVIOnLoad>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnLoad.vi</Path>
+        <Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\ActionVIOnLoad.vi</Path>
       </ActionVIOnLoad>
       <ActionVIOnCompile>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\ActionVIOnCompile.vi</Path>
+        <Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\ActionVIOnCompile.vi</Path>
       </ActionVIOnCompile>
 		</Page>
 		<Page>
@@ -223,7 +223,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Protection Channel.vi</Path>
+				<Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Protection Channel.vi</Path>
 			</Item2Launch>
 			<RunTimeMenu>
 				<MenuItem>
@@ -235,7 +235,7 @@
 					</Name>
 					<Item2Launch>
 						<Type>To Common Doc Dir</Type>
-						<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Select Channels.vi</Path>
+						<Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Select Channels.vi</Path>
 					</Item2Launch>
 				</MenuItem>
         <MenuItem>
@@ -247,7 +247,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Make Protection Signal.vi</Path>
+            <Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Make Protection Signal.vi</Path>
           </Item2Launch>
         </MenuItem>
 				<MenuItem>
@@ -305,8 +305,8 @@
 		</Page>
 		<Page>
 			<Name>
-				<eng>Rolling Counter Channel</eng>
-				<loc>Rolling Counter Channel</loc>
+				<eng>Counter Channel</eng>
+				<loc>Counter Channel</loc>
 			</Name>
 			<DisallowRenaming>true</DisallowRenaming>
 			<GUID>94e87467-031b-484c-a85e-bcbac581524d</GUID>
@@ -316,7 +316,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Rolling Counter Channel.vi</Path>
+				<Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Counter Page.vi</Path>
 			</Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -328,7 +328,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Make Counter Signal.vi</Path>
+            <Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Make Counter Signal.vi</Path>
           </Item2Launch>
         </MenuItem>
       </RunTimeMenu>
@@ -347,7 +347,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Status Channel.vi</Path>
+				<Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Status Channel.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -364,7 +364,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Section Page.vi</Path>
+				<Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Section Page.vi</Path>
 			</Item2Launch>
 		</Page>
    <Page>
@@ -381,7 +381,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Section Page.vi</Path>
+		<Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Section Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -413,7 +413,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Section Page.vi</Path>
+		<Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Section Page.vi</Path>
       </Item2Launch>
 	  <RunTimeMenu>
 	  		<MenuItem>
@@ -425,7 +425,7 @@
 				</Name>
 				<Item2Launch>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Select XNET Signals.vi</Path>
+					<Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Select XNET Signals.vi</Path>
 				</Item2Launch>
 			</MenuItem>
       <MenuItem>
@@ -496,7 +496,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Section Page.vi</Path>
+		<Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Section Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -528,7 +528,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Section Page.vi</Path>
+		<Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Section Page.vi</Path>
       </Item2Launch>
 	  <RunTimeMenu>
 	  		<MenuItem>
@@ -540,7 +540,7 @@
 				</Name>
 				<Item2Launch>
 					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Select XNET Signals.vi</Path>
+					<Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Select XNET Signals.vi</Path>
 				</Item2Launch>
 			</MenuItem>
       <MenuItem>
@@ -610,7 +610,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Frame Page.vi</Path>
+		<Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Frame Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -622,7 +622,7 @@
           </Name>
           <Item2Launch>
   					<Type>To Common Doc Dir</Type>
-					  <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Create Information Channels.vi</Path>
+					  <Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Create Information Channels.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -677,7 +677,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Frame Page.vi</Path>
+        <Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Frame Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -722,7 +722,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Section Page.vi</Path>
+        <Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Section Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -734,7 +734,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Select XNET Signals.vi</Path>
+            <Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Select XNET Signals.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -806,7 +806,7 @@
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-        <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Section Page.vi</Path>
+        <Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Section Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -818,7 +818,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Select XNET Signals.vi</Path>
+            <Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Select XNET Signals.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -888,7 +888,7 @@
 		</Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
-		<Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Signal Page.vi</Path>
+		<Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Signal Page.vi</Path>
       </Item2Launch>
       <RunTimeMenu>
         <MenuItem>
@@ -924,7 +924,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Make Counter Signal.vi</Path>
+            <Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Make Counter Signal.vi</Path>
           </Item2Launch>
         </MenuItem>
         <MenuItem>
@@ -936,7 +936,7 @@
           </Name>
           <Item2Launch>
             <Type>To Common Doc Dir</Type>
-            <Path>Custom Devices\Protection and Rolling Counter Addon\Windows\Protection and Rolling Counter Addon Configuration.llb\Make Protection Signal.vi</Path>
+            <Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Make Protection Signal.vi</Path>
           </Item2Launch>
         </MenuItem>
       </RunTimeMenu>

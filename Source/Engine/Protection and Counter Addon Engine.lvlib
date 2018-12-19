@@ -8,24 +8,13 @@
 			<Item Name="Bitfile.Download.vi" Type="VI" URL="../SubVIs/Bitfile.Download.vi"/>
 			<Item Name="Bitfile.Initialize.vi" Type="VI" URL="../SubVIs/Bitfile.Initialize.vi"/>
 			<Item Name="Bitfile.Unload.vi" Type="VI" URL="../SubVIs/Bitfile.Unload.vi"/>
-			<Item Name="CalculateCounterAndProtections.vi" Type="VI" URL="../SubVIs/CalculateCounterAndProtections.vi"/>
-			<Item Name="CalculateCounterAndProtections_Main.vi" Type="VI" URL="../SubVIs/CalculateCounterAndProtections_Main.vi"/>
+			<Item Name="Calculate Counter And Protections.vi" Type="VI" URL="../SubVIs/Calculate Counter And Protections.vi"/>
 			<Item Name="Close XNET References.vi" Type="VI" URL="../SubVIs/Close XNET References.vi"/>
-			<Item Name="Determine Periodic.vi" Type="VI" URL="../SubVIs/Determine Periodic.vi"/>
-			<Item Name="Determine Transmission.vi" Type="VI" URL="../SubVIs/Determine Transmission.vi"/>
-			<Item Name="Initialize Frames.vi" Type="VI" URL="../SubVIs/Initialize Frames.vi"/>
 			<Item Name="Initialize Generate.vi" Type="VI" URL="../SubVIs/Initialize Generate.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
-			<Item Name="FrameConfiguration.ctl" Type="VI" URL="../../Shared/Types/FrameConfiguration.ctl"/>
 			<Item Name="RT Async Engine Variables.ctl" Type="VI" URL="../Types/RT Async Engine Variables.ctl"/>
-			<Item Name="RT Counter Settings.ctl" Type="VI" URL="../Types/RT Counter Settings.ctl"/>
 			<Item Name="RT Data References.ctl" Type="VI" URL="../Types/RT Data References.ctl"/>
-			<Item Name="RT Engine Generate References.ctl" Type="VI" URL="../Types/RT Engine Generate References.ctl"/>
-			<Item Name="RT Engine Monitor References.ctl" Type="VI" URL="../Types/RT Engine Monitor References.ctl"/>
-			<Item Name="RT Engine State Variables.ctl" Type="VI" URL="../Types/RT Engine State Variables.ctl"/>
-			<Item Name="RT Frame Settings.ctl" Type="VI" URL="../Types/RT Frame Settings.ctl"/>
-			<Item Name="RT Protection Configuration.ctl" Type="VI" URL="../Types/RT Protection Configuration.ctl"/>
 		</Item>
 	</Item>
 	<Item Name="Processes" Type="Folder">

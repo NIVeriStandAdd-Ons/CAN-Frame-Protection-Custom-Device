@@ -9,14 +9,7 @@
 		</Item>
 		<Item Name="Types" Type="Folder">
 			<Item Name="986x.ctl" Type="VI" URL="../Types/986x.ctl"/>
-			<Item Name="Event Trigger Type.ctl" Type="VI" URL="../Types/Event Trigger Type.ctl"/>
-			<Item Name="Exported Counter Settings.ctl" Type="VI" URL="../Types/Exported Counter Settings.ctl"/>
-			<Item Name="Exported Frame Settings.ctl" Type="VI" URL="../Types/Exported Frame Settings.ctl"/>
-			<Item Name="Exported Frame Type.ctl" Type="VI" URL="../Types/Exported Frame Type.ctl"/>
-			<Item Name="Exported Protection Settings.ctl" Type="VI" URL="../Types/Exported Protection Settings.ctl"/>
 			<Item Name="Exported.OnCompile.ctl" Type="VI" URL="../Types/Exported.OnCompile.ctl"/>
-			<Item Name="InputChannelConfiguration.ctl" Type="VI" URL="../Types/InputChannelConfiguration.ctl"/>
-			<Item Name="Protection Type.ctl" Type="VI" URL="../Types/Protection Type.ctl"/>
 			<Item Name="XNET Settings.ctl" Type="VI" URL="../Types/XNET Settings.ctl"/>
 		</Item>
 	</Item>
