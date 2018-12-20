@@ -3,7 +3,7 @@ build_output_dir = 'Built'
 archive_location = '\\us-aus-hilbuild\builds\niveristandadd-ons\custom devices\protection_addon'
 
 [projects.cd]
-path = 'Source\Protection and Rolling Counter Addon.lvproj'
+path = 'Source\Protection and Counter Addon.lvproj'
 
 [[build.steps]]
 name = 'Configuration Library'
@@ -21,7 +21,7 @@ build_spec = 'Engine Release'
 [package]
 type = 'nipkg'
 name = 'protection-addon-{veristand_version}'
-dev_xml_path = 'Source\Custom Device Protection and Rolling Counter Addon.xml'
+dev_xml_path = 'Source\Custom Device Protection and Counter Addon.xml'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}'
 
 [[release.steps]]
