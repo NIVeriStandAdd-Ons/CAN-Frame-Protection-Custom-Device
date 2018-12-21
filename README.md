@@ -23,9 +23,13 @@ This addon shouldn't link to channels that are in an inline custom device (addon
 
 NI XNET 15.5 or later
 
-OpenG LabVIEW Data Library 4.2.0.21 or later
+VeriStand Addon Inline Async API (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-Inline-Async-API)
 
-OpenG Error Library 4.2.0.23 or later
+VeriStand Addon Hardware Resource Discovery (https://github.com/NIVeriStandAdd-Ons/Hardware-Resource-Discovery)
+
+VeriStand Addon System Definition Utilities (https://github.com/NIVeriStandAdd-Ons/VeriStand-Addon-System-Definition-Utilities)
+
+HTML Help File Tools (https://github.com/NIVeriStandAdd-Ons/HTML-Help-File-Tools)
 
 ### License ###
 
