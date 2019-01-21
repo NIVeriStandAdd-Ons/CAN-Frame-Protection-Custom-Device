@@ -9,7 +9,11 @@ LabVIEW 2015 SP1.
 
 ### Built Availability ###
 
-Users are allowed to build anything under Build Specifications in the source's LabVIEW project(s).  Pre-built versions are available upon request through NI Field Sales. 
+https://github.com/NIVeriStandAdd-Ons/CAN-Frame-Protection-Custom-Device/releases
+
+### Built Dependencies ###
+
+NI XNET 15.5 or later
 
 ### Quality, Limitations ###
 
@@ -19,7 +23,7 @@ This addon does not have all CRC/Checksum options implemented.
 
 This addon shouldn't link to channels that are in an inline custom device (addon).
 
-### Dependencies ###
+### Source Dependencies ###
 
 NI XNET 15.5 or later
 
