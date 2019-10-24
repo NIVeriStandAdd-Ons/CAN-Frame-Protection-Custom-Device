@@ -5,7 +5,7 @@ The CAN Frame Protection addon allows the user to easily select data channels fo
 
 ### LabVIEW Version ###
 
-LabVIEW 2015 SP1.
+LabVIEW 2019.
 
 ### Built Availability ###
 
@@ -13,7 +13,7 @@ https://github.com/NIVeriStandAdd-Ons/CAN-Frame-Protection-Custom-Device/release
 
 ### Built Dependencies ###
 
-NI XNET 15.5 or later
+NI XNET 19 or later
 
 ### Quality, Limitations ###
 
@@ -25,7 +25,7 @@ This addon shouldn't link to channels that are in an inline custom device (addon
 
 ### Source Dependencies ###
 
-NI XNET 15.5 or later
+NI XNET 19 or later
 
 VeriStand Addon Inline Async API (https://github.com/ni/niveristand-custom-device-inline-async-api)
 
