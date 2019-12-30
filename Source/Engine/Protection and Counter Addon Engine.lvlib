@@ -35,15 +35,18 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Engine" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Async Cleanup.vi" Type="VI" URL="../SubVIs/Async Cleanup.vi"/>
+			<Item Name="Async Initialize.vi" Type="VI" URL="../SubVIs/Async Initialize.vi"/>
 			<Item Name="Bitfile.Download.vi" Type="VI" URL="../SubVIs/Bitfile.Download.vi"/>
 			<Item Name="Bitfile.Initialize.vi" Type="VI" URL="../SubVIs/Bitfile.Initialize.vi"/>
 			<Item Name="Bitfile.Unload.vi" Type="VI" URL="../SubVIs/Bitfile.Unload.vi"/>
 			<Item Name="Calculate Counter And Protections.vi" Type="VI" URL="../SubVIs/Calculate Counter And Protections.vi"/>
-			<Item Name="Close XNET References.vi" Type="VI" URL="../SubVIs/Close XNET References.vi"/>
 			<Item Name="Format Debug String.vi" Type="VI" URL="../SubVIs/Format Debug String.vi"/>
 			<Item Name="Initialize Generate.vi" Type="VI" URL="../SubVIs/Initialize Generate.vi"/>
+			<Item Name="Network Engine.vi" Type="VI" URL="../SubVIs/Network Engine.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
+			<Item Name="RT Async Engine Settings.ctl" Type="VI" URL="../Types/RT Async Engine Settings.ctl"/>
 			<Item Name="RT Async Engine Variables.ctl" Type="VI" URL="../Types/RT Async Engine Variables.ctl"/>
 			<Item Name="RT Data References.ctl" Type="VI" URL="../Types/RT Data References.ctl"/>
 		</Item>
