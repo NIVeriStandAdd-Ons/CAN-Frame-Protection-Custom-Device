@@ -62,7 +62,7 @@
 			<GUID>4d3156ae-de1b-463a-a86e-31c1bc069b17</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\xnet.png</Path>
+				<Path>System Explorer\Glyphs\NI-XNET Port.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
@@ -140,7 +140,7 @@
 			<GUID>ac3d5221-c9c0-44f4-a291-06920e8a9c9a</GUID>
 			<Glyph>
 				<Type>To Application Data Dir</Type>
-				<Path>System Explorer\Glyphs\xnet_disabled.png</Path>
+				<Path>System Explorer\Glyphs\NI-XNET Port Disabled.png</Path>
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
