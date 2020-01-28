@@ -41,12 +41,12 @@
 				<Item Name="ActionVIOnLoad.vi" Type="VI" URL="../Actions/ActionVIOnLoad.vi"/>
 			</Item>
 			<Item Name="Extra Pages" Type="Folder">
-				<Item Name="Counter Page.vi" Type="VI" URL="../Pages/Counter Page.vi"/>
-				<Item Name="Frame Page.vi" Type="VI" URL="../Pages/Frame Page.vi"/>
-				<Item Name="Protection Channel.vi" Type="VI" URL="../Pages/Protection Channel.vi"/>
-				<Item Name="Section Page.vi" Type="VI" URL="../Pages/Section Page.vi"/>
-				<Item Name="Signal Page.vi" Type="VI" URL="../Pages/Signal Page.vi"/>
-				<Item Name="Status Channel.vi" Type="VI" URL="../Pages/Status Channel.vi"/>
+				<Item Name="Counter Page.vi" Type="VI" URL="../Extra Pages/Counter Page.vi"/>
+				<Item Name="Frame Page.vi" Type="VI" URL="../Extra Pages/Frame Page.vi"/>
+				<Item Name="Protection Channel.vi" Type="VI" URL="../Extra Pages/Protection Channel.vi"/>
+				<Item Name="Section Page.vi" Type="VI" URL="../Extra Pages/Section Page.vi"/>
+				<Item Name="Signal Page.vi" Type="VI" URL="../Extra Pages/Signal Page.vi"/>
+				<Item Name="Status Channel.vi" Type="VI" URL="../Extra Pages/Status Channel.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">
 				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../RTMs/EnableDisable Main Page.vi"/>
@@ -55,8 +55,8 @@
 				<Item Name="Select Channels.vi" Type="VI" URL="../RTMs/Select Channels.vi"/>
 				<Item Name="Select XNET Signals.vi" Type="VI" URL="../RTMs/Select XNET Signals.vi"/>
 			</Item>
-			<Item Name="Initialization VI.vi" Type="VI" URL="../Actions/Initialization VI.vi"/>
-			<Item Name="Main Page.vi" Type="VI" URL="../Pages/Main Page.vi"/>
+			<Item Name="Initialization VI.vi" Type="VI" URL="../Initialization VI.vi"/>
+			<Item Name="Main Page.vi" Type="VI" URL="../Main Page.vi"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="986x.Compile.vi" Type="VI" URL="../SubVIs/986x.Compile.vi"/>
