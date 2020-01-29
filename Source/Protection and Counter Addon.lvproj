@@ -246,7 +246,7 @@
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{26C5695C-62CC-44FE-B74C-3D1BBF93B255}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7F820B65-3202-47AE-9608-6D75B7CB38F5}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>
