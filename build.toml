@@ -21,7 +21,7 @@ build_spec = 'Engine Release'
 [package]
 type = 'nipkg'
 name = 'protection-addon-{veristand_version}'
-dev_xml_path = 'Source\Custom Device Protection and Counter Addon.xml'
+dev_xml_path = 'Source\Addon\Custom Device Protection and Counter Addon.xml'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}'
 
 [[release.steps]]

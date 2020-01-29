@@ -21,60 +21,8 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Addon" Type="Folder">
 			<Item Name="Support Files" Type="Folder">
-				<Item Name="Help" Type="Folder">
-					<Item Name="HTML Help Source" Type="Folder">
-						<Item Name="css" Type="Folder">
-							<Item Name="expandable_tree.css" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/css/expandable_tree.css"/>
-							<Item Name="VSsystemexplorer.css" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/css/VSsystemexplorer.css"/>
-						</Item>
-						<Item Name="js" Type="Folder">
-							<Item Name="arraytools.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/arraytools.js"/>
-							<Item Name="checkinstalled.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/checkinstalled.js"/>
-							<Item Name="common.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/common.js"/>
-							<Item Name="cssframes.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/cssframes.js"/>
-							<Item Name="domtools.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/domtools.js"/>
-							<Item Name="dynamiccontent.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/dynamiccontent.js"/>
-							<Item Name="dynamicjumps.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/dynamicjumps.js"/>
-							<Item Name="dynamiclinks.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/dynamiclinks.js"/>
-							<Item Name="expandable_tree.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/expandable_tree.js"/>
-							<Item Name="feedbacklink.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/feedbacklink.js"/>
-							<Item Name="Globals.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/Globals.js"/>
-							<Item Name="initpagedyn.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/initpagedyn.js"/>
-							<Item Name="launchhelp.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/launchhelp.js"/>
-							<Item Name="linking.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/linking.js"/>
-							<Item Name="objectnames.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/objectnames.js"/>
-							<Item Name="osbrowser.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/osbrowser.js"/>
-							<Item Name="pdf.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/pdf.js"/>
-							<Item Name="polyviselect.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/polyviselect.js"/>
-							<Item Name="stylesheets.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/stylesheets.js"/>
-							<Item Name="variables.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/variables.js"/>
-							<Item Name="web.js" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/js/web.js"/>
-						</Item>
-						<Item Name="Counter.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Counter.html"/>
-						<Item Name="Generate.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Generate.html"/>
-						<Item Name="InPage.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/InPage.html"/>
-						<Item Name="InSingleFramePage.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/InSingleFramePage.html"/>
-						<Item Name="InSinglePage.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/InSinglePage.html"/>
-						<Item Name="Main.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Main.html"/>
-						<Item Name="Monitor.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Monitor.html"/>
-						<Item Name="OutCyclicEventFramePage.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/OutCyclicEventFramePage.html"/>
-						<Item Name="OutCyclicEventPage.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/OutCyclicEventPage.html"/>
-						<Item Name="OutCyclicFramePage.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/OutCyclicFramePage.html"/>
-						<Item Name="OutCyclicPage.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/OutCyclicPage.html"/>
-						<Item Name="OutEventFramePage.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/OutEventFramePage.html"/>
-						<Item Name="OutEventPage.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/OutEventPage.html"/>
-						<Item Name="OutPage.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/OutPage.html"/>
-						<Item Name="ProtectionSignal.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/ProtectionSignal.html"/>
-						<Item Name="ReceiveTime.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/ReceiveTime.html"/>
-						<Item Name="SignalPage.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/SignalPage.html"/>
-						<Item Name="Status.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/Status.html"/>
-						<Item Name="TimeDif.html" Type="Document" URL="../Addon/Support Files/Help/HTML Help Source/TimeDif.html"/>
-					</Item>
-					<Item Name="Build CHM.cfg" Type="Document" URL="../Addon/Support Files/Help/Build CHM.cfg"/>
-					<Item Name="Build CHM.log" Type="Document" URL="../Addon/Support Files/Help/Build CHM.log"/>
-					<Item Name="Build CHM.vi" Type="VI" URL="../Addon/Support Files/Help/Build CHM.vi"/>
-					<Item Name="Protection and Counter.chm" Type="Document" URL="../Addon/Support Files/Help/Protection and Counter.chm"/>
-					<Item Name="Protection and Counter.hhp" Type="Document" URL="../Addon/Support Files/Help/Protection and Counter.hhp"/>
+				<Item Name="Help" Type="Folder" URL="../Addon/Support Files/Help">
+					<Property Name="NI.DISK" Type="Bool">true</Property>
 				</Item>
 			</Item>
 			<Item Name="Custom Device Protection and Counter Addon.xml" Type="Document" URL="../Addon/Custom Device Protection and Counter Addon.xml"/>
@@ -298,7 +246,7 @@
 				<Property Name="DestinationCount" Type="Int">4</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{1EE42134-EB27-4527-B7BC-0785750F1E58}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{26C5695C-62CC-44FE-B74C-3D1BBF93B255}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -347,11 +295,11 @@
 				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[2].type" Type="Str">Container</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Addon/Support Files/Help/Protection and Counter.chm</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">3</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Addon/Custom Device Protection and Counter Addon.xml</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">3</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Addon/Custom Device Protection and Counter Addon.xml</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Addon/Support Files/Help/Protection and Counter Addon.chm</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">5</Property>
 			</Item>
