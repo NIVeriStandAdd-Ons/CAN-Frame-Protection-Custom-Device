@@ -570,70 +570,70 @@
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6E7FBED1-8738-4930-A746-BD4E6D9A476F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{EB74EB43-CFF6-4BB4-BB6C-11C504EAEF61}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
-				<Property Name="Source[1].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UIs/Protection and Counter Bus Tool.lvlib/Protection and Counter Bus - Tool.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/APIs/Protection and Counter Host Automation API.lvlib/Connect.vi</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/APIs/Protection and Counter Host Automation API.lvlib/Disconnect.vi</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/APIs/Protection and Counter Host Automation API.lvlib/Disconnect.vi</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/APIs/Protection and Counter Host Automation API.lvlib/PassThru.vi</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/APIs/Protection and Counter Host Automation API.lvlib/PassThru.vi</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/APIs/Protection and Counter Host Automation API.lvlib/GetStreamingFilter.vi</Property>
 				<Property Name="Source[12].type" Type="Str">VI</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/APIs/Protection and Counter Host Automation API.lvlib/GetStreamingFilter.vi</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/APIs/Protection and Counter Host Automation API.lvlib/ResetStreamingFilter.vi</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/APIs/Protection and Counter Host Automation API.lvlib/ResetStreamingFilter.vi</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/APIs/Protection and Counter Host Automation API.lvlib/SetStreamingFilter.vi</Property>
 				<Property Name="Source[14].type" Type="Str">VI</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/APIs/Protection and Counter Host Automation API.lvlib/SetStreamingFilter.vi</Property>
-				<Property Name="Source[15].type" Type="Str">VI</Property>
-				<Property Name="Source[16].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/UIs/Protection and Counter Bus Tool.lvlib</Property>
-				<Property Name="Source[16].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[16].type" Type="Str">Library</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/UIs/Protection and Counter Bus Tool.lvlib/Protection and Counter Bus - Tool.vi</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/UIs/Protection and Counter Bus Tool.lvlib</Property>
+				<Property Name="Source[15].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[15].type" Type="Str">Library</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/UIs/Protection and Counter Bus Tool.lvlib/Protection and Counter Bus - Tool.rtm</Property>
+				<Property Name="Source[16].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[16].sourceInclusion" Type="Str">Exclude</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Addon/Protection and Counter Addon Shared.lvlib</Property>
+				<Property Name="Source[2].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[2].type" Type="Str">Library</Property>
+				<Property Name="Source[3].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Addon/Protection and Counter Addon Shared.lvlib</Property>
-				<Property Name="Source[3].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[3].type" Type="Str">Library</Property>
-				<Property Name="Source[4].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Addon/Protection and Counter Addon Shared.lvlib/Shared</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Addon/Protection and Counter Addon Shared.lvlib/Shared</Property>
-				<Property Name="Source[4].type" Type="Str">Container</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/UIs/Protection and Counter Workspace Shared.lvlib</Property>
+				<Property Name="Source[4].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[4].type" Type="Str">Library</Property>
+				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/UIs/Protection and Counter Workspace Shared.lvlib</Property>
-				<Property Name="Source[5].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[5].type" Type="Str">Library</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/UIs/Protection and Counter Workspace Shared.lvlib/SubVIs</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
 				<Property Name="Source[6].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/UIs/Protection and Counter Workspace Shared.lvlib/SubVIs</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/UIs/Protection and Counter Workspace Shared.lvlib/Types</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="Source[7].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/UIs/Protection and Counter Workspace Shared.lvlib/Types</Property>
-				<Property Name="Source[7].type" Type="Str">Container</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/APIs/Protection and Counter Host Automation API.lvlib</Property>
+				<Property Name="Source[7].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[7].type" Type="Str">Library</Property>
+				<Property Name="Source[8].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[8].Container.depDestIndex" Type="Int">0</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/APIs/Protection and Counter Host Automation API.lvlib</Property>
-				<Property Name="Source[8].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[8].type" Type="Str">Library</Property>
-				<Property Name="Source[9].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[9].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/APIs/Protection and Counter Host Automation API.lvlib/Types</Property>
+				<Property Name="Source[8].type" Type="Str">Container</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/APIs/Protection and Counter Host Automation API.lvlib/Types</Property>
-				<Property Name="Source[9].type" Type="Str">Container</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/APIs/Protection and Counter Host Automation API.lvlib/Connect.vi</Property>
+				<Property Name="Source[9].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">17</Property>
 			</Item>
 			<Item Name="Workspace Tool EXE" Type="EXE">
