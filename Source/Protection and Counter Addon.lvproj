@@ -573,7 +573,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{6E7FBED1-8738-4930-A746-BD4E6D9A476F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UIs/Protection and Counter Bus Tool.lvlib/Bus Stream - Tool.rtm</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].lvfile" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">2</Property>
@@ -599,7 +599,7 @@
 				<Property Name="Source[16].Library.allowMissingMembers" Type="Bool">true</Property>
 				<Property Name="Source[16].type" Type="Str">Library</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/UIs/Protection and Counter Bus Tool.lvlib/Bus Stream - Tool.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/UIs/Protection and Counter Bus Tool.lvlib/Protection and Counter Bus - Tool.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">2</Property>
@@ -663,11 +663,11 @@
 				<Property Name="Source[0].itemID" Type="Str">{6E7FBED1-8738-4930-A746-BD4E6D9A476F}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UIs/Protection and Counter Bus Tool.lvlib/Bus Stream - Tool.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UIs/Protection and Counter Bus Tool.lvlib/Protection and Counter Bus - Tool.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/UIs/Protection and Counter Bus Tool.lvlib/Bus Stream - Tool.rtm</Property>
+				<Property Name="Source[2].itemID" Type="Ref"></Property>
 				<Property Name="Source[2].lvfile" Type="Bool">true</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
