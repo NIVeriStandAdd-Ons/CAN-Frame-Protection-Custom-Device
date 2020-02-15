@@ -309,9 +309,9 @@
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
-			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
-			<Item Name="Protection and Counter Support System Explorer.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/System Explorer/Protection and Counter Support System Explorer.lvlib"/>
+			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
+			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
+			<Item Name="Protection and Counter Support System Explorer.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/System Explorer/Protection and Counter Support System Explorer.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -877,8 +877,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Protection and Counter Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Protection and Counter Addon Shared.lvlib"/>
-			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
-			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
+			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
+			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1217,8 +1217,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Protection and Counter Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Protection and Counter Addon Shared.lvlib"/>
-			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
-			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
+			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
+			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1550,8 +1550,8 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Protection and Counter Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Protection and Counter Addon Shared.lvlib"/>
-			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
-			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame Protection Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
+			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
+			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
