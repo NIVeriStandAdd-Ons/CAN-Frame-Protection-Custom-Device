@@ -18,6 +18,20 @@ type = 'lvBuildSpecAllTargets'
 project = '{cd}'
 build_spec = 'Engine Release'
 
+[[build.steps]]
+name = 'Workspace Tool'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Workspace Tool'
+
+[[build.steps]]
+name = 'Workspace Tool EXE'
+type = 'lvBuildSpec'
+project = '{cd}'
+target = 'My Computer'
+build_spec = 'Workspace Tool EXE'
+
 [package]
 type = 'nipkg'
 name = 'protection-addon-{veristand_version}'
