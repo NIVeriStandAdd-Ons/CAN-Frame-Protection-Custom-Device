@@ -13,7 +13,9 @@ https://github.com/NIVeriStandAdd-Ons/CAN-Frame-Protection-Custom-Device/release
 
 ### Built Dependencies ###
 
-NI XNET 19 or later
+NI XNET 19.0 or later
+
+Network Streams 19.0 or later
 
 ### Quality, Limitations ###
 
