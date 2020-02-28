@@ -34,7 +34,7 @@ build_spec = 'Workspace Tool EXE'
 
 [package]
 type = 'nipkg'
-name = 'protection-addon-{veristand_version}'
+name = 'ni-protection-addon-{veristand_version}'
 dev_xml_path = 'Source\Addon\Custom Device Protection and Counter Addon.xml'
 install_destination = 'documents\National Instruments\NI VeriStand {veristand_version}'
 
