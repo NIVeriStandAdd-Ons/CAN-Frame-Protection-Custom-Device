@@ -3,9 +3,15 @@ CAN-Frame-Protection-Custom-Device
 
 The CAN Frame Protection addon allows the user to easily select data channels for calculating a CRC or checksum.  It creates and maps rolling counters and CRC/checksum channels to selected outgoing signals.
 
-### LabVIEW Version ###
+### Help ###
 
-LabVIEW 2019.
+Quick Start Documentation is at
+
+Built: C:\Users\Public\Documents\National Instruments\NI VeriStand <Year>\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation
+
+Source: Source\Addon\Support Files\Quick Start Documentation
+
+Help is also included in most System Explorer sections.
 
 ### Built Availability ###
 
@@ -23,7 +29,9 @@ IP has been tested by developer. It meets VeriStand addon coding best practices.
 
 This addon does not have all CRC/Checksum options implemented.
 
-This addon shouldn't link to channels that are in an inline custom device (addon).
+### Source Version ###
+
+LabVIEW 2019
 
 ### Source Dependencies ###
 

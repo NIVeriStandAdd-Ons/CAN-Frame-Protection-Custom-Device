@@ -24,6 +24,9 @@
 				<Item Name="Help" Type="Folder" URL="../Addon/Support Files/Help">
 					<Property Name="NI.DISK" Type="Bool">true</Property>
 				</Item>
+				<Item Name="Quick Start Documentation" Type="Folder" URL="../Addon/Support Files/Quick Start Documentation">
+					<Property Name="NI.DISK" Type="Bool">true</Property>
+				</Item>
 			</Item>
 			<Item Name="Custom Device Protection and Counter Addon.xml" Type="Document" URL="../Addon/Custom Device Protection and Counter Addon.xml"/>
 			<Item Name="Protection and Counter Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/Protection and Counter Addon Engine.lvlib"/>
@@ -338,10 +341,13 @@
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="Destination[3].destName" Type="Str">XML SysDef</Property>
 				<Property Name="Destination[3].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME</Property>
-				<Property Name="DestinationCount" Type="Int">4</Property>
+				<Property Name="Destination[4].destName" Type="Str">Quick Start Documentation</Property>
+				<Property Name="Destination[4].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Quick Start Documentation</Property>
+				<Property Name="Destination[4].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{7F820B65-3202-47AE-9608-6D75B7CB38F5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E6F46B1D-AE17-4F7D-B729-3D9F1A1FE5C9}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -396,7 +402,14 @@
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Addon/Support Files/Help/Protection and Counter Addon.chm</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">5</Property>
+				<Property Name="Source[5].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">4</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Addon/Support Files/Quick Start Documentation</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
 			<Item Name="Engine Release" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{BDB37E78-1B48-4DD8-B51B-9DFE56743A02}</Property>
