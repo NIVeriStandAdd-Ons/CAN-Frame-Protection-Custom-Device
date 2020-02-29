@@ -7,7 +7,7 @@ The CAN Frame Protection addon allows the user to easily select data channels fo
 
 Quick Start Documentation is at
 
-Built: C:\Users\Public\Documents\National Instruments\NI VeriStand <Year>\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation
+Built: C:\Users\Public\Documents\National Instruments\NI VeriStand (Year)\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation
 
 Source: Source\Addon\Support Files\Quick Start Documentation
 
