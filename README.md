@@ -1,5 +1,7 @@
-CAN-Frame-Protection-Custom-Device
+Protection-and-Counter-Addon
 ===================
+
+### Description ###
 
 The CAN Frame Protection addon allows the user to easily select data channels for calculating a CRC or checksum.  It creates and maps rolling counters and CRC/checksum channels to selected outgoing signals.
 
