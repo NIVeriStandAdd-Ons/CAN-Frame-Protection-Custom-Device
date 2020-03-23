@@ -5,7 +5,7 @@
 		<eng>Protection and Counter Addon</eng>
 		<loc>Protection and Counter Addon</loc>
 	</AddMenu>
-	<Version>1.2.2</Version>
+	<Version>1.2.3</Version>
   <Type>Inline HW Interface</Type>
 	<MaxOccurrence>2474</MaxOccurrence>
 	<MainPageGUID>4d3156ae-de1b-463a-a86e-31c1bc069b17</MainPageGUID>
@@ -347,7 +347,7 @@
 			</Glyph>
 			<Item2Launch>
 				<Type>To Common Doc Dir</Type>
-				<Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Status Channel.vi</Path>
+				<Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Protected Channel.vi</Path>
 			</Item2Launch>
 		</Page>
 		<Page>
@@ -874,6 +874,23 @@
           </Documentation>
         </Button>
       </ButtonList>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Protected Signal</eng>
+        <loc>Protected Signal</loc>
+      </Name>
+      <DisallowRenaming>true</DisallowRenaming>
+      <DeleteProtection>true</DeleteProtection>
+      <GUID>D95BE1B9-793B-430A-998F-7F352C03EC7C</GUID>
+      <Glyph>
+        <Type>To Application Data Dir</Type>
+        <Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
+      </Glyph>
+      <Item2Launch>
+        <Type>To Common Doc Dir</Type>
+        <Path>Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb\Protected Channel.vi</Path>
+      </Item2Launch>
     </Page>
     <Page>
       <Name>
