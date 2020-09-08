@@ -284,6 +284,7 @@
 				<Item Name="XNET Write.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write.vi"/>
 			</Item>
 			<Item Name="Add Information Channels.vi" Type="VI" URL="../Addon/Addon System Explorer/SubVIs/Add Information Channels.vi"/>
+			<Item Name="Add Remove Invalid Count Channel.vi" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/System Explorer/SubVIs/Add Remove Invalid Count Channel.vi"/>
 			<Item Name="CAN Stream Support Engine.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/CAN Stream Support Engine.lvlib"/>
 			<Item Name="CAN Stream Support Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Shared/CAN Stream Support Shared.lvlib"/>
 			<Item Name="CAN Stream Support Workspace Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/UIs/Workspace Shared/CAN Stream Support Workspace Shared.lvlib"/>
@@ -325,7 +326,6 @@
 			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
 			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
 			<Item Name="Protection and Counter Support System Explorer.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/System Explorer/Protection and Counter Support System Explorer.lvlib"/>
-			<Item Name="Protection_Valid_Calculation.vi" Type="VI" URL="../Addon/Addon Engine/SubVIs/Protection_Valid_Calculation.vi"/>
 			<Item Name="RT Exported Signal Settings.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/RT Exported Signal Settings.ctl"/>
 			<Item Name="RT_Incoming_Signal_Info.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/RT_Incoming_Signal_Info.ctl"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
@@ -915,7 +915,6 @@
 			<Item Name="Protection and Counter Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Protection and Counter Addon Shared.lvlib"/>
 			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
 			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
-			<Item Name="Protection_Valid_Calculation.vi" Type="VI" URL="../Addon/Addon Engine/SubVIs/Protection_Valid_Calculation.vi"/>
 			<Item Name="RT Exported Signal Settings.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/RT Exported Signal Settings.ctl"/>
 			<Item Name="RT_Incoming_Signal_Info.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/RT_Incoming_Signal_Info.ctl"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
@@ -1266,7 +1265,6 @@
 			<Item Name="Protection and Counter Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Protection and Counter Addon Shared.lvlib"/>
 			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
 			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
-			<Item Name="Protection_Valid_Calculation.vi" Type="VI" URL="../Addon/Addon Engine/SubVIs/Protection_Valid_Calculation.vi"/>
 			<Item Name="RT Exported Signal Settings.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/RT Exported Signal Settings.ctl"/>
 			<Item Name="RT_Incoming_Signal_Info.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/RT_Incoming_Signal_Info.ctl"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
@@ -1610,7 +1608,6 @@
 			<Item Name="Protection and Counter Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Protection and Counter Addon Shared.lvlib"/>
 			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
 			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
-			<Item Name="Protection_Valid_Calculation.vi" Type="VI" URL="../Addon/Addon Engine/SubVIs/Protection_Valid_Calculation.vi"/>
 			<Item Name="RT Exported Signal Settings.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/RT Exported Signal Settings.ctl"/>
 			<Item Name="RT_Incoming_Signal_Info.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/RT_Incoming_Signal_Info.ctl"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">

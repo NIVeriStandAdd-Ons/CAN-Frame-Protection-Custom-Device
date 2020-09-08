@@ -742,8 +742,8 @@
     <!-- Adding pages for new Incoming channels -->
     <Page>
       <Name>
-        <eng>Counter Invalid Count</eng>
-        <loc>Counter Invalid Count</loc>
+        <eng>Invalid Count</eng>
+        <loc>Invalid Count</loc>
       </Name>
       <DisallowRenaming>true</DisallowRenaming>
       <DeleteProtection>true</DeleteProtection>
