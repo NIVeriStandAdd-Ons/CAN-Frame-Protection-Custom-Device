@@ -45,7 +45,6 @@
 			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utilities/LLB Pre-Build CHM Build.vi"/>
 		</Item>
 		<Item Name="Incoming Frame Info.ctl" Type="VI" URL="../Addon/Addon Engine/Types/Incoming Frame Info.ctl"/>
-		<Item Name="Process Incoming Frames.vi" Type="VI" URL="../Addon/Addon Engine/SubVIs/Process Incoming Frames.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Reorder 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array (CDB)__ogtk.vi"/>
@@ -292,7 +291,6 @@
 			<Item Name="Exported Signal Settings.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/Exported Signal Settings.ctl"/>
 			<Item Name="Get Compiled Counter And Protection Incoming Frames.vi" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/System Explorer/SubVIs/Get Compiled Counter And Protection Incoming Frames.vi"/>
 			<Item Name="Incoming Signal Info.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/Incoming Signal Info.ctl"/>
-			<Item Name="Incoming Signal RT Data References.ctl" Type="VI" URL="../Addon/Addon Engine/Types/Incoming Signal RT Data References.ctl"/>
 			<Item Name="Initialize Incoming Protection Signals.vi" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Engine/SubVIs/Initialize Incoming Protection Signals.vi"/>
 			<Item Name="Initialize Incoming.vi" Type="VI" URL="../Addon/Addon Engine/SubVIs/Initialize Incoming.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
@@ -899,9 +897,7 @@
 			<Item Name="CAN Stream Support Engine.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/CAN Stream Support Engine.lvlib"/>
 			<Item Name="CAN Stream Support Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Shared/CAN Stream Support Shared.lvlib"/>
 			<Item Name="Exported Signal Settings.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/Exported Signal Settings.ctl"/>
-			<Item Name="Incoming Frame Info.ctl" Type="VI" URL="../Addon/Addon Engine/Types/Incoming Frame Info.ctl"/>
 			<Item Name="Incoming Signal Info.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/Incoming Signal Info.ctl"/>
-			<Item Name="Incoming Signal RT Data References.ctl" Type="VI" URL="../Addon/Addon Engine/Types/Incoming Signal RT Data References.ctl"/>
 			<Item Name="Initialize Incoming Protection Signals.vi" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Engine/SubVIs/Initialize Incoming Protection Signals.vi"/>
 			<Item Name="Initialize Incoming.vi" Type="VI" URL="../Addon/Addon Engine/SubVIs/Initialize Incoming.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
@@ -911,7 +907,6 @@
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Process Incoming Frames.vi" Type="VI" URL="../Addon/Addon Engine/SubVIs/Process Incoming Frames.vi"/>
 			<Item Name="Protection and Counter Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Protection and Counter Addon Shared.lvlib"/>
 			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
 			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
@@ -1249,9 +1244,7 @@
 			<Item Name="CAN Stream Support Engine.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/CAN Stream Support Engine.lvlib"/>
 			<Item Name="CAN Stream Support Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Shared/CAN Stream Support Shared.lvlib"/>
 			<Item Name="Exported Signal Settings.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/Exported Signal Settings.ctl"/>
-			<Item Name="Incoming Frame Info.ctl" Type="VI" URL="../Addon/Addon Engine/Types/Incoming Frame Info.ctl"/>
 			<Item Name="Incoming Signal Info.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/Incoming Signal Info.ctl"/>
-			<Item Name="Incoming Signal RT Data References.ctl" Type="VI" URL="../Addon/Addon Engine/Types/Incoming Signal RT Data References.ctl"/>
 			<Item Name="Initialize Incoming Protection Signals.vi" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Engine/SubVIs/Initialize Incoming Protection Signals.vi"/>
 			<Item Name="Initialize Incoming.vi" Type="VI" URL="../Addon/Addon Engine/SubVIs/Initialize Incoming.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
@@ -1261,7 +1254,6 @@
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Process Incoming Frames.vi" Type="VI" URL="../Addon/Addon Engine/SubVIs/Process Incoming Frames.vi"/>
 			<Item Name="Protection and Counter Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Protection and Counter Addon Shared.lvlib"/>
 			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
 			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
@@ -1592,9 +1584,7 @@
 			<Item Name="CAN Stream Support Engine.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/CAN Stream Support Engine.lvlib"/>
 			<Item Name="CAN Stream Support Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Shared/CAN Stream Support Shared.lvlib"/>
 			<Item Name="Exported Signal Settings.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/Exported Signal Settings.ctl"/>
-			<Item Name="Incoming Frame Info.ctl" Type="VI" URL="../Addon/Addon Engine/Types/Incoming Frame Info.ctl"/>
 			<Item Name="Incoming Signal Info.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/Incoming Signal Info.ctl"/>
-			<Item Name="Incoming Signal RT Data References.ctl" Type="VI" URL="../Addon/Addon Engine/Types/Incoming Signal RT Data References.ctl"/>
 			<Item Name="Initialize Incoming Protection Signals.vi" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Engine/SubVIs/Initialize Incoming Protection Signals.vi"/>
 			<Item Name="Initialize Incoming.vi" Type="VI" URL="../Addon/Addon Engine/SubVIs/Initialize Incoming.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
@@ -1604,7 +1594,6 @@
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Process Incoming Frames.vi" Type="VI" URL="../Addon/Addon Engine/SubVIs/Process Incoming Frames.vi"/>
 			<Item Name="Protection and Counter Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Protection and Counter Addon Shared.lvlib"/>
 			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
 			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
