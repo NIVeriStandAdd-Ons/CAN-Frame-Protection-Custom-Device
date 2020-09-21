@@ -41,6 +41,7 @@
 		<Item Name="Types" Type="Folder">
 			<Item Name="986x.ctl" Type="VI" URL="../Types/986x.ctl"/>
 			<Item Name="Exported.OnCompile.ctl" Type="VI" URL="../Types/Exported.OnCompile.ctl"/>
+			<Item Name="Incoming Frame Info.ctl" Type="VI" URL="../../Addon Engine/Types/Incoming Frame Info.ctl"/>
 			<Item Name="XNET Settings.ctl" Type="VI" URL="../Types/XNET Settings.ctl"/>
 		</Item>
 	</Item>
