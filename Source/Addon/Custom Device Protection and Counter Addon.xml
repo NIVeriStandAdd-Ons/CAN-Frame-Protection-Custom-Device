@@ -603,6 +603,7 @@
         <loc>Incoming Frame</loc>
       </Name>
       <DisallowRenaming>true</DisallowRenaming>
+      <ExcludeFromAlphabeticalOrder>true</ExcludeFromAlphabeticalOrder>
       <GUID>b05244b8-7523-4075-97f9-80c23ea41b5d</GUID>
       <Glyph>
 			<Type>To Application Data Dir</Type>
