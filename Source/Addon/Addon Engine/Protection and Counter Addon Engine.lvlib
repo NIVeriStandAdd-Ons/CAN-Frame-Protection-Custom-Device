@@ -54,6 +54,7 @@
 		<Item Name="RT Async Engine Variables.ctl" Type="VI" URL="../Types/RT Async Engine Variables.ctl"/>
 		<Item Name="RT Data References.ctl" Type="VI" URL="../Types/RT Data References.ctl"/>
 	</Item>
+	<Item Name="Initialize Incoming.vi" Type="VI" URL="../SubVIs/Initialize Incoming.vi"/>
 	<Item Name="Process All Signals.vi" Type="VI" URL="../SubVIs/Process All Signals.vi"/>
 	<Item Name="Process Counter Signals.vi" Type="VI" URL="../SubVIs/Process Counter Signals.vi"/>
 	<Item Name="Process Protection Signals.vi" Type="VI" URL="../SubVIs/Process Protection Signals.vi"/>

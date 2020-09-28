@@ -288,10 +288,10 @@
 			<Item Name="CAN Stream Support Workspace Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/UIs/Workspace Shared/CAN Stream Support Workspace Shared.lvlib"/>
 			<Item Name="Create Information Channels.vi" Type="VI" URL="../Addon/Addon System Explorer/RTMs/Create Information Channels.vi"/>
 			<Item Name="Exported Signal Settings.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/Exported Signal Settings.ctl"/>
-			<Item Name="Get Compiled Counter And Protection Incoming Frames.vi" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/System Explorer/SubVIs/Get Compiled Counter And Protection Incoming Frames.vi"/>
+			<Item Name="Get Compiled Counter And Protection Incoming Signals.vi" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/System Explorer/SubVIs/Get Compiled Counter And Protection Incoming Signals.vi"/>
 			<Item Name="Incoming Signal Info.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/Incoming Signal Info.ctl"/>
 			<Item Name="Initialize Incoming Protection Signals.vi" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Engine/SubVIs/Initialize Incoming Protection Signals.vi"/>
-			<Item Name="Initialize Incoming.vi" Type="VI" URL="../Addon/Addon Engine/SubVIs/Initialize Incoming.vi"/>
+			<Item Name="Initialize Incoming Signals.vi" Type="VI" URL="../Addon/Addon Engine/SubVIs/Initialize Incoming Signals.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -898,7 +898,7 @@
 			<Item Name="Exported Signal Settings.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/Exported Signal Settings.ctl"/>
 			<Item Name="Incoming Signal Info.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/Incoming Signal Info.ctl"/>
 			<Item Name="Initialize Incoming Protection Signals.vi" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Engine/SubVIs/Initialize Incoming Protection Signals.vi"/>
-			<Item Name="Initialize Incoming.vi" Type="VI" URL="../Addon/Addon Engine/SubVIs/Initialize Incoming.vi"/>
+			<Item Name="Initialize Incoming Signals.vi" Type="VI" URL="../Addon/Addon Engine/SubVIs/Initialize Incoming Signals.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="NiFpga.dll" Type="Document" URL="NiFpga.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1245,7 +1245,7 @@
 			<Item Name="Exported Signal Settings.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/Exported Signal Settings.ctl"/>
 			<Item Name="Incoming Signal Info.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/Incoming Signal Info.ctl"/>
 			<Item Name="Initialize Incoming Protection Signals.vi" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Engine/SubVIs/Initialize Incoming Protection Signals.vi"/>
-			<Item Name="Initialize Incoming.vi" Type="VI" URL="../Addon/Addon Engine/SubVIs/Initialize Incoming.vi"/>
+			<Item Name="Initialize Incoming Signals.vi" Type="VI" URL="../Addon/Addon Engine/SubVIs/Initialize Incoming Signals.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="NiFpga.dll" Type="Document" URL="NiFpga.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1585,7 +1585,7 @@
 			<Item Name="Exported Signal Settings.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/Exported Signal Settings.ctl"/>
 			<Item Name="Incoming Signal Info.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/Incoming Signal Info.ctl"/>
 			<Item Name="Initialize Incoming Protection Signals.vi" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Engine/SubVIs/Initialize Incoming Protection Signals.vi"/>
-			<Item Name="Initialize Incoming.vi" Type="VI" URL="../Addon/Addon Engine/SubVIs/Initialize Incoming.vi"/>
+			<Item Name="Initialize Incoming Signals.vi" Type="VI" URL="../Addon/Addon Engine/SubVIs/Initialize Incoming Signals.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="NiFpga.dll" Type="Document" URL="NiFpga.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
