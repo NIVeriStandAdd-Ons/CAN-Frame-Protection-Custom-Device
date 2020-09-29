@@ -752,7 +752,7 @@
       <GUID>afb8a5df-af0a-415b-a4a9-80e19e724a73</GUID>
       <Glyph>
         <Type>To Application Data Dir</Type>
-        <Path>System Explorer\Glyphs\channel.png</Path>
+        <Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
@@ -771,7 +771,7 @@
       <GUID>4d205a57-60cc-4efa-a0ca-6814bbbf829a</GUID>
       <Glyph>
         <Type>To Application Data Dir</Type>
-        <Path>System Explorer\Glyphs\channel.png</Path>
+        <Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
       </Glyph>
       <Item2Launch>
         <Type>To Common Doc Dir</Type>
