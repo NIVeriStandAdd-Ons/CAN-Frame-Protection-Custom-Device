@@ -50,6 +50,7 @@
 		<Item Name="Process Incoming Frames.vi" Type="VI" URL="../SubVIs/Process Incoming Frames.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
+		<Item Name="Incoming Values.ctl" Type="VI" URL="../Types/Incoming Values.ctl"/>
 		<Item Name="RT Async Engine Settings.ctl" Type="VI" URL="../Types/RT Async Engine Settings.ctl"/>
 		<Item Name="RT Async Engine Variables.ctl" Type="VI" URL="../Types/RT Async Engine Variables.ctl"/>
 		<Item Name="RT Data References.ctl" Type="VI" URL="../Types/RT Data References.ctl"/>
