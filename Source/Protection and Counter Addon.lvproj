@@ -282,11 +282,9 @@
 				<Item Name="XNET Write.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write.vi"/>
 			</Item>
 			<Item Name="Add Information Channels.vi" Type="VI" URL="../Addon/Addon System Explorer/SubVIs/Add Information Channels.vi"/>
-			<Item Name="Add Remove Invalid Count Channel.vi" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/System Explorer/SubVIs/Add Remove Invalid Count Channel.vi"/>
 			<Item Name="CAN Stream Support Engine.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/CAN Stream Support Engine.lvlib"/>
 			<Item Name="CAN Stream Support Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Shared/CAN Stream Support Shared.lvlib"/>
 			<Item Name="CAN Stream Support Workspace Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/UIs/Workspace Shared/CAN Stream Support Workspace Shared.lvlib"/>
-			<Item Name="Create Information Channels.vi" Type="VI" URL="../Addon/Addon System Explorer/RTMs/Create Information Channels.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
