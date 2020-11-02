@@ -42,19 +42,14 @@
 		<Item Name="Bitfile.Download.vi" Type="VI" URL="../SubVIs/Bitfile.Download.vi"/>
 		<Item Name="Bitfile.Initialize.vi" Type="VI" URL="../SubVIs/Bitfile.Initialize.vi"/>
 		<Item Name="Bitfile.Unload.vi" Type="VI" URL="../SubVIs/Bitfile.Unload.vi"/>
-		<Item Name="Calculate Counter And Protections.vi" Type="VI" URL="../SubVIs/Calculate Counter And Protections.vi"/>
 		<Item Name="Format Debug String.vi" Type="VI" URL="../SubVIs/Format Debug String.vi"/>
-		<Item Name="Get Frame Time Info.vi" Type="VI" URL="../SubVIs/Get Frame Time Info.vi"/>
 		<Item Name="Initialize Generate.vi" Type="VI" URL="../SubVIs/Initialize Generate.vi"/>
 		<Item Name="Initialize Incoming.vi" Type="VI" URL="../SubVIs/Initialize Incoming.vi"/>
 		<Item Name="Network Engine.vi" Type="VI" URL="../SubVIs/Network Engine.vi"/>
-		<Item Name="Process Counter Signals.vi" Type="VI" URL="../SubVIs/Process Counter Signals.vi"/>
 		<Item Name="Process Incoming Frames.vi" Type="VI" URL="../SubVIs/Process Incoming Frames.vi"/>
-		<Item Name="Process Protection Signals.vi" Type="VI" URL="../SubVIs/Process Protection Signals.vi"/>
-		<Item Name="Process Regular Signal.vi" Type="VI" URL="../SubVIs/Process Regular Signal.vi"/>
+		<Item Name="Process Outgoing Frames.vi" Type="VI" URL="../SubVIs/Process Outgoing Frames.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
-		<Item Name="Incoming Values.ctl" Type="VI" URL="../Types/Incoming Values.ctl"/>
 		<Item Name="RT Async Engine Settings.ctl" Type="VI" URL="../Types/RT Async Engine Settings.ctl"/>
 		<Item Name="RT Async Engine Variables.ctl" Type="VI" URL="../Types/RT Async Engine Variables.ctl"/>
 		<Item Name="RT Data References.ctl" Type="VI" URL="../Types/RT Data References.ctl"/>
