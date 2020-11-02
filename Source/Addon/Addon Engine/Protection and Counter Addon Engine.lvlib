@@ -48,7 +48,6 @@
 		<Item Name="Initialize Generate.vi" Type="VI" URL="../SubVIs/Initialize Generate.vi"/>
 		<Item Name="Initialize Incoming.vi" Type="VI" URL="../SubVIs/Initialize Incoming.vi"/>
 		<Item Name="Network Engine.vi" Type="VI" URL="../SubVIs/Network Engine.vi"/>
-		<Item Name="Process All Signals.vi" Type="VI" URL="../SubVIs/Process All Signals.vi"/>
 		<Item Name="Process Counter Signals.vi" Type="VI" URL="../SubVIs/Process Counter Signals.vi"/>
 		<Item Name="Process Incoming Frames.vi" Type="VI" URL="../SubVIs/Process Incoming Frames.vi"/>
 		<Item Name="Process Protection Signals.vi" Type="VI" URL="../SubVIs/Process Protection Signals.vi"/>

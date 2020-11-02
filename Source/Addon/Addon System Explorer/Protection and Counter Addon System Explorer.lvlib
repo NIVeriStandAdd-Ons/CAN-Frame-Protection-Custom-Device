@@ -63,6 +63,7 @@
 			<Item Name="986x.Create.vi" Type="VI" URL="../SubVIs/986x.Create.vi"/>
 			<Item Name="986x.Export.vi" Type="VI" URL="../SubVIs/986x.Export.vi"/>
 			<Item Name="Add Database to SysDef.vi" Type="VI" URL="../SubVIs/Add Database to SysDef.vi"/>
+			<Item Name="Add Information Channels.vi" Type="VI" URL="../SubVIs/Add Information Channels.vi"/>
 			<Item Name="Browse for XNET Database.vi" Type="VI" URL="../SubVIs/Browse for XNET Database.vi"/>
 			<Item Name="Compile and Export Settings.vi" Type="VI" URL="../SubVIs/Compile and Export Settings.vi"/>
 			<Item Name="Convert Error Cluster to Table.vi" Type="VI" URL="../SubVIs/Convert Error Cluster to Table.vi"/>

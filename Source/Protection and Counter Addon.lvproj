@@ -270,7 +270,6 @@
 				<Item Name="XNET Write (State LIN Schedule Change).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write (State LIN Schedule Change).vi"/>
 				<Item Name="XNET Write.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write.vi"/>
 			</Item>
-			<Item Name="Add Information Channels.vi" Type="VI" URL="../Addon/Addon System Explorer/SubVIs/Add Information Channels.vi"/>
 			<Item Name="CAN Stream Support Engine.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Engine/CAN Stream Support Engine.lvlib"/>
 			<Item Name="CAN Stream Support Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/Addon/Addon Shared/CAN Stream Support Shared.lvlib"/>
 			<Item Name="CAN Stream Support Workspace Shared.lvlib" Type="Library" URL="../SubModules/CAN-Streaming-Support/Source/UIs/Workspace Shared/CAN Stream Support Workspace Shared.lvlib"/>
@@ -305,8 +304,6 @@
 			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
 			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
 			<Item Name="Protection and Counter Support System Explorer.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/System Explorer/Protection and Counter Support System Explorer.lvlib"/>
-			<Item Name="RT Exported Signal Settings.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/RT Exported Signal Settings.ctl"/>
-			<Item Name="RT_Incoming_Signal_Info.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/RT_Incoming_Signal_Info.ctl"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -524,7 +521,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{558B5A17-3334-4E1A-8AD0-69AFA726686F}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Protection and Counter Host Automation API.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Custom Devices/NI_AB_PROJECTNAME/Windows/Host Automation API/Protection and Counter Host Automation API.lvlibp</Property>
@@ -564,7 +561,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B081166E-FDCD-4FC9-947C-A0236C4D09FE}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Workspace Tools/Protection and Counter Tool</Property>
@@ -657,7 +654,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D3FD5FF1-22A9-41E6-8444-A7A1C1E3E469}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">5</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Protection and Counter Bus Tool.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Built/Workspace Tools/Protection and Counter Tool/Protection and Counter Bus Tool.exe</Property>
@@ -764,7 +761,6 @@
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/Data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
 				<Item Name="Tools_String.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/String/Tools_String.lvlib"/>
@@ -876,8 +872,6 @@
 			<Item Name="Protection and Counter Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Protection and Counter Addon Shared.lvlib"/>
 			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
 			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
-			<Item Name="RT Exported Signal Settings.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/RT Exported Signal Settings.ctl"/>
-			<Item Name="RT_Incoming_Signal_Info.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/RT_Incoming_Signal_Info.ctl"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1096,7 +1090,6 @@
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
 				<Item Name="Tools_String.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/String/Tools_String.lvlib"/>
@@ -1208,8 +1201,6 @@
 			<Item Name="Protection and Counter Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Protection and Counter Addon Shared.lvlib"/>
 			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
 			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
-			<Item Name="RT Exported Signal Settings.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/RT Exported Signal Settings.ctl"/>
-			<Item Name="RT_Incoming_Signal_Info.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/RT_Incoming_Signal_Info.ctl"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1421,7 +1412,6 @@
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NIVeriStand_DataServices.dll" Type="Document" URL="/&lt;vilib&gt;/NI Veristand/Custom Device API/data/NIVeriStand_DataServices.dll"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
 				<Item Name="Tools_String.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/String/Tools_String.lvlib"/>
@@ -1533,8 +1523,6 @@
 			<Item Name="Protection and Counter Addon Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/Protection and Counter Addon Shared.lvlib"/>
 			<Item Name="Protection and Counter Support Engine.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Engine/Protection and Counter Support Engine.lvlib"/>
 			<Item Name="Protection and Counter Support Shared.lvlib" Type="Library" URL="../SubModules/Frame-Protection-Support/Source/Shared/Protection and Counter Support Shared.lvlib"/>
-			<Item Name="RT Exported Signal Settings.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/RT Exported Signal Settings.ctl"/>
-			<Item Name="RT_Incoming_Signal_Info.ctl" Type="VI" URL="../SubModules/Frame-Protection-Support/Source/Shared/Types/RT_Incoming_Signal_Info.ctl"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1551,7 +1539,7 @@
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8308DA76-4737-4EBE-A109-BC088D885439}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/Protection and Counter Addon Engine Linux64.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">20</Property>
+				<Property Name="Bld_version.build" Type="Int">21</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/Linux_x64/Protection and Counter Addon Engine Linux64.llb</Property>
