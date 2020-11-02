@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<meta http-equiv="Content-Style-Type" content="text/css">
+		<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+		<title>Protection and Rolling Counter Invalid Count</title>
+		<link rel="STYLESHEET" type="text/css" href="css/VSsystemexplorer.css">
+		<script src="common.js" type="text/javascript"></script><script src="js/expandable_tree.js" type="text/javascript"></script>
+		<link rel="STYLESHEET" type="text/css" href="css/expandable_tree.css">
+		<script src="launchhelp.js" type="text/javascript"></script><script src="js/dynamicjumps.js" type="text/javascript"></script>
+	</head>
+<body>
+	<noscript>
+		<p class="Body">JavaScript is disabled. <a href="veristandmerge.chm::/JavaScript_Disabled.html">Details</a></p>
+		<hr width="100%" noshade>
+	</noscript>
+<h1>Protection or Rolling Counter Information Signals</h1>
+<p class="Body"><strong>Invalid Count</strong> is the number of times a counter or protection signal did not match what was expected.</p>
+<p class="Body">For a counter signal, <strong>Value</strong> is the value received on the bus.</p>
+<p class="Body">For a protection signal, <strong>Value</strong> is calculated based on the configured protection algorithm and relevant channel values received on the bus.</p>    
+
+
+For example, if the <strong>Value</strong> received on the bus from a counter signal is not previous <strong>Value</strong> +1, the <strong>Invalid Count</strong> will increment.  
+
+Similarly, if the <strong>Value</strong> calculated for a protection signal does not match what is received on the bus, the <strong>Invalid Count</strong> will increment.  
+</body>
+</html>

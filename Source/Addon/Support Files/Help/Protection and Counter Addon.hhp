@@ -31,10 +31,12 @@ HTML Help Source\js\stylesheets.js
 HTML Help Source\js\variables.js
 HTML Help Source\js\web.js
 HTML Help Source\Counter.html
+HTML Help Source\FrameInformation.html
 HTML Help Source\Generate.html
 HTML Help Source\InPage.html
 HTML Help Source\InSingleFramePage.html
 HTML Help Source\InSinglePage.html
+HTML Help Source\InvalidCountPage.html
 HTML Help Source\Main.html
 HTML Help Source\Monitor.html
 HTML Help Source\OutCyclicEventFramePage.html
