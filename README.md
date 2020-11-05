@@ -41,6 +41,10 @@ NI XNET 19 or later
 
 NI Veristand Custom Device Development Tools (https://github.com/ni/niveristand-custom-device-development-tools/releases)
 
+NI Simple Messaging Library 3.1.0.9 (https://www.vipm.io/package/ni_lib_stm/)
+
+NI Asynchronous Messaging Communication Library 3.3.1.22 (https://www.vipm.io/package/ni_lib_amc/)
+
 SubModules:
 
 Frame Protection Support (https://github.com/NIVeriStandAdd-Ons/Frame-Protection-Support)
