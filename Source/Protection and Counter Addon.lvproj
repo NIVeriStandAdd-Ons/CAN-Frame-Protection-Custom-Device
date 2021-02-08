@@ -21,6 +21,12 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Addon" Type="Folder">
 			<Item Name="Support Files" Type="Folder">
+				<Item Name="Bundled Dependencies" Type="Folder">
+					<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
+					<Item Name="NI VeriStand Addon Network Comm Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Shared/NI VeriStand Addon Network Comm Shared.lvlib"/>
+					<Item Name="NI VeriStand Addon Network Comm.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/NI VeriStand Addon Network Comm.lvlib"/>
+					<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
+				</Item>
 				<Item Name="Help" Type="Folder" URL="../Addon/Support Files/Help">
 					<Property Name="NI.DISK" Type="Bool">true</Property>
 				</Item>
@@ -103,7 +109,6 @@
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Data Access System Explorer.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access System Explorer/Data Access System Explorer.lvlib"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
@@ -140,8 +145,6 @@
 				<Item Name="MD5Checksum pad.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
 				<Item Name="MergeError.vi" Type="VI" URL="/&lt;vilib&gt;/NI VeriStand/Execution/Shared/MergeError.vi"/>
 				<Item Name="NI STM.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/STM/NI STM.lvlib"/>
-				<Item Name="NI VeriStand Addon Network Comm Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Shared/NI VeriStand Addon Network Comm Shared.lvlib"/>
-				<Item Name="NI VeriStand Addon Network Comm.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/NI VeriStand Addon Network Comm.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
@@ -174,7 +177,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
-				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="XNET CAN Comm State.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET CAN Comm State.ctl"/>
 				<Item Name="XNET CAN Comm.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET CAN Comm.ctl"/>
@@ -256,17 +258,6 @@
 				<Item Name="XNET Read (State Time Trigger).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read (State Time Trigger).vi"/>
 				<Item Name="XNET Read.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read.vi"/>
 				<Item Name="XNET Session Info State.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Session Info State.ctl"/>
-				<Item Name="XNET String To IO Name (Cluster).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Cluster).vi"/>
-				<Item Name="XNET String To IO Name (Database Alias).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Database Alias).vi"/>
-				<Item Name="XNET String To IO Name (ECU).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (ECU).vi"/>
-				<Item Name="XNET String To IO Name (Frame).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Frame).vi"/>
-				<Item Name="XNET String To IO Name (Interface).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Interface).vi"/>
-				<Item Name="XNET String To IO Name (LIN Schedule Entry).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (LIN Schedule Entry).vi"/>
-				<Item Name="XNET String To IO Name (LIN Schedule).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (LIN Schedule).vi"/>
-				<Item Name="XNET String To IO Name (PDU).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (PDU).vi"/>
-				<Item Name="XNET String To IO Name (Session).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Session).vi"/>
-				<Item Name="XNET String To IO Name (Signal).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Signal).vi"/>
-				<Item Name="XNET String To IO Name (Subframe).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Subframe).vi"/>
 				<Item Name="XNET System Close.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET System Close.vi"/>
 				<Item Name="XNET Write (Frame CAN).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write (Frame CAN).vi"/>
 				<Item Name="XNET Write (Frame Ethernet).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write (Frame Ethernet).vi"/>
@@ -304,9 +295,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="NiFpga.dll" Type="Document" URL="NiFpga.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nixlvapi.dll" Type="Document" URL="nixlvapi.dll">
@@ -429,7 +417,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C5B9534D-C873-4106-9069-605F1F4F56B4}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E42101B1-B2CD-408F-8B3E-28F15E6AD4DB}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Run when opened</Property>
@@ -519,7 +507,12 @@
 				<Property Name="Source[5].properties[4].value" Type="Bool">true</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="Source[6].Container.applyPrefix" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Addon/Support Files/Bundled Dependencies</Property>
+				<Property Name="Source[6].newName" Type="Str">Protection_Addon_</Property>
+				<Property Name="Source[6].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 			</Item>
 			<Item Name="Host API" Type="Packed Library">
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
@@ -746,6 +739,12 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="Bundled Dependencies" Type="Folder">
+			<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
+			<Item Name="NI VeriStand Addon Network Comm Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Shared/NI VeriStand Addon Network Comm Shared.lvlib"/>
+			<Item Name="NI VeriStand Addon Network Comm.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/NI VeriStand Addon Network Comm.lvlib"/>
+			<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
+		</Item>
 		<Item Name="Protection and Counter Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/Protection and Counter Addon Engine.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
@@ -759,13 +758,10 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="NI STM.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/STM/NI STM.lvlib"/>
-				<Item Name="NI VeriStand Addon Network Comm Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Shared/NI VeriStand Addon Network Comm Shared.lvlib"/>
-				<Item Name="NI VeriStand Addon Network Comm.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/NI VeriStand Addon Network Comm.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
@@ -776,7 +772,6 @@
 				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
 				<Item Name="Tools_String.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/String/Tools_String.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="XNET CAN Comm State.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET CAN Comm State.ctl"/>
 				<Item Name="XNET CAN Comm.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET CAN Comm.ctl"/>
@@ -857,17 +852,6 @@
 				<Item Name="XNET Read (State Time Trigger).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read (State Time Trigger).vi"/>
 				<Item Name="XNET Read.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read.vi"/>
 				<Item Name="XNET Session Info State.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Session Info State.ctl"/>
-				<Item Name="XNET String To IO Name (Cluster).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Cluster).vi"/>
-				<Item Name="XNET String To IO Name (Database Alias).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Database Alias).vi"/>
-				<Item Name="XNET String To IO Name (ECU).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (ECU).vi"/>
-				<Item Name="XNET String To IO Name (Frame).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Frame).vi"/>
-				<Item Name="XNET String To IO Name (Interface).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Interface).vi"/>
-				<Item Name="XNET String To IO Name (LIN Schedule Entry).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (LIN Schedule Entry).vi"/>
-				<Item Name="XNET String To IO Name (LIN Schedule).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (LIN Schedule).vi"/>
-				<Item Name="XNET String To IO Name (PDU).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (PDU).vi"/>
-				<Item Name="XNET String To IO Name (Session).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Session).vi"/>
-				<Item Name="XNET String To IO Name (Signal).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Signal).vi"/>
-				<Item Name="XNET String To IO Name (Subframe).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Subframe).vi"/>
 				<Item Name="XNET System Close.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET System Close.vi"/>
 				<Item Name="XNET Write (Frame CAN).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write (Frame CAN).vi"/>
 				<Item Name="XNET Write (Frame Ethernet).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write (Frame Ethernet).vi"/>
@@ -920,7 +904,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{75F7A415-90D4-4FE3-A6DE-46896EDAFCD7}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{18DDE49C-11A9-496D-849D-5A67323AF949}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Run when opened</Property>
@@ -929,63 +913,64 @@
 				<Property Name="Source[0].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[0].propertiesCount" Type="Int">3</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[1].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Counter Addon Engine.lvlib/RT Driver VI.vi</Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[1].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[1].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[1].properties[2].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[1].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[1].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[3].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[1].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[1].properties[4].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[1].properties[4].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[1].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[1].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[1].type" Type="Str">Container</Property>
-				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Counter Addon Engine.lvlib/RT Driver VI.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Counter Addon Engine.lvlib/Processes/AsyncEngine.CANProtectionAndCounter.vi</Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[2].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[2].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[2].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[2].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[2].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[2].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[2].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Counter Addon Engine.lvlib/Processes/AsyncEngine.CANProtectionAndCounter.vi</Property>
+				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Counter Addon Engine.lvlib/Processes</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[3].propertiesCount" Type="Int">2</Property>
-				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[3].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[3].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[3].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[4].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
+				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Counter Addon Engine.lvlib/Processes</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Counter Addon Engine.lvlib/SubVIs</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[4].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[3].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[4].properties[3].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[4].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[4].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[4].properties[4].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
 				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Counter Addon Engine.lvlib/SubVIs</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Counter Addon Engine.lvlib/Types</Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -998,39 +983,12 @@
 				<Property Name="Source[5].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[6].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/RT PXI Target - Pharlap/Protection and Counter Addon Engine.lvlib/Types</Property>
-				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[6].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[6].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[6].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[6].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[6].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[6].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[6].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[6].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[6].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/RT PXI Target - Pharlap/Bundled Dependencies</Property>
+				<Property Name="Source[6].newName" Type="Str">Protection_Addon_</Property>
 				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="Source[7].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[7].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[7].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref"></Property>
-				<Property Name="Source[7].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[7].properties[1].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[7].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[7].properties[2].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[7].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[7].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[7].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[7].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[7].properties[4].value" Type="Bool">true</Property>
-				<Property Name="Source[7].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[7].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">8</Property>
+				<Property Name="SourceCount" Type="Int">7</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -1085,6 +1043,12 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="Bundled Dependencies" Type="Folder">
+			<Item Name="NI VeriStand Addon Network Comm Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Shared/NI VeriStand Addon Network Comm Shared.lvlib"/>
+			<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
+			<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
+			<Item Name="NI VeriStand Addon Network Comm.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/NI VeriStand Addon Network Comm.lvlib"/>
+		</Item>
 		<Item Name="Protection and Counter Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/Protection and Counter Addon Engine.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
@@ -1099,13 +1063,10 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="NI STM.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/STM/NI STM.lvlib"/>
-				<Item Name="NI VeriStand Addon Network Comm Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Shared/NI VeriStand Addon Network Comm Shared.lvlib"/>
-				<Item Name="NI VeriStand Addon Network Comm.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/NI VeriStand Addon Network Comm.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
@@ -1116,7 +1077,6 @@
 				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
 				<Item Name="Tools_String.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/String/Tools_String.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="XNET CAN Comm State.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET CAN Comm State.ctl"/>
 				<Item Name="XNET CAN Comm.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET CAN Comm.ctl"/>
@@ -1197,17 +1157,6 @@
 				<Item Name="XNET Read (State Time Trigger).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read (State Time Trigger).vi"/>
 				<Item Name="XNET Read.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read.vi"/>
 				<Item Name="XNET Session Info State.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Session Info State.ctl"/>
-				<Item Name="XNET String To IO Name (Cluster).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Cluster).vi"/>
-				<Item Name="XNET String To IO Name (Database Alias).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Database Alias).vi"/>
-				<Item Name="XNET String To IO Name (ECU).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (ECU).vi"/>
-				<Item Name="XNET String To IO Name (Frame).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Frame).vi"/>
-				<Item Name="XNET String To IO Name (Interface).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Interface).vi"/>
-				<Item Name="XNET String To IO Name (LIN Schedule Entry).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (LIN Schedule Entry).vi"/>
-				<Item Name="XNET String To IO Name (LIN Schedule).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (LIN Schedule).vi"/>
-				<Item Name="XNET String To IO Name (PDU).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (PDU).vi"/>
-				<Item Name="XNET String To IO Name (Session).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Session).vi"/>
-				<Item Name="XNET String To IO Name (Signal).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Signal).vi"/>
-				<Item Name="XNET String To IO Name (Subframe).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Subframe).vi"/>
 				<Item Name="XNET System Close.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET System Close.vi"/>
 				<Item Name="XNET Write (Frame CAN).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write (Frame CAN).vi"/>
 				<Item Name="XNET Write (Frame Ethernet).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write (Frame Ethernet).vi"/>
@@ -1260,7 +1209,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{BAB1B940-879A-41B5-80B2-D31F746CFC9B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{ED3E846C-D93E-49FD-9A81-4483DB3259DE}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Allow debugging</Property>
@@ -1303,68 +1252,41 @@
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
-				<Property Name="Source[3].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[3].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[2].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target - Linux_32_ARM/Protection and Counter Addon Engine.lvlib/SubVIs</Property>
+				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
+				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
+				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
+				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
+				<Property Name="Source[3].properties[2].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[3].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[3].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[3].properties[4].value" Type="Bool">true</Property>
+				<Property Name="Source[3].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[3].properties[3].value" Type="Bool">false</Property>
+				<Property Name="Source[3].properties[4].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target - Linux_32_ARM/Protection and Counter Addon Engine.lvlib/SubVIs</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target - Linux_32_ARM/Protection and Counter Addon Engine.lvlib/Types</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[4].properties[2].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[4].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[4].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[3].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[4].properties[3].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[4].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[4].properties[4].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[4].properties[4].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux_32_ARM/Protection and Counter Addon Engine.lvlib/Types</Property>
-				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[5].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[5].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[5].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[5].properties[3].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[5].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[5].properties[4].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[5].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[5].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux_32_ARM/Bundled Dependencies</Property>
+				<Property Name="Source[5].newName" Type="Str">Protection_Addon_</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref"></Property>
-				<Property Name="Source[6].properties[0].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[6].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[6].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[6].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[6].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[6].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[6].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[6].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[6].properties[4].value" Type="Bool">true</Property>
-				<Property Name="Source[6].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
 		</Item>
 	</Item>
@@ -1419,6 +1341,12 @@
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
+		<Item Name="Bundled Dependencies" Type="Folder">
+			<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
+			<Item Name="NI VeriStand Addon Network Comm Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Shared/NI VeriStand Addon Network Comm Shared.lvlib"/>
+			<Item Name="NI VeriStand Addon Network Comm.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/NI VeriStand Addon Network Comm.lvlib"/>
+			<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
+		</Item>
 		<Item Name="Protection and Counter Addon Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/Protection and Counter Addon Engine.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
@@ -1432,13 +1360,10 @@
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Custom Device API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device API/Custom Device API.lvlib"/>
 				<Item Name="Custom Device Utility Library.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI VeriStand/Custom Device Tools/Custom Device Utility Library/Custom Device Utility Library.lvlib"/>
-				<Item Name="Data Access Engine.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_Data Access Engine/Data Access Engine.lvlib"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="NI STM.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/STM/NI STM.lvlib"/>
-				<Item Name="NI VeriStand Addon Network Comm Shared.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Shared/NI VeriStand Addon Network Comm Shared.lvlib"/>
-				<Item Name="NI VeriStand Addon Network Comm.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NI VeriStand Addon Network Comm/Engine/NI VeriStand Addon Network Comm.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_FTP.lvlib" Type="Library" URL="/&lt;vilib&gt;/FTP/NI_FTP.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
@@ -1449,7 +1374,6 @@
 				<Item Name="Tools_KeyedArray.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/Keyed Array/Tools_KeyedArray.lvlib"/>
 				<Item Name="Tools_String.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tools/String/Tools_String.lvlib"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
-				<Item Name="VS Inline Async API.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/NIVS Inline Async API/_VS Inline Async API/VS Inline Async API.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="XNET CAN Comm State.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET CAN Comm State.ctl"/>
 				<Item Name="XNET CAN Comm.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET CAN Comm.ctl"/>
@@ -1530,17 +1454,6 @@
 				<Item Name="XNET Read (State Time Trigger).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read (State Time Trigger).vi"/>
 				<Item Name="XNET Read.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Read.vi"/>
 				<Item Name="XNET Session Info State.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Session Info State.ctl"/>
-				<Item Name="XNET String To IO Name (Cluster).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Cluster).vi"/>
-				<Item Name="XNET String To IO Name (Database Alias).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Database Alias).vi"/>
-				<Item Name="XNET String To IO Name (ECU).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (ECU).vi"/>
-				<Item Name="XNET String To IO Name (Frame).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Frame).vi"/>
-				<Item Name="XNET String To IO Name (Interface).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Interface).vi"/>
-				<Item Name="XNET String To IO Name (LIN Schedule Entry).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (LIN Schedule Entry).vi"/>
-				<Item Name="XNET String To IO Name (LIN Schedule).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (LIN Schedule).vi"/>
-				<Item Name="XNET String To IO Name (PDU).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (PDU).vi"/>
-				<Item Name="XNET String To IO Name (Session).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Session).vi"/>
-				<Item Name="XNET String To IO Name (Signal).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Signal).vi"/>
-				<Item Name="XNET String To IO Name (Subframe).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET String To IO Name (Subframe).vi"/>
 				<Item Name="XNET System Close.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET System Close.vi"/>
 				<Item Name="XNET Write (Frame CAN).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write (Frame CAN).vi"/>
 				<Item Name="XNET Write (Frame Ethernet).vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET Write (Frame Ethernet).vi"/>
@@ -1595,7 +1508,7 @@
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{B183D3E4-B6B7-4EB7-80B8-0A6ED54EFF3D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{0E965041-9FCB-473D-AE2E-352D65B61306}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Auto error handling</Property>
@@ -1638,23 +1551,23 @@
 				<Property Name="Source[3].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[3].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref"></Property>
+				<Property Name="Source[3].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protection and Counter Addon Engine.lvlib/SubVIs</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[3].properties[2].type" Type="Str">Run when opened</Property>
+				<Property Name="Source[3].properties[2].type" Type="Str">Auto error handling</Property>
 				<Property Name="Source[3].properties[2].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[3].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[3].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[3].properties[4].type" Type="Str">Auto error handling</Property>
+				<Property Name="Source[3].properties[4].type" Type="Str">Run when opened</Property>
 				<Property Name="Source[3].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[3].type" Type="Str">Container</Property>
 				<Property Name="Source[4].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[4].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protection and Counter Addon Engine.lvlib/SubVIs</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protection and Counter Addon Engine.lvlib/Types</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">true</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
@@ -1667,39 +1580,12 @@
 				<Property Name="Source[4].properties[4].value" Type="Bool">false</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">5</Property>
 				<Property Name="Source[4].type" Type="Str">Container</Property>
-				<Property Name="Source[5].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[5].Container.applySaveSettings" Type="Bool">true</Property>
+				<Property Name="Source[5].Container.applyPrefix" Type="Bool">true</Property>
 				<Property Name="Source[5].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Protection and Counter Addon Engine.lvlib/Types</Property>
-				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[5].properties[0].value" Type="Bool">true</Property>
-				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
-				<Property Name="Source[5].properties[2].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[5].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[5].properties[3].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[5].properties[3].value" Type="Bool">false</Property>
-				<Property Name="Source[5].properties[4].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[5].properties[4].value" Type="Bool">false</Property>
-				<Property Name="Source[5].propertiesCount" Type="Int">5</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/RT CompactRIO Target - Linux x64/Bundled Dependencies</Property>
+				<Property Name="Source[5].newName" Type="Str">Protection_Addon_</Property>
 				<Property Name="Source[5].type" Type="Str">Container</Property>
-				<Property Name="Source[6].Container.applyProperties" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[6].Container.depDestIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref"></Property>
-				<Property Name="Source[6].properties[0].type" Type="Str">Auto error handling</Property>
-				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
-				<Property Name="Source[6].properties[1].type" Type="Str">Allow debugging</Property>
-				<Property Name="Source[6].properties[1].value" Type="Bool">false</Property>
-				<Property Name="Source[6].properties[2].type" Type="Str">Run when opened</Property>
-				<Property Name="Source[6].properties[2].value" Type="Bool">false</Property>
-				<Property Name="Source[6].properties[3].type" Type="Str">Remove front panel</Property>
-				<Property Name="Source[6].properties[3].value" Type="Bool">true</Property>
-				<Property Name="Source[6].properties[4].type" Type="Str">Remove block diagram</Property>
-				<Property Name="Source[6].properties[4].value" Type="Bool">true</Property>
-				<Property Name="Source[6].propertiesCount" Type="Int">5</Property>
-				<Property Name="Source[6].type" Type="Str">Container</Property>
-				<Property Name="SourceCount" Type="Int">7</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
 			</Item>
 		</Item>
 	</Item>
