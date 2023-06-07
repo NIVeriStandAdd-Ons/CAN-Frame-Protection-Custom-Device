@@ -908,19 +908,19 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/Utilities/Copy .LLB to NI VeriStand dir.vi</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{4DDC7D17-96A1-4AE7-BF29-EC0FD60BE89D}</Property>
-				<Property Name="Bld_targetDestDir" Type="Path">/Linux x64/Protection and Counter Addon Engine Linux x64.llb</Property>
+				<Property Name="Bld_targetDestDir" Type="Path">/Linux_x64/Protection and Counter Addon Engine Linux64.llb</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/Linux x64/Protection and Counter Addon Engine Linux x64.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">/Linux_x64/Protection and Counter Addon Engine Linux64.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/Linux x64/Data</Property>
+				<Property Name="Destination[1].path" Type="Path">/Linux_x64/Data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
 				<Property Name="Source[0].Container.applySaveSettings" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{18DDE49C-11A9-496D-849D-5A67323AF949}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{559C5A9B-89B5-4915-9811-28AF4451BA81}</Property>
 				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
 				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[0].properties[1].type" Type="Str">Run when opened</Property>
