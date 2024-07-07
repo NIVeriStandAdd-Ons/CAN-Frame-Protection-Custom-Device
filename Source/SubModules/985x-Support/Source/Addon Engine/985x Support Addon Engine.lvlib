@@ -8,16 +8,33 @@
 
 </Property>
 	<Item Name="SubVI" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="985x Properties.vi" Type="VI" URL="../SubVI/985x Properties.vi"/>
-		<Item Name="Async 985x Incoming Engine.vi" Type="VI" URL="../SubVI/Async 985x Incoming Engine.vi"/>
-		<Item Name="Convert Single Frame (CAN to Raw).vi" Type="VI" URL="../SubVI/Convert Single Frame (CAN to Raw).vi"/>
-		<Item Name="Convert Single Frame (Raw to CAN).vi" Type="VI" URL="../SubVI/Convert Single Frame (Raw to CAN).vi"/>
-		<Item Name="New Rx FIFO.vi" Type="VI" URL="../SubVI/New Rx FIFO.vi"/>
-		<Item Name="Read CAN Frames.vi" Type="VI" URL="../SubVI/Read CAN Frames.vi"/>
-		<Item Name="Write CAN Frames.vi" Type="VI" URL="../SubVI/Write CAN Frames.vi"/>
+		<Item Name="_Convert Single Frame (CAN to Raw).vi" Type="VI" URL="../SubVI/_Convert Single Frame (CAN to Raw).vi"/>
+		<Item Name="_Convert Single Frame (Raw to CAN).vi" Type="VI" URL="../SubVI/_Convert Single Frame (Raw to CAN).vi"/>
+		<Item Name="_Config Rx FIFO.vi" Type="VI" URL="../SubVI/_Config Rx FIFO.vi"/>
+		<Item Name="_Config Tx FIFO.vi" Type="VI" URL="../SubVI/_Config Tx FIFO.vi"/>
+		<Item Name="CAN Frames Read.vi" Type="VI" URL="../SubVI/CAN Frames Read.vi"/>
+		<Item Name="CAN Frames Write.vi" Type="VI" URL="../SubVI/CAN Frames Write.vi"/>
+		<Item Name="Async Tx Cyclic Engine.vi" Type="VI" URL="../SubVI/Async Tx Cyclic Engine.vi"/>
+		<Item Name="Rx Init.vi" Type="VI" URL="../SubVI/Rx Init.vi"/>
+		<Item Name="Rx Read Single Point.vi" Type="VI" URL="../SubVI/Rx Read Single Point.vi"/>
+		<Item Name="Rx Clear.vi" Type="VI" URL="../SubVI/Rx Clear.vi"/>
+		<Item Name="Tx Cyclic Init.vi" Type="VI" URL="../SubVI/Tx Cyclic Init.vi"/>
+		<Item Name="Tx Cyclic Write.vi" Type="VI" URL="../SubVI/Tx Cyclic Write.vi"/>
+		<Item Name="Tx Cyclic Clear.vi" Type="VI" URL="../SubVI/Tx Cyclic Clear.vi"/>
+		<Item Name="Tx Event Init.vi" Type="VI" URL="../SubVI/Tx Event Init.vi"/>
+		<Item Name="Tx Write Single Point.vi" Type="VI" URL="../SubVI/Tx Write Single Point.vi"/>
+		<Item Name="Tx Event Clear.vi" Type="VI" URL="../SubVI/Tx Event Clear.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="985x Settings.ctl" Type="VI" URL="../Types/985x Settings.ctl"/>
+		<Item Name="Cyclic Frame Info.ctl" Type="VI" URL="../Types/Cyclic Frame Info.ctl"/>
 		<Item Name="FPGA Refnum.ctl" Type="VI" URL="../Types/FPGA Refnum.ctl"/>
+		<Item Name="Rx Session.ctl" Type="VI" URL="../Types/Rx Session.ctl"/>
+		<Item Name="Single Resource.ctl" Type="VI" URL="../Types/Single Resource.ctl"/>
+		<Item Name="Tx Cyclic Async Info.ctl" Type="VI" URL="../Types/Tx Cyclic Async Info.ctl"/>
+		<Item Name="Tx Cyclic Session.ctl" Type="VI" URL="../Types/Tx Cyclic Session.ctl"/>
+		<Item Name="Tx Event Session.ctl" Type="VI" URL="../Types/Tx Event Session.ctl"/>
 	</Item>
 </Library>
