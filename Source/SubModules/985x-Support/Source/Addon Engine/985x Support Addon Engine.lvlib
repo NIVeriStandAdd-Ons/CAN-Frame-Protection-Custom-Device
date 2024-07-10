@@ -26,6 +26,7 @@
 		<Item Name="Tx Event Init.vi" Type="VI" URL="../SubVI/Tx Event Init.vi"/>
 		<Item Name="Tx Write Single Point.vi" Type="VI" URL="../SubVI/Tx Write Single Point.vi"/>
 		<Item Name="Tx Event Clear.vi" Type="VI" URL="../SubVI/Tx Event Clear.vi"/>
+		<Item Name="Open FPGA.vi" Type="VI" URL="../SubVI/Open FPGA.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="985x Settings.ctl" Type="VI" URL="../Types/985x Settings.ctl"/>
@@ -37,4 +38,5 @@
 		<Item Name="Tx Cyclic Session.ctl" Type="VI" URL="../Types/Tx Cyclic Session.ctl"/>
 		<Item Name="Tx Event Session.ctl" Type="VI" URL="../Types/Tx Event Session.ctl"/>
 	</Item>
+	<Item Name="_Read Tx FIFO.vi" Type="VI" URL="../SubVI/_Read Tx FIFO.vi"/>
 </Library>
