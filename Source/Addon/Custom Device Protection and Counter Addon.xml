@@ -5,7 +5,7 @@
 		<eng>Protection and Counter Addon</eng>
 		<loc>Protection and Counter Addon</loc>
 	</AddMenu>
-	<Version>1.3.0</Version>
+	<Version>1.4.0</Version>
   <Type>Inline HW Interface</Type>
 	<MaxOccurrence>2474</MaxOccurrence>
 	<MainPageGUID>4d3156ae-de1b-463a-a86e-31c1bc069b17</MainPageGUID>
@@ -26,7 +26,7 @@
 				</Source>
 				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Protection and Counter Addon\Protection and Counter Addon Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
-			<Source>
+			<!-Source>
 				<SupportedTarget>Pharlap</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>

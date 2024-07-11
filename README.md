@@ -4,6 +4,7 @@ Protection-and-Counter-Addon
 ### Description ###
 
 The CAN Frame Protection addon allows the user to easily select data channels for calculating a CRC or checksum.  It creates and maps rolling counters and CRC/checksum channels to selected outgoing signals.
+It also allows NI-985x modules to be used in VeriStand. 
 
 ### Help ###
 
@@ -14,6 +15,9 @@ Built: C:\Users\Public\Documents\National Instruments\NI VeriStand (Year)\Custom
 Source: Source\Addon\Support Files\Quick Start Documentation
 
 Help is also included in most System Explorer sections.
+
+To use NI-985x modules, a shared Host to FPGA FIFO named "CAN_Tx" and an individual FPGA to Host FIFO named "CANy_Rx" is required for each CAN channel.
+See Source\SubModules\985x-Support\Source\FPGA Template for the example FPGA VI.
 
 ### Built Availability ###
 
@@ -31,9 +35,13 @@ IP has been tested by developer. It meets VeriStand addon coding best practices.
 
 This addon does not have all CRC/Checksum options implemented.
 
+Time informations should be added for all incoming signals or error -307662 will be thrown.
+
+For NI-958x support, only CAN0 to CAN7 are supported.
+
 ### Source Version ###
 
-LabVIEW 2019
+LabVIEW 2020
 
 ### Source Dependencies ###
 
