@@ -26,7 +26,7 @@
 				</Source>
 				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Protection and Counter Addon\Protection and Counter Addon Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
-			<!-Source>
+			<Source>
 				<SupportedTarget>Pharlap</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
