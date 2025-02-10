@@ -27,22 +27,6 @@
 				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Protection and Counter Addon\Protection and Counter Addon Engine Windows.llb\RT Driver VI.vi</RealTimeSystemDestination>
 			</Source>
 			<Source>
-				<SupportedTarget>Pharlap</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Protection and Counter Addon\Pharlap\Protection and Counter Addon Engine Pharlap.llb\RT Driver VI.vi</Path>
-				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Protection and Counter Addon\Protection and Counter Addon Engine Pharlap.llb\RT Driver VI.vi</RealTimeSystemDestination>
-			</Source>
-			<Source>
-				<SupportedTarget>Linux_32_ARM</SupportedTarget>
-				<Source>
-					<Type>To Common Doc Dir</Type>
-					<Path>Custom Devices\Protection and Counter Addon\Linux_32_ARM\Protection and Counter Addon Engine Linux_32_ARM.llb\RT Driver VI.vi</Path>
-				</Source>
-				<RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\Protection and Counter Addon\Protection and Counter Addon Engine Linux_32_ARM.llb\RT Driver VI.vi</RealTimeSystemDestination>
-			</Source>
-			<Source>
 				<SupportedTarget>Linux_x64</SupportedTarget>
 				<Source>
 					<Type>To Common Doc Dir</Type>
