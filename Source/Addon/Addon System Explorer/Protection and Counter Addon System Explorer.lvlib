@@ -49,6 +49,7 @@
 				<Item Name="Signal Page.vi" Type="VI" URL="../Extra Pages/Signal Page.vi"/>
 			</Item>
 			<Item Name="RTMs" Type="Folder">
+				<Item Name="Change Database.vi" Type="VI" URL="../RTMs/Change Database.vi"/>
 				<Item Name="EnableDisable Main Page.vi" Type="VI" URL="../RTMs/EnableDisable Main Page.vi"/>
 				<Item Name="ExportConfigurationToFile.vi" Type="VI" URL="../RTMs/ExportConfigurationToFile.vi"/>
 				<Item Name="Make Counter Signal.vi" Type="VI" URL="../RTMs/Make Counter Signal.vi"/>
@@ -73,6 +74,7 @@
 			<Item Name="FileDependency.Create.vi" Type="VI" URL="../SubVIs/FileDependency.Create.vi"/>
 			<Item Name="FileDependency.Get.Target Path.vi" Type="VI" URL="../SubVIs/FileDependency.Get.Target Path.vi"/>
 			<Item Name="Frame.Settings.vi" Type="VI" URL="../SubVIs/Frame.Settings.vi"/>
+			<Item Name="Get Custom Device Ref.vi" Type="VI" URL="../SubVIs/Get Custom Device Ref.vi"/>
 			<Item Name="Get Frame Signals.vi" Type="VI" URL="../SubVIs/Get Frame Signals.vi"/>
 			<Item Name="Get Selected XNET Channels.vi" Type="VI" URL="../SubVIs/Get Selected XNET Channels.vi"/>
 			<Item Name="Get XNET Signal Names.vi" Type="VI" URL="../SubVIs/Get XNET Signal Names.vi"/>

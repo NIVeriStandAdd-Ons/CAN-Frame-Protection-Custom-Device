@@ -58,6 +58,13 @@
 			<Item Name="Copy .LLB to NI VeriStand dir.vi" Type="VI" URL="../Utilities/Copy .LLB to NI VeriStand dir.vi"/>
 			<Item Name="LLB Pre-Build CHM Build.vi" Type="VI" URL="../Utilities/LLB Pre-Build CHM Build.vi"/>
 		</Item>
+		<Item Name="Base Frame Info.ctl" Type="VI" URL="../Addon/Addon System Explorer/Types/Base Frame Info.ctl"/>
+		<Item Name="Base Frame Info_NoVS.ctl" Type="VI" URL="../Addon/Addon System Explorer/Types/Base Frame Info_NoVS.ctl"/>
+		<Item Name="Create UI.vi" Type="VI" URL="../Addon/Addon System Explorer/SubVIs/Create UI.vi"/>
+		<Item Name="Determine Change List.vi" Type="VI" URL="../Addon/Addon System Explorer/SubVIs/Determine Change List.vi"/>
+		<Item Name="Related CAN Frames No VS.ctl" Type="VI" URL="../Addon/Addon System Explorer/Types/Related CAN Frames No VS.ctl"/>
+		<Item Name="Related CAN Frames.ctl" Type="VI" URL="../Addon/Addon System Explorer/Types/Related CAN Frames.ctl"/>
+		<Item Name="User Guided Change Management.vi" Type="VI" URL="../Addon/Addon System Explorer/SubVIs/User Guided Change Management.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Configuration Release" Type="Source Distribution">
