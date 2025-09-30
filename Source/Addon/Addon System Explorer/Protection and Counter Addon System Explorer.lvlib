@@ -66,21 +66,28 @@
 			<Item Name="986x.Export.vi" Type="VI" URL="../SubVIs/986x.Export.vi"/>
 			<Item Name="Add Database to SysDef.vi" Type="VI" URL="../SubVIs/Add Database to SysDef.vi"/>
 			<Item Name="Add Information Channels.vi" Type="VI" URL="../SubVIs/Add Information Channels.vi"/>
+			<Item Name="Add Value Table to Channel.vi" Type="VI" URL="../SubVIs/Add Value Table to Channel.vi"/>
 			<Item Name="Browse for XNET Database.vi" Type="VI" URL="../SubVIs/Browse for XNET Database.vi"/>
+			<Item Name="Build Tree from Section Change List.vi" Type="VI" URL="../SubVIs/Build Tree from Section Change List.vi"/>
 			<Item Name="CAN Database Change Manager UI.vi" Type="VI" URL="../SubVIs/CAN Database Change Manager UI.vi"/>
 			<Item Name="Compare VS Config to Database Changes.vi" Type="VI" URL="../SubVIs/Compare VS Config to Database Changes.vi"/>
 			<Item Name="Compile and Export Settings.vi" Type="VI" URL="../SubVIs/Compile and Export Settings.vi"/>
 			<Item Name="Convert Error Cluster to Table.vi" Type="VI" URL="../SubVIs/Convert Error Cluster to Table.vi"/>
+			<Item Name="Convert XNET Table Attribute to VS Table.vi" Type="VI" URL="../SubVIs/Convert XNET Table Attribute to VS Table.vi"/>
 			<Item Name="Create Information Channels.vi" Type="VI" URL="../RTMs/Create Information Channels.vi"/>
 			<Item Name="Defer Front Panel Updates.vi" Type="VI" URL="../SubVIs/Defer Front Panel Updates.vi"/>
+			<Item Name="Determine Change List per Section.vi" Type="VI" URL="../SubVIs/Determine Change List per Section.vi"/>
 			<Item Name="Determine Change List.vi" Type="VI" URL="../SubVIs/Determine Change List.vi"/>
 			<Item Name="Determine Frame Timing Type.vi" Type="VI" URL="../SubVIs/Determine Frame Timing Type.vi"/>
-			<Item Name="Export Database Changes to Text Files.vi" Type="VI" URL="../SubVIs/Export Database Changes to Text Files.vi"/>
+			<Item Name="Export Database Changes to CSV Files.vi" Type="VI" URL="../SubVIs/Export Database Changes to CSV Files.vi"/>
+			<Item Name="Export Section to CSV.vi" Type="VI" URL="../SubVIs/Export Section to CSV.vi"/>
 			<Item Name="FileDependency.Create.vi" Type="VI" URL="../SubVIs/FileDependency.Create.vi"/>
 			<Item Name="FileDependency.Get.Target Path.vi" Type="VI" URL="../SubVIs/FileDependency.Get.Target Path.vi"/>
 			<Item Name="Frame.Settings.vi" Type="VI" URL="../SubVIs/Frame.Settings.vi"/>
 			<Item Name="Get CAN Frame Changes.vi" Type="VI" URL="../SubVIs/Get CAN Frame Changes.vi"/>
 			<Item Name="Get Custom Device Ref.vi" Type="VI" URL="../SubVIs/Get Custom Device Ref.vi"/>
+			<Item Name="Get Filtered XNET Change List.vi" Type="VI" URL="../SubVIs/Get Filtered XNET Change List.vi"/>
+			<Item Name="Get Frame Info From XNET Cluster.vi" Type="VI" URL="../SubVIs/Get Frame Info From XNET Cluster.vi"/>
 			<Item Name="Get Frame Signals.vi" Type="VI" URL="../SubVIs/Get Frame Signals.vi"/>
 			<Item Name="Get Selected XNET Channels.vi" Type="VI" URL="../SubVIs/Get Selected XNET Channels.vi"/>
 			<Item Name="Get XNET Signal Names.vi" Type="VI" URL="../SubVIs/Get XNET Signal Names.vi"/>
@@ -90,7 +97,10 @@
 			<Item Name="Select XNET Signals UI.vi" Type="VI" URL="../SubVIs/Select XNET Signals UI.vi"/>
 			<Item Name="Set Help Document Display.vi" Type="VI" URL="../SubVIs/Set Help Document Display.vi"/>
 			<Item Name="Set Node Dependency.vi" Type="VI" URL="../SubVIs/Set Node Dependency.vi"/>
+			<Item Name="Set Tree Symbols Based on Other.vi" Type="VI" URL="../SubVIs/Set Tree Symbols Based on Other.vi"/>
 			<Item Name="Set Tree Symbols.vi" Type="VI" URL="../SubVIs/Set Tree Symbols.vi"/>
+			<Item Name="Update Incoming Section.vi" Type="VI" URL="../SubVIs/Update Incoming Section.vi"/>
+			<Item Name="Update Outgoing Section.vi" Type="VI" URL="../SubVIs/Update Outgoing Section.vi"/>
 			<Item Name="XNET.Settings.vi" Type="VI" URL="../SubVIs/XNET.Settings.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
@@ -99,13 +109,18 @@
 			<Item Name="CAN Filter Type.ctl" Type="VI" URL="../Types/CAN Filter Type.ctl"/>
 			<Item Name="CAN Frame Update Results.ctl" Type="VI" URL="../Types/CAN Frame Update Results.ctl"/>
 			<Item Name="CAN Update Results.ctl" Type="VI" URL="../Types/CAN Update Results.ctl"/>
+			<Item Name="Database Changes VS Existing Frames.ctl" Type="VI" URL="../Types/Database Changes VS Existing Frames.ctl"/>
 			<Item Name="Database Changes.ctl" Type="VI" URL="../Types/Database Changes.ctl"/>
 			<Item Name="Event Trigger Type.ctl" Type="VI" URL="../Types/Event Trigger Type.ctl"/>
+			<Item Name="Filtered XNET Changes.ctl" Type="VI" URL="../Types/Filtered XNET Changes.ctl"/>
 			<Item Name="Frame Settings.ctl" Type="VI" URL="../Types/Frame Settings.ctl"/>
 			<Item Name="Frame Tree and Database Pairing.ctl" Type="VI" URL="../Types/Frame Tree and Database Pairing.ctl"/>
 			<Item Name="Related CAN Frames No VS.ctl" Type="VI" URL="../Types/Related CAN Frames No VS.ctl"/>
 			<Item Name="Related CAN Frames.ctl" Type="VI" URL="../Types/Related CAN Frames.ctl"/>
+			<Item Name="Signal Attributes.ctl" Type="VI" URL="../Types/Signal Attributes.ctl"/>
 			<Item Name="Tree Item Settings.ctl" Type="VI" URL="../Types/Tree Item Settings.ctl"/>
+			<Item Name="VS Update List.ctl" Type="VI" URL="../Types/VS Update List.ctl"/>
+			<Item Name="XNET Change List.ctl" Type="VI" URL="../Types/XNET Change List.ctl"/>
 		</Item>
 	</Item>
 </Library>
