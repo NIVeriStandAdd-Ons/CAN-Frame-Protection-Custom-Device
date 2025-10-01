@@ -21,9 +21,9 @@ https://github.com/NIVeriStandAdd-Ons/CAN-Frame-Protection-Custom-Device/release
 
 ### Built Dependencies ###
 
-NI XNET 19.0 or later
+NI XNET 25.0 or later
 
-Network Streams 19.0 or later
+Network Streams 25.0 or later
 
 ### Quality, Limitations ###
 
@@ -33,11 +33,11 @@ This addon does not have all CRC/Checksum options implemented.
 
 ### Source Version ###
 
-LabVIEW 2019
+LabVIEW 2025
 
 ### Source Dependencies ###
 
-NI XNET 19 or later
+NI XNET 25 or later
 
 NI Veristand Custom Device Development Tools (https://github.com/ni/niveristand-custom-device-development-tools/releases)
 
