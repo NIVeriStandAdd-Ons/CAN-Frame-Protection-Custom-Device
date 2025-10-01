@@ -68,28 +68,28 @@
 			<Item Name="Add Information Channels.vi" Type="VI" URL="../SubVIs/Add Information Channels.vi"/>
 			<Item Name="Add Value Table to Channel.vi" Type="VI" URL="../SubVIs/Add Value Table to Channel.vi"/>
 			<Item Name="Browse for XNET Database.vi" Type="VI" URL="../SubVIs/Browse for XNET Database.vi"/>
-			<Item Name="Build Tree from Section Change List.vi" Type="VI" URL="../SubVIs/Build Tree from Section Change List.vi"/>
-			<Item Name="CAN Database Change Manager UI.vi" Type="VI" URL="../SubVIs/CAN Database Change Manager UI.vi"/>
 			<Item Name="Compare VS Config to Database Changes.vi" Type="VI" URL="../SubVIs/Compare VS Config to Database Changes.vi"/>
 			<Item Name="Compile and Export Settings.vi" Type="VI" URL="../SubVIs/Compile and Export Settings.vi"/>
 			<Item Name="Convert Error Cluster to Table.vi" Type="VI" URL="../SubVIs/Convert Error Cluster to Table.vi"/>
 			<Item Name="Convert XNET Table Attribute to VS Table.vi" Type="VI" URL="../SubVIs/Convert XNET Table Attribute to VS Table.vi"/>
 			<Item Name="Create Information Channels.vi" Type="VI" URL="../RTMs/Create Information Channels.vi"/>
+			<Item Name="Create Tree Sections from Change List.vi" Type="VI" URL="../SubVIs/Create Tree Sections from Change List.vi"/>
+			<Item Name="Database Change Manager UI.vi" Type="VI" URL="../SubVIs/Database Change Manager UI.vi"/>
 			<Item Name="Defer Front Panel Updates.vi" Type="VI" URL="../SubVIs/Defer Front Panel Updates.vi"/>
-			<Item Name="Determine Change List per Section.vi" Type="VI" URL="../SubVIs/Determine Change List per Section.vi"/>
-			<Item Name="Determine Change List.vi" Type="VI" URL="../SubVIs/Determine Change List.vi"/>
-			<Item Name="Determine Frame Timing Type.vi" Type="VI" URL="../SubVIs/Determine Frame Timing Type.vi"/>
-			<Item Name="Export Database Changes to CSV Files.vi" Type="VI" URL="../SubVIs/Export Database Changes to CSV Files.vi"/>
-			<Item Name="Export Section to CSV.vi" Type="VI" URL="../SubVIs/Export Section to CSV.vi"/>
+			<Item Name="Determine Database Change List.vi" Type="VI" URL="../SubVIs/Determine Database Change List.vi"/>
+			<Item Name="Determine Frame Timing Type by GUID.vi" Type="VI" URL="../SubVIs/Determine Frame Timing Type by GUID.vi"/>
+			<Item Name="Export All Database Changes to CSV.vi" Type="VI" URL="../SubVIs/Export All Database Changes to CSV.vi"/>
+			<Item Name="Export Section Database Change to CSV.vi" Type="VI" URL="../SubVIs/Export Section Database Change to CSV.vi"/>
 			<Item Name="FileDependency.Create.vi" Type="VI" URL="../SubVIs/FileDependency.Create.vi"/>
 			<Item Name="FileDependency.Get.Target Path.vi" Type="VI" URL="../SubVIs/FileDependency.Get.Target Path.vi"/>
 			<Item Name="Frame.Settings.vi" Type="VI" URL="../SubVIs/Frame.Settings.vi"/>
-			<Item Name="Get CAN Frame Changes.vi" Type="VI" URL="../SubVIs/Get CAN Frame Changes.vi"/>
+			<Item Name="Get All VS Frame Changes.vi" Type="VI" URL="../SubVIs/Get All VS Frame Changes.vi"/>
 			<Item Name="Get Custom Device Ref.vi" Type="VI" URL="../SubVIs/Get Custom Device Ref.vi"/>
-			<Item Name="Get Filtered XNET Change List.vi" Type="VI" URL="../SubVIs/Get Filtered XNET Change List.vi"/>
+			<Item Name="Get Database Change List by Existing VS Config.vi" Type="VI" URL="../SubVIs/Get Database Change List by Existing VS Config.vi"/>
 			<Item Name="Get Frame Info From XNET Cluster.vi" Type="VI" URL="../SubVIs/Get Frame Info From XNET Cluster.vi"/>
 			<Item Name="Get Frame Signals.vi" Type="VI" URL="../SubVIs/Get Frame Signals.vi"/>
 			<Item Name="Get Selected XNET Channels.vi" Type="VI" URL="../SubVIs/Get Selected XNET Channels.vi"/>
+			<Item Name="Get VS Section Frame Changes.vi" Type="VI" URL="../SubVIs/Get VS Section Frame Changes.vi"/>
 			<Item Name="Get XNET Signal Names.vi" Type="VI" URL="../SubVIs/Get XNET Signal Names.vi"/>
 			<Item Name="Initialize Database Change UI Tree.vi" Type="VI" URL="../SubVIs/Initialize Database Change UI Tree.vi"/>
 			<Item Name="Initialize Single Node Browser.vi" Type="VI" URL="../SubVIs/Initialize Single Node Browser.vi"/>
@@ -99,8 +99,8 @@
 			<Item Name="Set Node Dependency.vi" Type="VI" URL="../SubVIs/Set Node Dependency.vi"/>
 			<Item Name="Set Tree Symbols Based on Other.vi" Type="VI" URL="../SubVIs/Set Tree Symbols Based on Other.vi"/>
 			<Item Name="Set Tree Symbols.vi" Type="VI" URL="../SubVIs/Set Tree Symbols.vi"/>
-			<Item Name="Update Incoming Section.vi" Type="VI" URL="../SubVIs/Update Incoming Section.vi"/>
-			<Item Name="Update Outgoing Section.vi" Type="VI" URL="../SubVIs/Update Outgoing Section.vi"/>
+			<Item Name="Update VS Incoming Section.vi" Type="VI" URL="../SubVIs/Update VS Incoming Section.vi"/>
+			<Item Name="Update VS Outgoing Section.vi" Type="VI" URL="../SubVIs/Update VS Outgoing Section.vi"/>
 			<Item Name="XNET.Settings.vi" Type="VI" URL="../SubVIs/XNET.Settings.vi"/>
 		</Item>
 		<Item Name="Types" Type="Folder">
