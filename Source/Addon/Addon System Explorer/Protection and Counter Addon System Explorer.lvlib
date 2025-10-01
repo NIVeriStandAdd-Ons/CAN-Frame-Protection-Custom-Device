@@ -64,7 +64,6 @@
 			<Item Name="986x.Compile.vi" Type="VI" URL="../SubVIs/986x.Compile.vi"/>
 			<Item Name="986x.Create.vi" Type="VI" URL="../SubVIs/986x.Create.vi"/>
 			<Item Name="986x.Export.vi" Type="VI" URL="../SubVIs/986x.Export.vi"/>
-			<Item Name="Add Database to SysDef.vi" Type="VI" URL="../SubVIs/Add Database to SysDef.vi"/>
 			<Item Name="Add Information Channels.vi" Type="VI" URL="../SubVIs/Add Information Channels.vi"/>
 			<Item Name="Add Value Table to Channel.vi" Type="VI" URL="../SubVIs/Add Value Table to Channel.vi"/>
 			<Item Name="Browse for XNET Database.vi" Type="VI" URL="../SubVIs/Browse for XNET Database.vi"/>

@@ -35,6 +35,7 @@
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Shared" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Add Database to SysDef.vi" Type="VI" URL="../SubVIs/Add Database to SysDef.vi"/>
 			<Item Name="Addon.Version.Upgrade.vi" Type="VI" URL="../SubVIs/Addon.Version.Upgrade.vi"/>
 			<Item Name="Convert Version String to Cluster.vi" Type="VI" URL="../SubVIs/Convert Version String to Cluster.vi"/>
 			<Item Name="GUID Lookup.vi" Type="VI" URL="../SubVIs/GUID Lookup.vi"/>
