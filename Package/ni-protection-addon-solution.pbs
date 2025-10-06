@@ -1,0 +1,1023 @@
+﻿<Solution xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/NationalInstruments.PackageBuilder.Engine">
+    <Name>ni-protection-addon-solution</Name>
+    <SourceItems>
+        <SourceItem z:Id="i2">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Custom Device Protection and Counter Addon.xml</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i3">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Engine Release_depinstr.bin</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i4">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Linux_x64\Protection and Counter Addon Engine Linux64.llb</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i5">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Data\nisyscfg.chm</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i6">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Data\NIVeriStand_DataServices.dll</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i7">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Host Automation API\Protection and Counter Host Automation API.lvlibp</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i8">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i9">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Engine Windows.llb</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i10">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon.chm</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i11">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start.html</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i12">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\colorschememapping.xml</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i13">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\filelist.xml</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i14">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image001.gif</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i15">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image002.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i16">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image003.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i17">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image004.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i18">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image005.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i19">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image006.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i20">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image007.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i21">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image008.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i22">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image009.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i23">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image010.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i24">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image011.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i25">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image012.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i26">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image013.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i27">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image014.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i28">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image015.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i29">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image016.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i30">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image017.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i31">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image018.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i32">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image019.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i33">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image020.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i34">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image021.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i35">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image022.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i36">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image023.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i37">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image024.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i38">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image025.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i39">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image026.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i40">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image027.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i41">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image028.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i42">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image029.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i43">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image030.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i44">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image031.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i45">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image032.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i46">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image033.jpg</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i47">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image034.png</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i48">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\themedata.thmx</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i49">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\System Definition API\Protection and Counter Addon System Definition API.lvlibp</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i50">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Workspace Tools\Protection and Counter Tool\Protection and Counter Bus - Tool.rtm</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i51">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Workspace Tools\Protection and Counter Tool\Protection and Counter Bus - Tool.vi</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i52">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Workspace Tools\Protection and Counter Tool\Protection and Counter Bus Tool Support.llb</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i53">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Workspace Tools\Protection and Counter Tool\Protection and Counter Bus Tool.aliases</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i54">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Workspace Tools\Protection and Counter Tool\Protection and Counter Bus Tool.exe</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i55">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Workspace Tools\Protection and Counter Tool\Protection and Counter Bus Tool.ini</RelativePath>
+            <DependentItems />
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i56">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Linux_x64</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i4" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i57">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Host Automation API</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i7" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i58">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\System Definition API</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i49" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i59">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Data</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i5" />
+                <SourceItem z:Ref="i6" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i60">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Workspace Tools\Protection and Counter Tool</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i50" />
+                <SourceItem z:Ref="i51" />
+                <SourceItem z:Ref="i52" />
+                <SourceItem z:Ref="i53" />
+                <SourceItem z:Ref="i54" />
+                <SourceItem z:Ref="i55" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i61">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i12" />
+                <SourceItem z:Ref="i13" />
+                <SourceItem z:Ref="i14" />
+                <SourceItem z:Ref="i15" />
+                <SourceItem z:Ref="i16" />
+                <SourceItem z:Ref="i17" />
+                <SourceItem z:Ref="i18" />
+                <SourceItem z:Ref="i19" />
+                <SourceItem z:Ref="i20" />
+                <SourceItem z:Ref="i21" />
+                <SourceItem z:Ref="i22" />
+                <SourceItem z:Ref="i23" />
+                <SourceItem z:Ref="i24" />
+                <SourceItem z:Ref="i25" />
+                <SourceItem z:Ref="i26" />
+                <SourceItem z:Ref="i27" />
+                <SourceItem z:Ref="i28" />
+                <SourceItem z:Ref="i29" />
+                <SourceItem z:Ref="i30" />
+                <SourceItem z:Ref="i31" />
+                <SourceItem z:Ref="i32" />
+                <SourceItem z:Ref="i33" />
+                <SourceItem z:Ref="i34" />
+                <SourceItem z:Ref="i35" />
+                <SourceItem z:Ref="i36" />
+                <SourceItem z:Ref="i37" />
+                <SourceItem z:Ref="i38" />
+                <SourceItem z:Ref="i39" />
+                <SourceItem z:Ref="i40" />
+                <SourceItem z:Ref="i41" />
+                <SourceItem z:Ref="i42" />
+                <SourceItem z:Ref="i43" />
+                <SourceItem z:Ref="i44" />
+                <SourceItem z:Ref="i45" />
+                <SourceItem z:Ref="i46" />
+                <SourceItem z:Ref="i47" />
+                <SourceItem z:Ref="i48" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i62">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Workspace Tools</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i60" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i63">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i11" />
+                <SourceItem z:Ref="i61" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i64">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon\Windows</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i8" />
+                <SourceItem z:Ref="i9" />
+                <SourceItem z:Ref="i10" />
+                <SourceItem z:Ref="i59" />
+                <SourceItem z:Ref="i57" />
+                <SourceItem z:Ref="i63" />
+                <SourceItem z:Ref="i58" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i65">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices\Protection and Counter Addon</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i2" />
+                <SourceItem z:Ref="i3" />
+                <SourceItem z:Ref="i56" />
+                <SourceItem z:Ref="i64" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i66">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built\Custom Devices</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i65" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+        <SourceItem z:Id="i67">
+            <PluginConfigurationOptions />
+            <RelativePath>..\Built</RelativePath>
+            <DependentItems>
+                <SourceItem z:Ref="i66" />
+                <SourceItem z:Ref="i62" />
+            </DependentItems>
+            <IsDiscoverable>true</IsDiscoverable>
+        </SourceItem>
+    </SourceItems>
+    <InputSourceItems>
+        <SourceItem z:Ref="i67" />
+    </InputSourceItems>
+    <Distributions>
+        <Distribution z:Id="i68" i:type="Package">
+            <DistributionItems>
+                <DistributionItem z:Id="i69" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments</DestinationRelativePath>
+                    <Name>National Instruments</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i70" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025</DestinationRelativePath>
+                    <Name>NI VeriStand 2025</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i71" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices</DestinationRelativePath>
+                    <Name>Custom Devices</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i72" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon</DestinationRelativePath>
+                    <Name>Protection and Counter Addon</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i73" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Custom Device Protection and Counter Addon.xml</DestinationRelativePath>
+                    <Name>Custom Device Protection and Counter Addon.xml</Name>
+                    <SourceItem z:Ref="i2" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i74" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Engine Release_depinstr.bin</DestinationRelativePath>
+                    <Name>Engine Release_depinstr.bin</Name>
+                    <SourceItem z:Ref="i3" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i75" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Linux_x64</DestinationRelativePath>
+                    <Name>Linux_x64</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i76" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Linux_x64\Protection and Counter Addon Engine Linux64.llb</DestinationRelativePath>
+                    <Name>Protection and Counter Addon Engine Linux64.llb</Name>
+                    <SourceItem z:Ref="i4" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i77" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows</DestinationRelativePath>
+                    <Name>Windows</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i78" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Configuration.llb</DestinationRelativePath>
+                    <Name>Protection and Counter Addon Configuration.llb</Name>
+                    <SourceItem z:Ref="i8" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i79" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon Engine Windows.llb</DestinationRelativePath>
+                    <Name>Protection and Counter Addon Engine Windows.llb</Name>
+                    <SourceItem z:Ref="i9" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i80" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Protection and Counter Addon.chm</DestinationRelativePath>
+                    <Name>Protection and Counter Addon.chm</Name>
+                    <SourceItem z:Ref="i10" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i81" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Data</DestinationRelativePath>
+                    <Name>Data</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i82" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Data\nisyscfg.chm</DestinationRelativePath>
+                    <Name>nisyscfg.chm</Name>
+                    <SourceItem z:Ref="i5" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i83" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Data\NIVeriStand_DataServices.dll</DestinationRelativePath>
+                    <Name>NIVeriStand_DataServices.dll</Name>
+                    <SourceItem z:Ref="i6" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i84" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Host Automation API</DestinationRelativePath>
+                    <Name>Host Automation API</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i85" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Host Automation API\Protection and Counter Host Automation API.lvlibp</DestinationRelativePath>
+                    <Name>Protection and Counter Host Automation API.lvlibp</Name>
+                    <SourceItem z:Ref="i7" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i86" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation</DestinationRelativePath>
+                    <Name>Quick Start Documentation</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i87" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start.html</DestinationRelativePath>
+                    <Name>Protection and Counter Addon Quick Start.html</Name>
+                    <SourceItem z:Ref="i11" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i88" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files</DestinationRelativePath>
+                    <Name>Protection and Counter Addon Quick Start_files</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i89" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\colorschememapping.xml</DestinationRelativePath>
+                    <Name>colorschememapping.xml</Name>
+                    <SourceItem z:Ref="i12" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i90" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\filelist.xml</DestinationRelativePath>
+                    <Name>filelist.xml</Name>
+                    <SourceItem z:Ref="i13" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i91" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image001.gif</DestinationRelativePath>
+                    <Name>image001.gif</Name>
+                    <SourceItem z:Ref="i14" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i92" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image002.png</DestinationRelativePath>
+                    <Name>image002.png</Name>
+                    <SourceItem z:Ref="i15" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i93" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image003.png</DestinationRelativePath>
+                    <Name>image003.png</Name>
+                    <SourceItem z:Ref="i16" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i94" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image004.png</DestinationRelativePath>
+                    <Name>image004.png</Name>
+                    <SourceItem z:Ref="i17" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i95" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image005.png</DestinationRelativePath>
+                    <Name>image005.png</Name>
+                    <SourceItem z:Ref="i18" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i96" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image006.png</DestinationRelativePath>
+                    <Name>image006.png</Name>
+                    <SourceItem z:Ref="i19" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i97" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image007.png</DestinationRelativePath>
+                    <Name>image007.png</Name>
+                    <SourceItem z:Ref="i20" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i98" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image008.jpg</DestinationRelativePath>
+                    <Name>image008.jpg</Name>
+                    <SourceItem z:Ref="i21" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i99" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image009.png</DestinationRelativePath>
+                    <Name>image009.png</Name>
+                    <SourceItem z:Ref="i22" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i100" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image010.png</DestinationRelativePath>
+                    <Name>image010.png</Name>
+                    <SourceItem z:Ref="i23" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i101" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image011.png</DestinationRelativePath>
+                    <Name>image011.png</Name>
+                    <SourceItem z:Ref="i24" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i102" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image012.png</DestinationRelativePath>
+                    <Name>image012.png</Name>
+                    <SourceItem z:Ref="i25" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i103" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image013.jpg</DestinationRelativePath>
+                    <Name>image013.jpg</Name>
+                    <SourceItem z:Ref="i26" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i104" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image014.png</DestinationRelativePath>
+                    <Name>image014.png</Name>
+                    <SourceItem z:Ref="i27" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i105" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image015.jpg</DestinationRelativePath>
+                    <Name>image015.jpg</Name>
+                    <SourceItem z:Ref="i28" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i106" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image016.png</DestinationRelativePath>
+                    <Name>image016.png</Name>
+                    <SourceItem z:Ref="i29" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i107" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image017.jpg</DestinationRelativePath>
+                    <Name>image017.jpg</Name>
+                    <SourceItem z:Ref="i30" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i108" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image018.png</DestinationRelativePath>
+                    <Name>image018.png</Name>
+                    <SourceItem z:Ref="i31" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i109" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image019.jpg</DestinationRelativePath>
+                    <Name>image019.jpg</Name>
+                    <SourceItem z:Ref="i32" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i110" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image020.png</DestinationRelativePath>
+                    <Name>image020.png</Name>
+                    <SourceItem z:Ref="i33" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i111" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image021.png</DestinationRelativePath>
+                    <Name>image021.png</Name>
+                    <SourceItem z:Ref="i34" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i112" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image022.png</DestinationRelativePath>
+                    <Name>image022.png</Name>
+                    <SourceItem z:Ref="i35" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i113" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image023.png</DestinationRelativePath>
+                    <Name>image023.png</Name>
+                    <SourceItem z:Ref="i36" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i114" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image024.jpg</DestinationRelativePath>
+                    <Name>image024.jpg</Name>
+                    <SourceItem z:Ref="i37" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i115" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image025.png</DestinationRelativePath>
+                    <Name>image025.png</Name>
+                    <SourceItem z:Ref="i38" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i116" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image026.jpg</DestinationRelativePath>
+                    <Name>image026.jpg</Name>
+                    <SourceItem z:Ref="i39" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i117" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image027.png</DestinationRelativePath>
+                    <Name>image027.png</Name>
+                    <SourceItem z:Ref="i40" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i118" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image028.jpg</DestinationRelativePath>
+                    <Name>image028.jpg</Name>
+                    <SourceItem z:Ref="i41" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i119" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image029.png</DestinationRelativePath>
+                    <Name>image029.png</Name>
+                    <SourceItem z:Ref="i42" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i120" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image030.png</DestinationRelativePath>
+                    <Name>image030.png</Name>
+                    <SourceItem z:Ref="i43" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i121" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image031.jpg</DestinationRelativePath>
+                    <Name>image031.jpg</Name>
+                    <SourceItem z:Ref="i44" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i122" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image032.png</DestinationRelativePath>
+                    <Name>image032.png</Name>
+                    <SourceItem z:Ref="i45" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i123" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image033.jpg</DestinationRelativePath>
+                    <Name>image033.jpg</Name>
+                    <SourceItem z:Ref="i46" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i124" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\image034.png</DestinationRelativePath>
+                    <Name>image034.png</Name>
+                    <SourceItem z:Ref="i47" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i125" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\Quick Start Documentation\Protection and Counter Addon Quick Start_files\themedata.thmx</DestinationRelativePath>
+                    <Name>themedata.thmx</Name>
+                    <SourceItem z:Ref="i48" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i126" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\System Definition API</DestinationRelativePath>
+                    <Name>System Definition API</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i127" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Custom Devices\Protection and Counter Addon\Windows\System Definition API\Protection and Counter Addon System Definition API.lvlibp</DestinationRelativePath>
+                    <Name>Protection and Counter Addon System Definition API.lvlibp</Name>
+                    <SourceItem z:Ref="i49" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i128" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Workspace Tools</DestinationRelativePath>
+                    <Name>Workspace Tools</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i129" i:type="DistributionDirectoryItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Workspace Tools\Protection and Counter Tool</DestinationRelativePath>
+                    <Name>Protection and Counter Tool</Name>
+                    <SourceItem i:nil="true" />
+                </DistributionItem>
+                <DistributionItem z:Id="i130" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Workspace Tools\Protection and Counter Tool\Protection and Counter Bus - Tool.rtm</DestinationRelativePath>
+                    <Name>Protection and Counter Bus - Tool.rtm</Name>
+                    <SourceItem z:Ref="i50" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i131" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Workspace Tools\Protection and Counter Tool\Protection and Counter Bus - Tool.vi</DestinationRelativePath>
+                    <Name>Protection and Counter Bus - Tool.vi</Name>
+                    <SourceItem z:Ref="i51" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i132" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Workspace Tools\Protection and Counter Tool\Protection and Counter Bus Tool Support.llb</DestinationRelativePath>
+                    <Name>Protection and Counter Bus Tool Support.llb</Name>
+                    <SourceItem z:Ref="i52" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i133" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Workspace Tools\Protection and Counter Tool\Protection and Counter Bus Tool.aliases</DestinationRelativePath>
+                    <Name>Protection and Counter Bus Tool.aliases</Name>
+                    <SourceItem z:Ref="i53" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i134" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Workspace Tools\Protection and Counter Tool\Protection and Counter Bus Tool.exe</DestinationRelativePath>
+                    <Name>Protection and Counter Bus Tool.exe</Name>
+                    <SourceItem z:Ref="i54" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+                <DistributionItem z:Id="i135" i:type="DistributionFileItem">
+                    <DestinationRelativePath>[Documents]\National Instruments\NI VeriStand 2025\Workspace Tools\Protection and Counter Tool\Protection and Counter Bus Tool.ini</DestinationRelativePath>
+                    <Name>Protection and Counter Bus Tool.ini</Name>
+                    <SourceItem z:Ref="i55" />
+                    <PluginConfigurationOptions />
+                    <ProcessDuringStaging>false</ProcessDuringStaging>
+                </DistributionItem>
+            </DistributionItems>
+            <Name>Protection Addon for VeriStand 2025</Name>
+            <OutputDirectory>..\..\..\Packages</OutputDirectory>
+            <PluginConfigurationOptions />
+            <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
+            <Architecture>windows_x64</Architecture>
+            <AutoIncrementVersion>Build</AutoIncrementVersion>
+            <BuildStatus z:Id="i136">
+                <FileName />
+                <Version>none</Version>
+            </BuildStatus>
+            <CompanyName>MyCompany</CompanyName>
+            <CustomExecutes />
+            <DisplayName>Protection Addon for VeriStand 2025</DisplayName>
+            <FileName>ni-protection-addon-2025_1.4.0.5_windows_x64.nipkg</FileName>
+            <MaintainerEmail>daniel.eaton@emerson.com</MaintainerEmail>
+            <MaintainerName>National Instruments</MaintainerName>
+            <Messages xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+            <PackageName>ni-protection-addon-2025</PackageName>
+            <PackageRelationships />
+            <ProductName>MyProduct</ProductName>
+            <Section>Add-Ons</Section>
+            <Synopsis>Addon provides support for Protection and Rolling Counters for CAN messages.</Synopsis>
+            <Version>1.4.0.5</Version>
+        </Distribution>
+    </Distributions>
+    <Feeds />
+    <DistributionGroups>
+        <DistributionGroup z:Id="i137">
+            <Distributions>
+                <Distribution z:Ref="i68" />
+            </Distributions>
+            <Name>Distribution Group</Name>
+            <PrebuildAnalysisEnabled>true</PrebuildAnalysisEnabled>
+            <StageDirectory>ProcessingStage</StageDirectory>
+        </DistributionGroup>
+    </DistributionGroups>
+    <TestStandMode>true</TestStandMode>
+    <PluginConfigurationOptions>
+        <ConfigurationOption z:Id="i138">
+            <Definition z:Id="i139">
+                <Description i:nil="true" />
+                <Name>TestStand Options</Name>
+            </Definition>
+            <HasDefaultValues>true</HasDefaultValues>
+            <Value z:Id="i140" i:type="DialogConfigurationOptionValue">
+                <Values>
+                    <ConfigurationOptionValue z:Id="i141" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i142" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i143" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i144" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i145" i:type="StringConfigurationOptionValue">
+                        <Value>SupportVIs</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i146" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i147" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i148" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i149" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i150" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i151" i:type="BooleanConfigurationOptionValue">
+                        <Value>true</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i152" i:type="BooleanConfigurationOptionValue">
+                        <Value>true</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i153" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i154" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i155" i:type="PathConfigurationOptionValue">
+                        <RelativePath />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i156" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i157" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i158" i:type="StringConfigurationOptionValue">
+                        <Value>[BootVolume]</Value>
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i159" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i160" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i161" i:type="StringConfigurationOptionValue">
+                        <Value />
+                    </ConfigurationOptionValue>
+                    <ConfigurationOptionValue z:Id="i162" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i163" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i164" i:type="BooleanConfigurationOptionValue" />
+                    <ConfigurationOptionValue z:Id="i165" i:type="BooleanConfigurationOptionValue" />
+                </Values>
+            </Value>
+        </ConfigurationOption>
+    </PluginConfigurationOptions>
+</Solution>
