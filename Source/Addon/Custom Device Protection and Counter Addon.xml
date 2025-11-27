@@ -5,7 +5,7 @@
 		<eng>Protection and Counter Addon</eng>
 		<loc>Protection and Counter Addon</loc>
 	</AddMenu>
-	<Version>1.4.0</Version>
+	<Version>1.4.2</Version>
   <Type>Inline HW Interface</Type>
 	<MaxOccurrence>2474</MaxOccurrence>
 	<MainPageGUID>4d3156ae-de1b-463a-a86e-31c1bc069b17</MainPageGUID>
